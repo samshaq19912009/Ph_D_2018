@@ -1,3 +1,277 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{wiki:Ferromagnetism}
+Wikipedia contributors.
+\newblock Ferromagnetism --- {W}ikipedia{,} the free encyclopedia, 2018.
+\newblock [Online; accessed 03-March-2018].
+
+\bibitem{JohnsonandSilsbee}
+Mark Johnson and R.~H. Silsbee.
+\newblock Interfacial charge-spin coupling: Injection and detection of spin
+  magnetization in metals.
+\newblock {\em Phys. Rev. Lett.}, 55:1790--1793, Oct 1985.
+
+\bibitem{Fert}
+M.~N. Baibich, J.~M. Broto, A.~Fert, F.~Nguyen Van~Dau, F.~Petroff, P.~Etienne,
+  G.~Creuzet, A.~Friederich, and J.~Chazelas.
+\newblock Giant magnetoresistance of (001)fe/(001)cr magnetic superlattices.
+\newblock {\em Phys. Rev. Lett.}, 61:2472--2475, Nov 1988.
+
+\bibitem{Grunberg}
+G.~Binasch, P.~Gr\"unberg, F.~Saurenbach, and W.~Zinn.
+\newblock Enhanced magnetoresistance in layered magnetic structures with
+  antiferromagnetic interlayer exchange.
+\newblock {\em Phys. Rev. B}, 39:4828--4830, Mar 1989.
+
+\bibitem{TMR}
+M.~Julliere.
+\newblock Tunneling between ferromagnetic films.
+\newblock {\em Physics Letters A}, 54(3):225 -- 226, 1975.
+
+\bibitem{Mg0}
+W.~H. Butler, X.-G. Zhang, T.~C. Schulthess, and J.~M. MacLaren.
+\newblock Spin-dependent tunneling conductance of
+  $\mathrm{Fe}|\mathrm{MgO}|\mathrm{Fe}$ sandwiches.
+\newblock {\em Phys. Rev. B}, 63:054416, Jan 2001.
+
+\bibitem{STT}
+D.C. Ralph and M.D. Stiles.
+\newblock Spin transfer torques.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 320(7):1190 --
+  1216, 2008.
+
+\bibitem{Currenttorque}
+Arne Brataas, Andrew~D. Kent, and Hideo Ohno.
+\newblock Current-induced torques in magnetic materials.
+\newblock {\em Nat Mater}, 11(5):372--381, May 2012.
+
+\bibitem{Bias}
+C.~Wang, Y.-T. Cui, J.~Z. Sun, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
+\newblock Bias and angular dependence of spin-transfer torque in magnetic
+  tunnel junctions.
+\newblock {\em Phys. Rev. B}, 79:224416, Jun 2009.
+
+\bibitem{SlonSwitching}
+J.C. Slonczewski.
+\newblock Current-driven excitation of magnetic multilayers.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 159(1):L1 -- L7,
+  1996.
+
+\bibitem{MTJConductance}
+Jian-Gang~(Jimmy) Zhu and Chando Park.
+\newblock Magnetic tunnel junctions.
+\newblock {\em Materials Today}, 9(11):36 -- 45, 2006.
+
+\bibitem{subswitch}
+Yiming Huai, Frank Albert, Paul Nguyen, Mahendra Pakala, and Thierry Valet.
+\newblock Observation of spin-transfer switching in deep submicron-sized and
+  low-resistance magnetic tunnel junctions.
+\newblock {\em Applied Physics Letters}, 84(16):3118--3120, 2004.
+
+\bibitem{Kittel1947}
+Charles Kittel.
+\newblock Interpretation of anomalous larmor frequencies in ferromagnetic
+  resonance experiment.
+\newblock {\em Phys. Rev.}, 71:270--271, Feb 1947.
+
+\bibitem{Kittel}
+Charles Kittel.
+\newblock On the theory of ferromagnetic resonance absorption.
+\newblock {\em Phys. Rev.}, 73:155--161, Jan 1948.
+
+\bibitem{Sankey2006}
+J.~C. Sankey, P.~M. Braganca, A.~G.~F. Garcia, I.~N. Krivorotov, R.~A. Buhrman,
+  and D.~C. Ralph.
+\newblock Spin-transfer-driven ferromagnetic resonance of individual
+  nanomagnets.
+\newblock {\em Phys. Rev. Lett.}, 96:227601, Jun 2006.
+
+\bibitem{Tulapurkar2005}
+A.~A. Tulapurkar, Y.~Suzuki, A.~Fukushima, H.~Kubota, H.~Maehara, K.~Tsunekawa,
+  D.~D. Djayaprawira, N.~Watanabe, and S.~Yuasa.
+\newblock Spin-torque diode effect in magnetic tunnel junctions.
+\newblock {\em Nature}, 438(7066):339--342, Nov 2005.
+
+\bibitem{VCMA1}
+MaruyamaT., ShiotaY., NozakiT., OhtaK., TodaN., MizuguchiM., TulapurkarA A.,
+  ShinjoT., ShiraishiM., MizukamiS., AndoY., and SuzukiY.
+\newblock Large voltage-induced magnetic anisotropy change in a few atomic
+  layers of iron.
+\newblock {\em Nat Nano}, 4(3):158--161, Mar 2009.
+
+\bibitem{Jian}
+Jian Zhu, J.~A. Katine, Graham~E. Rowlands, Yu-Jin Chen, Zheng Duan, Juan~G.
+  Alzate, Pramey Upadhyaya, Juergen Langer, Pedram~Khalili Amiri, Kang~L. Wang,
+  and Ilya~N. Krivorotov.
+\newblock Voltage-induced ferromagnetic resonance in magnetic tunnel junctions.
+\newblock {\em Phys. Rev. Lett.}, 108:197203, May 2012.
+
+\bibitem{Wang2012}
+Wei-Gang Wang, Mingen Li, Stephen Hageman, and C.~L. Chien.
+\newblock Electric-field-assisted switching in magnetic tunnel junctions.
+\newblock {\em Nat Mater}, 11(1):64--68, Jan 2012.
+
+\bibitem{PRLdamping}
+Hans~T. Nembach, Justin~M. Shaw, Carl~T. Boone, and T.~J. Silva.
+\newblock Mode- and size-dependent landau-lifshitz damping in magnetic
+  nanostructures: Evidence for nonlocal damping.
+\newblock {\em Phys. Rev. Lett.}, 110:117201, Mar 2013.
+
+\bibitem{Sankey2008}
+Yong-Tao Slonczewski John C. Buhrman Robert A. Ralph Daniel~C. Sankey, Jack
+  C.~Cui.
+\newblock Measurement of the spin-transfer-torque vector in magnetic tunnel
+  junctions.
+\newblock {\em Nat Phys}, 4(1):67--71, Jan 2008.
+
+\bibitem{excitation1}
+A.~Helmer, S.~Cornelissen, T.~Devolder, J.-V. Kim, W.~van Roy, L.~Lagae, and
+  C.~Chappert.
+\newblock Quantized spin-wave modes in magnetic tunnel junction nanopillars.
+\newblock {\em Phys. Rev. B}, 81:094416, Mar 2010.
+
+\bibitem{excitation2}
+V.~V. Naletov, G.~de~Loubens, G.~Albuquerque, S.~Borlenghi, V.~Cros, G.~Faini,
+  J.~Grollier, H.~Hurdequint, N.~Locatelli, B.~Pigeau, A.~N. Slavin, V.~S.
+  Tiberkevich, C.~Ulysse, T.~Valet, and O.~Klein.
+\newblock Identification and selection rules of the spin-wave eigenmodes in a
+  normally magnetized nanopillar.
+\newblock {\em Phys. Rev. B}, 84:224423, Dec 2011.
+
+\bibitem{FMR_damping}
+Xiaoyong Liu, Wenzhe Zhang, Matthew~J. Carter, and Gang Xiao.
+\newblock Ferromagnetic resonance and damping properties of cofeb thin films as
+  free layers in mgo-based magnetic tunnel junctions.
+\newblock {\em Journal of Applied Physics}, 110(3), 2011.
+
+\bibitem{FMR_damping2}
+G.~D. Fuchs, J.~C. Sankey, V.~S. Pribiag, L.~Qian, P.~M. Braganca, A.~G.~F.
+  Garcia, E.~M. Ryan, Zhi-Pan Li, O.~Ozatay, D.~C. Ralph, and R.~A. Buhrman.
+\newblock Spin-torque ferromagnetic resonance measurements of damping in
+  nanomagnets.
+\newblock {\em Applied Physics Letters}, 91(6), 2007.
+
+\bibitem{chris}
+Christopher~J. Safranski, Yu-Jin Chen, Ilya~N. Krivorotov, and Jonathan~Z. Sun.
+\newblock Material parameters of perpendicularly magnetized tunnel junctions
+  from spin torque ferromagnetic resonance techniques.
+\newblock {\em Applied Physics Letters}, 109(13):132408, 2016.
+
+\bibitem{dragging}
+Xiaoyong Liu, Wenzhe Zhang, Matthew~J. Carter, and Gang Xiao.
+\newblock Ferromagnetic resonance and damping properties of cofeb thin films as
+  free layers in mgo-based magnetic tunnel junctions.
+\newblock {\em Journal of Applied Physics}, 110(3):033910, 2011.
+
+\bibitem{FieldMod}
+A.~M. Gonçalves, I.~Barsukov, Y.-J. Chen, L.~Yang, J.~A. Katine, and I.~N.
+  Krivorotov.
+\newblock Spin torque ferromagnetic resonance with magnetic field modulation.
+\newblock {\em Applied Physics Letters}, 103(17), 2013.
+
+\bibitem{Spinflop}
+H.~C. Tong, C.~Qian, L.~Miloslavsky, S.~Funada, X.~Shi, F.~Liu, and S.~Dey.
+\newblock The spin flop of synthetic antiferromagnetic films.
+\newblock {\em Journal of Applied Physics}, 87(9):5055--5057, 2000.
+
+\bibitem{3-Magon}
+C\'esar~L. Ord\'o\~nez Romero, Boris~A. Kalinikos, Pavol Krivosik, Wei Tong,
+  Pavel Kabos, and Carl~E. Patton.
+\newblock Three-magnon splitting and confluence processes for spin-wave
+  excitations in yttrium iron garnet films: Wave vector selective brillouin
+  light scattering measurements and analysis.
+\newblock {\em Phys. Rev. B}, 79:144428, Apr 2009.
+
+\bibitem{inhom}
+Eric~R. Evarts, Matthew~R. Pufall, and William~H. Rippard.
+\newblock Continuous-film vs. device-level ferromagnetic resonance in magnetic
+  tunnel junction thin films.
+\newblock {\em Journal of Applied Physics}, 113(8):083903, 2013.
+
+\bibitem{STFMR_1}
+Motoya Shinozaki, Eriko Hirayama, Shun Kanai, Hideo Sato, Fumihiro Matsukura,
+  and Hideo Ohno.
+\newblock Damping constant in a free layer in nanoscale cofeb/mgo magnetic
+  tunnel junctions investigated by homodyne-detected ferromagnetic resonance.
+\newblock {\em Applied Physics Express}, 10(1):013001, 2017.
+
+\bibitem{OOMMF}
+M.~J. Donahue and D.~G. Porter.
+\newblock {OOMMF User's Guide, Version 1.0}, 1999.
+
+\bibitem{grain}
+Sankha~S. Mukherjee, Feiming Bai, David MacMahon, Chih-Ling Lee, Surendra~K.
+  Gupta, and Santosh~K. Kurinec.
+\newblock Crystallization and grain growth behavior of cofeb and mgo layers in
+  multilayer magnetic tunnel junctions.
+\newblock {\em Journal of Applied Physics}, 106(3):033906, 2009.
+
+\bibitem{Ohno2010}
+S.~Ikeda, K.~Miura, H.~Yamamoto, K.~Mizunuma, H.~D. Gan, M.~Endo, S.~Kanai,
+  J.~Hayakawa, F.~Matsukura, , and H.~Ohno.
+\newblock {\em Nature Mater.}, 9:721, 2010.
+
+\bibitem{Modes}
+R.~D. McMichael and M.~D. Stiles.
+\newblock Magnetic normal modes of nanoelements.
+\newblock {\em Journal of Applied Physics}, 97(10), 2005.
+
+\bibitem{Cui}
+Y.-T. Cui, G.~Finocchio, C.~Wang, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
+\newblock Single-shot time-domain studies of spin-torque-driven switching in
+  magnetic tunnel junctions.
+\newblock {\em Phys. Rev. Lett.}, 104:097201, Mar 2010.
+
+\bibitem{Sub}
+J.~Z. Sun, R.~P. Robertazzi, J.~Nowak, P.~L. Trouilloud, G.~Hu, D.~W. Abraham,
+  M.~C. Gaidis, S.~L. Brown, E.~J. O'Sullivan, W.~J. Gallagher, and D.~C.
+  Worledge.
+\newblock Effect of subvolume excitation and spin-torque efficiency on magnetic
+  switching.
+\newblock {\em Phys. Rev. B}, 84:064413, Aug 2011.
+
+\bibitem{Sun1991}
+J.Z Sun.
+\newblock Current-driven magnetic switching in manganite trilayer junctions.
+\newblock {\em Journal of Magnetism and Magnetic Materials}, 202(1):157 -- 162,
+  1999.
+
+\bibitem{Back-hopping}
+T.~Min, J.~Z. Sun, R.~Beach, D.~Tang, and P.~Wang.
+\newblock Back-hopping after spin torque transfer induced magnetization
+  switching in magnetic tunneling junction cells.
+\newblock {\em Journal of Applied Physics}, 105(7), 2009.
+
+\bibitem{High_bias}
+J.~Z. Sun, M.~C. Gaidis, G.~Hu, E.~J. O’Sullivan, S.~L. Brown, J.~J. Nowak,
+  P.~L. Trouilloud, and D.~C. Worledge.
+\newblock High-bias backhopping in nanosecond time-domain spin-torque switches
+  of mgo-based magnetic tunnel junctions.
+\newblock {\em Journal of Applied Physics}, 105(7), 2009.
+
+\bibitem{BitError}
+Zihui Wang, Yuchen Zhou, Jing Zhang, and Yiming Huai.
+\newblock Bit error rate investigation of spin-transfer-switched magnetic
+  tunnel junctions.
+\newblock {\em Applied Physics Letters}, 101(14), 2012.
+
+\bibitem{Correlation}
+Eric~R. Evarts, Ranko Heindl, William~H. Rippard, and Matthew~R. Pufall.
+\newblock Correlation of anomalous write error rates and ferromagnetic
+  resonance spectrum in spin-transfer-torque-magnetic-random-access-memory
+  devices containing in-plane free layers.
+\newblock {\em Applied Physics Letters}, 104(21), 2014.
+
+\bibitem{Para}
+C~Wang, H~Seinige, and M~Tsoi.
+\newblock Current-driven parametric resonance in magnetic multilayers.
+\newblock {\em Journal of Physics D: Applied Physics}, 46(28):285001, 2013.
+
+\bibitem{DMI}
+J.~Sampaio, A.~V. Khvalkovskiy, M.~Kuteifan, M.~Cubukcu, D.~Apalkov,
+  V.~Lomakin, V.~Cros, and N.~Reyren.
+\newblock Disruptive effect of dzyaloshinskii-moriya interaction on the
+  magnetic memory cell performance.
+\newblock {\em Applied Physics Letters}, 108(11), 2016.
 
 \end{thebibliography}
