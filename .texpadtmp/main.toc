@@ -1,0 +1,12 @@
+\raggedleft Page\\
+\contentsline {chapter}{LIST OF FIGURES}{iv}{section*.2}
+\contentsline {chapter}{LIST OF TABLES}{v}{section*.4}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{vi}{section*.6}
+\contentsline {chapter}{ABSTRACT OF THE \uppercase {Dissertation}}{vii}{section*.7}
+\contentsline {chapter}{\numberline {1}Best Things about MTJs}{1}{chapter.8}
+\contentsline {section}{\numberline {1.1}Critical Voltage Measurement}{1}{section.9}
+\contentsline {section}{\numberline {1.2}Field Modulated Mag-noise Measurement}{1}{section.10}
+\contentsline {section}{\numberline {1.3}Comparison between Magnoise and ST-FMR technique }{2}{section.13}
+\contentsline {chapter}{Bibliography}{4}{section*.14}
+\contentsline {chapter}{\numberline {A}Appendix Title}{5}{appendix.16}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{5}{section.17}

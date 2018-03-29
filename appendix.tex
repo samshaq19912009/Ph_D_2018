@@ -1,0 +1,35 @@
+% The original template (from Trevor) had a custom \appendix command,
+% but I found it to break figure/table counters. I'm not sure how
+% reliable my fix is, so I ended up reverting back to the standard
+% latex version, and renaming the custom command to \myappendix.  You
+% can try both and see how things work out:
+% 1) Call \appendix once, and then make each appendix a \chapter
+% 2) Call \myappendix once, and then make each appendix a \section.
+
+\appendix
+\chapter{Appendix Title}
+
+Supplementary material goes here.
+
+\section{Detailed System Design of Perpendicular station}
+
+
+
+Equipment needed:
+
+GMW Dipole Electromagnet Model 3470
+Kepco bipolar operational power supply model Model 50-8M 
+
+Cascade RF probe : SG-120um
+Cascade RPP210-AI probe positioner
+(both the probe and the positioner are non-magnetic)
+
+Sentech Output 720p Cased Camera
+Navitar 12X Zoom Lens System
+AmScope LED-80M 80-LED Microscope Ring Light
+
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "thesis.tex" ***
+%%% End: ***
