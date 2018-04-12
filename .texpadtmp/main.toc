@@ -1,8 +1,8 @@
 \raggedleft Page\\
 \contentsline {chapter}{LIST OF FIGURES}{v}{section*.2}
-\contentsline {chapter}{LIST OF TABLES}{viii}{section*.4}
-\contentsline {chapter}{ACKNOWLEDGMENTS}{ix}{section*.6}
-\contentsline {chapter}{ABSTRACT OF THE \uppercase {Dissertation}}{x}{section*.7}
+\contentsline {chapter}{LIST OF TABLES}{ix}{section*.4}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{x}{section*.6}
+\contentsline {chapter}{ABSTRACT OF THE \uppercase {Dissertation}}{xi}{section*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.8}
 \contentsline {chapter}{\numberline {2}Background}{3}{chapter.9}
 \contentsline {section}{\numberline {2.1}Spintronics}{3}{section.10}
@@ -28,10 +28,10 @@
 \contentsline {section}{\numberline {5.1}Critical Voltage Measurement}{56}{section.137}
 \contentsline {section}{\numberline {5.2}Field Modulated Mag-noise Measurement}{56}{section.138}
 \contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{61}{section.151}
-\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{63}{chapter.161}
-\contentsline {section}{\numberline {6.1}Experimental Setup}{64}{section.162}
-\contentsline {section}{\numberline {6.2}Results and Discussion}{69}{section.167}
-\contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{72}{chapter.170}
-\contentsline {chapter}{Bibliography}{74}{section*.171}
-\contentsline {chapter}{\numberline {A}Appendix Title}{78}{appendix.173}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{78}{section.174}
+\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{65}{chapter.162}
+\contentsline {section}{\numberline {6.1}Experimental Setup}{66}{section.163}
+\contentsline {section}{\numberline {6.2}Results and Discussion}{71}{section.168}
+\contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{74}{chapter.171}
+\contentsline {chapter}{Bibliography}{76}{section*.172}
+\contentsline {chapter}{\numberline {A}Appendix Title}{80}{appendix.174}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{80}{section.175}
