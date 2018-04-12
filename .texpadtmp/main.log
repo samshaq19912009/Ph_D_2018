@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  27 MAR 2018 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  12 APR 2018 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,7 +319,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \c@theorem=\count121
 \c@definition=\count122
 \c@example=\count123
- (./preliminaries.tex) (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.aux (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/chapter5.aux) (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/appendix.aux))
+ (./preliminaries.tex) (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.aux (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/chapter8.aux) (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -411,7 +411,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
- (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.out) (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.out)
+ (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.out) (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -430,21 +430,21 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ] [2
 
-] (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.toc)
+] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
  [3
 
 
-] (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.lof)
+] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
  [4
 
 
-] (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.lot)
+] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -462,30 +462,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]
-\openout2 = `chapter5.aux'.
+\openout2 = `chapter8.aux'.
 
- (./chapter5.tex
-Chapter 1.
-<fig/magnoise/Picture1.png, id=103, 385.44pt x 244.7544pt>
-File: fig/magnoise/Picture1.png Graphic file (type png)
- <use fig/magnoise/Picture1.png>
-Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 16.
-(pdftex.def)             Requested size: 281.85587pt x 178.97545pt.
- [1
-
-
-
-
-] <fig/magnoise/magnoise-data.png, id=109, 379.6584pt x 463.0098pt>
-File: fig/magnoise/magnoise-data.png Graphic file (type png)
- <use fig/magnoise/magnoise-data.png>
-Package pdftex.def Info: fig/magnoise/magnoise-data.png used on input line 35.
-(pdftex.def)             Requested size: 281.85587pt x 343.73106pt.
-) [2 <./fig/magnoise/Picture1.png>] [3 <./fig/magnoise/magnoise-data.png>] (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.bbl
+ (./chapter8.tex) (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [4
+) [1
+
+
+
 
 
 
@@ -494,40 +480,40 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
  (./appendix.tex
 Appendix A.
-) [5
+) [2
 
 
 ]
 
-Package caption Warning: Unused \captionsetup[figure] on input line 114.
+Package caption Warning: Unused \captionsetup[figure] on input line 115.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 115.
+Package caption Warning: Unused \captionsetup[table] on input line 116.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
-(/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.aux (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/chapter5.aux) (/Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+(/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.aux (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/chapter8.aux) (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 7975 strings out of 494437
- 120464 string characters out of 6166645
- 218165 words of memory out of 5000000
- 11173 multiletter control sequences out of 15000+600000
+ 7946 strings out of 494437
+ 119699 string characters out of 6166645
+ 218034 words of memory out of 5000000
+ 11157 multiletter control sequences out of 15000+600000
  8569 words of font info for 31 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,5n,41p,775b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,38p,775b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/Sakamoto/Desktop/Ph_D_thesis!!!!!!!/.texpadtmp/main.pdf (13 pages, 255926 bytes).
+Output written on /Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.pdf (10 pages, 51560 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
