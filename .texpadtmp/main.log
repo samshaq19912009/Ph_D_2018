@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  12 APR 2018 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  16 APR 2018 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -923,85 +923,85 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/no.png): large interlac
 
  (./chapter5.tex
 Chapter 5.
-<fig/magnoise/Picture1.png, id=1006, 385.44pt x 244.7544pt>
+<fig/magnoise/Picture1.png, id=1009, 385.44pt x 244.7544pt>
 File: fig/magnoise/Picture1.png Graphic file (type png)
  <use fig/magnoise/Picture1.png>
-Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 17.
+Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 20.
 (pdftex.def)             Requested size: 281.85587pt x 178.97545pt.
  [56
 
 
 
-] <fig/magnoise/magnoise-data.png, id=1012, 379.6584pt x 463.0098pt>
+] <fig/magnoise/magnoise-data.png, id=1017, 379.6584pt x 463.0098pt>
 File: fig/magnoise/magnoise-data.png Graphic file (type png)
  <use fig/magnoise/magnoise-data.png>
-Package pdftex.def Info: fig/magnoise/magnoise-data.png used on input line 36.
+Package pdftex.def Info: fig/magnoise/magnoise-data.png used on input line 29.
 (pdftex.def)             Requested size: 281.85587pt x 343.73106pt.
- <fig/magnoise/noiseMR.png, id=1013, 353.1594pt x 264.99pt>
+ [57 <./fig/magnoise/Picture1.png>] <fig/magnoise/noiseMR.png, id=1024, 353.1594pt x 264.99pt>
 File: fig/magnoise/noiseMR.png Graphic file (type png)
  <use fig/magnoise/noiseMR.png>
-Package pdftex.def Info: fig/magnoise/noiseMR.png used on input line 44.
+Package pdftex.def Info: fig/magnoise/noiseMR.png used on input line 50.
 (pdftex.def)             Requested size: 213.39566pt x 160.1193pt.
- <fig/magnoise/noiseFMR2D.png, id=1014, 385.44pt x 290.0436pt>
+ <fig/magnoise/noiseFMR2D.png, id=1025, 385.44pt x 290.0436pt>
 File: fig/magnoise/noiseFMR2D.png Graphic file (type png)
  <use fig/magnoise/noiseFMR2D.png>
-Package pdftex.def Info: fig/magnoise/noiseFMR2D.png used on input line 45.
+Package pdftex.def Info: fig/magnoise/noiseFMR2D.png used on input line 51.
 (pdftex.def)             Requested size: 213.39566pt x 160.57777pt.
- <fig/magnoise/magnoise2D.png, id=1015, 650.43pt x 275.1078pt>
+ <fig/magnoise/magnoise2D.png, id=1026, 650.43pt x 275.1078pt>
 File: fig/magnoise/magnoise2D.png Graphic file (type png)
  <use fig/magnoise/magnoise2D.png>
-Package pdftex.def Info: fig/magnoise/magnoise2D.png used on input line 53.
+Package pdftex.def Info: fig/magnoise/magnoise2D.png used on input line 59.
 (pdftex.def)             Requested size: 469.75502pt x 198.69453pt.
- <fig/magnoise/STFMR-freq.png, id=1016, 345.4506pt x 258.7266pt>
+ <fig/magnoise/STFMR-freq.png, id=1027, 345.4506pt x 258.7266pt>
 File: fig/magnoise/STFMR-freq.png Graphic file (type png)
  <use fig/magnoise/STFMR-freq.png>
-Package pdftex.def Info: fig/magnoise/STFMR-freq.png used on input line 62.
+Package pdftex.def Info: fig/magnoise/STFMR-freq.png used on input line 68.
 (pdftex.def)             Requested size: 213.39566pt x 159.82848pt.
- <fig/magnoise/noise-freq.png, id=1017, 369.0588pt x 277.035pt>
+ <fig/magnoise/noise-freq.png, id=1028, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-freq.png Graphic file (type png)
  <use fig/magnoise/noise-freq.png>
-Package pdftex.def Info: fig/magnoise/noise-freq.png used on input line 63.
+Package pdftex.def Info: fig/magnoise/noise-freq.png used on input line 69.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- <fig/magnoise/FMR-field.png, id=1018, 353.6412pt x 264.99pt>
+ <fig/magnoise/FMR-field.png, id=1029, 353.6412pt x 264.99pt>
 File: fig/magnoise/FMR-field.png Graphic file (type png)
  <use fig/magnoise/FMR-field.png>
-Package pdftex.def Info: fig/magnoise/FMR-field.png used on input line 72.
+Package pdftex.def Info: fig/magnoise/FMR-field.png used on input line 78.
 (pdftex.def)             Requested size: 213.39566pt x 159.90498pt.
- <fig/magnoise/noise-field.png, id=1019, 369.0588pt x 277.035pt>
+ <fig/magnoise/noise-field.png, id=1030, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-field.png Graphic file (type png)
  <use fig/magnoise/noise-field.png>
-Package pdftex.def Info: fig/magnoise/noise-field.png used on input line 73.
+Package pdftex.def Info: fig/magnoise/noise-field.png used on input line 79.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- [57 <./fig/magnoise/Picture1.png>] [58 <./fig/magnoise/magnoise-data.png> <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png>] [59 <./fig/magnoise/magnoise2D.png> <./fig/magnoise/STFMR-freq.png> <./fig/magnoise/noise-freq.png>] [60 <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise-field.png>] <fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=1051, 1896.08376pt x 1422.31375pt>
+ [58 <./fig/magnoise/magnoise-data.png>] [59 <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png> <./fig/magnoise/magnoise2D.png>] [60 <./fig/magnoise/STFMR-freq.png> <./fig/magnoise/noise-freq.png> <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise-field.png>] <fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=1057, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
-Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 91.
+Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 97.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=1052, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=1058, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-P-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-P-STATE.png>
-Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-P-STATE.png used on input line 92.
+Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-P-STATE.png used on input line 98.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
  [61
 
- <./fig/in-plane/S6-B3-R6-C13-AP-STATE.png> <./fig/in-plane/S6-B3-R6-C13-P-STATE.png>] <fig/in-plane/ap-dc.png, id=1064, 1896.08376pt x 1422.31375pt>
+ <./fig/in-plane/S6-B3-R6-C13-AP-STATE.png> <./fig/in-plane/S6-B3-R6-C13-P-STATE.png>] <fig/in-plane/ap-dc.png, id=1070, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/ap-dc.png Graphic file (type png)
  <use fig/in-plane/ap-dc.png>
-Package pdftex.def Info: fig/in-plane/ap-dc.png used on input line 101.
+Package pdftex.def Info: fig/in-plane/ap-dc.png used on input line 107.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/p-dc.png, id=1065, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/p-dc.png, id=1071, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/p-dc.png Graphic file (type png)
  <use fig/in-plane/p-dc.png>
-Package pdftex.def Info: fig/in-plane/p-dc.png used on input line 102.
+Package pdftex.def Info: fig/in-plane/p-dc.png used on input line 108.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
 File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
-Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 111.
+Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 117.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/S6-B3-R6-C13-inplane.png, id=1068, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/S6-B3-R6-C13-inplane.png, id=1074, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-inplane.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-inplane.png>
-Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-inplane.png used on input line 112.
+Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-inplane.png used on input line 118.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
  [62] [63 <./fig/in-plane/ap-dc.png> <./fig/in-plane/p-dc.png> <./fig/in-plane/S6-B3-R6-C13-inplane.png>]) [64]
 \openout2 = `chapter6.aux'.
@@ -1012,12 +1012,12 @@ Chapter 6.
 
 
 
-] <fig/WER_setup.PNG, id=1096, 682.80093pt x 335.75438pt>
+] <fig/WER_setup.PNG, id=1102, 682.80093pt x 335.75438pt>
 File: fig/WER_setup.PNG Graphic file (type png)
  <use fig/WER_setup.PNG>
 Package pdftex.def Info: fig/WER_setup.PNG used on input line 13.
 (pdftex.def)             Requested size: 469.75502pt x 230.9945pt.
- <fig/pulse.PNG, id=1098, 449.42906pt x 338.76563pt>
+ <fig/pulse.PNG, id=1104, 449.42906pt x 338.76563pt>
 File: fig/pulse.PNG Graphic file (type png)
  <use fig/pulse.PNG>
 Package pdftex.def Info: fig/pulse.PNG used on input line 23.
@@ -1033,7 +1033,7 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [67 <./fig/pulse.PNG>] [68] [69] [70] <fig/mr.png, id=1130, 1896.08376pt x 1422.31375pt>
+ [67 <./fig/pulse.PNG>] [68] [69] [70] <fig/mr.png, id=1136, 1896.08376pt x 1422.31375pt>
 File: fig/mr.png Graphic file (type png)
  <use fig/mr.png>
 Package pdftex.def Info: fig/mr.png used on input line 101.
@@ -1041,7 +1041,7 @@ Package pdftex.def Info: fig/mr.png used on input line 101.
  [71 <./fig/mr.png
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mr.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <fig/wer_1.png, id=1143, 1896.08376pt x 1422.31375pt>
+>] <fig/wer_1.png, id=1149, 1896.08376pt x 1422.31375pt>
 File: fig/wer_1.png Graphic file (type png)
  <use fig/wer_1.png>
 Package pdftex.def Info: fig/wer_1.png used on input line 112.
@@ -1152,18 +1152,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 8954 strings out of 494437
- 137637 string characters out of 6166645
- 255009 words of memory out of 5000000
- 11728 multiletter control sequences out of 15000+600000
+ 8962 strings out of 494437
+ 137771 string characters out of 6166645
+ 256041 words of memory out of 5000000
+ 11734 multiletter control sequences out of 15000+600000
  11983 words of font info for 42 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  36i,13n,41p,1902b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.pdf (94 pages, 9765096 bytes).
+Output written on /Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.pdf (94 pages, 9766345 bytes).
 PDF statistics:
- 1318 PDF objects out of 1440 (max. 8388607)
- 1058 compressed objects within 11 object streams
- 321 named destinations out of 1000 (max. 500000)
+ 1324 PDF objects out of 1440 (max. 8388607)
+ 1064 compressed objects within 11 object streams
+ 323 named destinations out of 1000 (max. 500000)
  652 words of extra memory for PDF output out of 10000 (max. 10000000)
 
