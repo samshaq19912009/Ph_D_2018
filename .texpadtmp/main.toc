@@ -27,12 +27,12 @@
 \contentsline {chapter}{\numberline {5}Best Things about MTJs}{56}{chapter.136}
 \contentsline {section}{\numberline {5.1}Critical Voltage Measurement}{56}{section.137}
 \contentsline {section}{\numberline {5.2}Field Modulated Mag-noise Measurement}{56}{section.138}
-\contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{61}{section.151}
-\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{65}{chapter.162}
-\contentsline {section}{\numberline {6.1}Experimental Setup}{66}{section.163}
-\contentsline {section}{\numberline {6.2}Results and Discussion}{71}{section.168}
-\contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{74}{chapter.171}
-\contentsline {chapter}{\numberline {8}determination of exchange stiffnessness}{76}{chapter.172}
-\contentsline {chapter}{Bibliography}{78}{section*.178}
-\contentsline {chapter}{\numberline {A}Appendix Title}{82}{appendix.180}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{82}{section.181}
+\contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{62}{section.151}
+\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{66}{chapter.162}
+\contentsline {section}{\numberline {6.1}Experimental Setup}{67}{section.163}
+\contentsline {section}{\numberline {6.2}Results and Discussion}{72}{section.168}
+\contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{75}{chapter.171}
+\contentsline {chapter}{\numberline {8}determination of exchange stiffnessness}{77}{chapter.172}
+\contentsline {chapter}{Bibliography}{79}{section*.178}
+\contentsline {chapter}{\numberline {A}Appendix Title}{83}{appendix.180}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{83}{section.181}

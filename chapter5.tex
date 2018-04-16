@@ -27,61 +27,55 @@ technique. The microwave noise is emitted at the frequencies of spin wave eigenm
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.6\textwidth]{fig/magnoise/magnoise-data.png}
-   \caption{Set-up for Magnoise measurement}
+   \caption{Summary of the magnoise measurement. Top: Raw spectrum taken without the field modulation. Middle: Integration of the spectrum taken with the field modulation. Bottom: Raw spectrum taken with the field modulation technique.}
   \label{fig:magnoisedata}
 \end{figure}
 
 
-The top panel of Fig.\ref{fig:magnoisedata} shows the magnetic noise spectrum measured by conventional technique without magnetic field modulation. The conventional method only allows us to reliably measure the frequency of the quasi-uniform spin wave mode. The linewidth of the main mode is hard to fit accurately. Besides 
+The top panel of Fig.\ref{fig:magnoisedata} shows the magnetic noise spectrum measured by conventional technique without magnetic field modulation. The conventional method only allows us to reliably measure the frequency of the quasi-uniform spin wave mode. The linewidth of the main mode is hard to fit accurately. We can also only measure the main mode and do not have enough resolution to accurately fit for the higher order modes. In contrast, the data obtained with magnetic field modulation shown below allow us to detect not only the resonant frequencies but also the spectral linewidth of several spin wave modes of the device. This is enabled by the superior signal-to-noise factor of our technique with magnetic field modulation. The bottom panel of Fig.\ref{fig:magnoisedata} shows the same spectrum taken with field modulation technique. The signal-to-noise ratio is much improved and the higher-order modes can be resolved. To illustrate the nature of our field-modulation technique, in the middle panel of the Fig.\ref{fig:magnoisedata} we plot the integration of the bottom spectrum from the Fig.\ref{fig:magnoisedata}. The integrated spectrum resembles the raw spectrum taken without field-modulation technique with all the excited modes coincide with each other. We can conclude that the field-modulation technique only improves the signal-to-noise ratio without distorting the spectrum. The data obtained with magnetic field modulation is of high enough quality to enable determination of the Gilbert damping, magnetic anisotropy and exchange stiffness constant of the free layer. 
 
 
-
-
-
-
-In contrast, the data obtained with magnetic field modulation shown below allow us to detect not only the resonant frequencies but also the spectral linewidth of several spin wave modes of the device. This is enabled by the superior signal-to-noise factor of our technique with magnetic field modulation. The data obtained with magnetic field modulation is of high enough quality to enable determination of the Gilbert damping, magnetic anisotropy and exchange stiffness constant of the free layer. The main feature of the magnetic noise method is that it allows measurement of the spin wave spectrum faster than the ST-FMR method.  Therefore, this method can be used for rapid screening of magneto-dynamic properties of STT-MRAM cells.
-
-
-
-
+Now we would like to benchmark between the magnoise noise method and ST-FMR on a typical STT-MRAM cell. Fig.\ref{fig:noiseMR} shows the magnetoresistive curve of the MTJ sample explored in this study. This device has TMR ratio around 180 percent and the coercive field close to 2 kG. Fig.\ref{fig:noiseFMR2D} shows the ST-FMR spectrum of this device at the AP state with three spin-wave modes excited. 
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:noiseMR}\includegraphics[width=75mm]{fig/magnoise/noiseMR}}
 \subfigure{\label{fig:noiseFMR2D}\includegraphics[width=75mm]{fig/magnoise/noiseFMR2D}}
-\caption{(a) AP state simulation (b)P state simulations}
+\caption{(a) The magnetoresistive curve of the studied sample with the TMR ratio around 180 \% and the coercive field close to 2 kG. (b) measured ST-FMR 2D spectrum of this device. Three spin-wave modes are visible.}
 \end{figure}
 
-
+One major feature of the magnoise measurement is to allow large dc bias into the MTJ and study the bias-dependent shift of resonance field and linewidth. Fig.\ref{fig:magnoise-2D} shows dc-dependent spectrum taken from the magnoise measurement. Fig.\ref{fig:magnoise-2D}(a) shows the direct measurement of the bias-dependent magnoise measurement. Fig.\ref{fig:magnoise-2D}(b) shows the integration of the raw spectrum under dc-bias. Three spin wave modes are visible as labelled. 
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=1.0\textwidth]{fig/magnoise/magnoise2D.png}
-   \caption{Set-up for Magnoise measurement}
+   \caption{(a) Direct measurement of the bias-dependent magnoise measurement. (b) Integration of the raw spectrum under dc-bias. Three spin wave modes are visible as labelled. }
   \label{fig:magnoise-2D}
 \end{figure}
 
-
+Now we can directly compare the bias-dependent measurement and main mode fitting using these two techniques. Fig.\ref{fig:FMRfreq} shows the frequency-domain ST-FMR measurement and Fig.\ref{fig:Noisefreq} shows the frequency-domain magnoise measurement. We fit both the resonance frequency on the top panel and the linewidth on the bottom panel. When at the AP state, negative dc bias is the anti-damping spin-torque and can switch the MTJ from the AP state to the P state. There are several observations from the comparisons. First of all, ST-FMR can still measure the data with small(even zero) dc bias while the magnoise measurement is not feasible without large dc bias.
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:FMRfreq}\includegraphics[width=75mm]{fig/magnoise/STFMR-freq.png}}
 \subfigure{\label{fig:Noisefreq}\includegraphics[width=75mm]{fig/magnoise/noise-freq}}
-\caption{(a) ST-FMR data on the frequency domain (b) Magnoise data on the frequency domain}
+\caption{(a) ST-FMR data on the frequency domain as a function of dc bias voltage (b) Magnoise data on the frequency domain as a function of dc bias voltage}
 \end{figure}
 
-
+Secondly, the quantitate value between those two measurements are quite close to each other. This is a important sanity check since the measurement resonance frequency and linewidth should only be determined by intrinsic material properties of the MTJ we studied, not by the experimental methods utilized. For example, the linewidth in both measurement goes to large value when approaching bigger negative dc bias(close to MTJ switching).
 
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:FMRfield}\includegraphics[width=75mm]{fig/magnoise/FMR-field}}
 \subfigure{\label{fig:Noisefield}\includegraphics[width=75mm]{fig/magnoise/noise-field}}
-\caption{(a) ST-FMR data on the field domain (b) Magnoise data on the field domain}
+\caption{(a) ST-FMR data on the field domain as a function of dc bias voltage (b) Magnoise data on the field domain as a function of dc bias voltage}
 \end{figure}
 
 
+Thirdly, we find that the ST-FMR measurement has better signal-to-noise ratio. It is better expressed in the linewidth measurement under larger positive dc bias where the ST-FMR data has less fluctuations. To better compare the ST-FMR and the magnoise measurement, we also make field-domain dc-bias using these two methods. Fig.\ref{fig:FMRfield} shows the field-domain data from the ST-FMR and Fig.\ref{fig:Noisefield} shows the field-domain data from the magnoise noise measurement. The linewidth data shows a considerably larger fluctuations from the magnoise noise measurement at the positive bias current while the ST-FMR still shows a good linear relation.
 
+In summary, the main feature of the magnetic noise method is that it allows measurement of the spin wave spectrum faster than the ST-FMR method.  Therefore, this method can be used for rapid screening of magneto-dynamic properties of STT-MRAM cells. However, by compared with the ST-FMR methods in both frequency-domain and field-domain, we find that the ST-FMR usually yields better signal-to-noise ratio spectrum.
 
 
 
