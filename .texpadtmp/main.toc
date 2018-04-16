@@ -33,6 +33,9 @@
 \contentsline {section}{\numberline {6.2}Results and Discussion}{72}{section.168}
 \contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{75}{chapter.171}
 \contentsline {chapter}{\numberline {8}determination of exchange stiffnessness}{77}{chapter.172}
-\contentsline {chapter}{Bibliography}{79}{section*.178}
-\contentsline {chapter}{\numberline {A}Appendix Title}{83}{appendix.180}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{83}{section.181}
+\contentsline {section}{\numberline {8.1}Measurement of ST-FMR on circular devices}{77}{section.173}
+\contentsline {section}{\numberline {8.2}Study of signal amplitude of ST-FMR signal}{78}{section.178}
+\contentsline {chapter}{Bibliography}{82}{section*.200}
+\contentsline {chapter}{\numberline {A}Appendix Title}{86}{appendix.202}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{86}{section.203}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{87}{section.204}
