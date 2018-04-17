@@ -35,7 +35,8 @@
 \contentsline {chapter}{\numberline {8}determination of exchange stiffnessness}{77}{chapter.172}
 \contentsline {section}{\numberline {8.1}Measurement of ST-FMR on circular devices}{77}{section.173}
 \contentsline {section}{\numberline {8.2}Study of signal amplitude of ST-FMR signal}{78}{section.178}
-\contentsline {chapter}{Bibliography}{82}{section*.200}
-\contentsline {chapter}{\numberline {A}Appendix Title}{86}{appendix.202}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{86}{section.203}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{87}{section.204}
+\contentsline {section}{\numberline {8.3}Summary of Circular Devices}{80}{section.200}
+\contentsline {chapter}{Bibliography}{83}{section*.207}
+\contentsline {chapter}{\numberline {A}Appendix Title}{87}{appendix.209}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{87}{section.210}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{88}{section.211}
