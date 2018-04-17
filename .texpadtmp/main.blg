@@ -7,7 +7,6 @@ A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: chapter4.aux
 A level-1 auxiliary file: chapter5.aux
 A level-1 auxiliary file: chapter6.aux
-A level-1 auxiliary file: chapter7.aux
 A level-1 auxiliary file: chapter8.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: appendix.aux
@@ -19,45 +18,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Sankey, Jack C. Cui, Yong-Tao Slonczewski, John C. Buhrman, Robert A. Ralph, Daniel C." for entry Sankey2008
 while executing---line 944 of file unsrt.bst
 Warning--empty title in Ohno2010
-You've used 47 entries,
+You've used 50 entries,
             1791 wiz_defined-function locations,
-            766 strings with 13022 characters,
-and the built_in function-call counts, 11805 in all, are:
-= -- 876
-> -- 819
+            783 strings with 13775 characters,
+and the built_in function-call counts, 12772 in all, are:
+= -- 943
+> -- 897
 < -- 0
-+ -- 291
-- -- 244
-* -- 1066
-:= -- 2049
-add.period$ -- 139
-call.type$ -- 47
-change.case$ -- 46
++ -- 318
+- -- 268
+* -- 1162
+:= -- 2217
+add.period$ -- 148
+call.type$ -- 50
+change.case$ -- 49
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 406
-empty$ -- 1014
-format.name$ -- 244
-if$ -- 2466
+cite$ -- 51
+duplicate$ -- 433
+empty$ -- 1091
+format.name$ -- 268
+if$ -- 2665
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 45
-newline$ -- 236
-num.names$ -- 47
-pop$ -- 60
+int.to.str$ -- 50
+missing$ -- 48
+newline$ -- 251
+num.names$ -- 50
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 155
+skip$ -- 164
 stack$ -- 0
-substring$ -- 761
-swap$ -- 47
+substring$ -- 842
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 88
-width$ -- 49
-write$ -- 513
+while$ -- 94
+width$ -- 52
+write$ -- 546
 (There were 3 error messages)

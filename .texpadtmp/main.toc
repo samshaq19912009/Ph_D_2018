@@ -31,13 +31,12 @@
 \contentsline {chapter}{\numberline {6}Write Error Rate measurement}{66}{chapter.162}
 \contentsline {section}{\numberline {6.1}Experimental Setup}{67}{section.163}
 \contentsline {section}{\numberline {6.2}Results and Discussion}{72}{section.168}
-\contentsline {chapter}{\numberline {7}Magnetic field dependence of spin torque switching in nanoscale magnetic tunnel junctions }{75}{chapter.171}
-\contentsline {chapter}{\numberline {8}determination of exchange stiffnessness}{77}{chapter.172}
-\contentsline {section}{\numberline {8.1}Measurement of ST-FMR on circular devices}{77}{section.173}
-\contentsline {section}{\numberline {8.2}Study of signal amplitude of ST-FMR signal}{78}{section.178}
-\contentsline {section}{\numberline {8.3}Summary of Circular Devices}{82}{section.200}
-\contentsline {section}{\numberline {8.4}Micromagnetic Simulations of the Mode Spacing}{84}{section.207}
+\contentsline {chapter}{\numberline {7}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{75}{chapter.171}
+\contentsline {section}{\numberline {7.1}Measurement of ST-FMR on nominal circular devices}{76}{section.172}
+\contentsline {section}{\numberline {7.2}Study of signal amplitude of ST-FMR signal}{79}{section.178}
+\contentsline {section}{\numberline {7.3}Summary of Circular Devices}{82}{section.200}
+\contentsline {section}{\numberline {7.4}Micromagnetic Simulations of the Mode Spacing}{84}{section.207}
 \contentsline {chapter}{Bibliography}{88}{section*.219}
-\contentsline {chapter}{\numberline {A}Appendix Title}{92}{appendix.221}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{92}{section.222}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{93}{section.223}
+\contentsline {chapter}{\numberline {A}Appendix Title}{93}{appendix.221}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{93}{section.222}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{94}{section.223}

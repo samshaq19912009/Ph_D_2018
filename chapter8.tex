@@ -1,33 +1,35 @@
-\chapter{determination of exchange stiffnessness}
+\chapter{Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}
 
+We have developed one of the world most sensitive spin-torque ferromagnetic resonance(ST-FMR)\cite{FieldMod} and we would like to accurately determine the exchange stiffness of the Magnetic Tunnel Junctions. The exchange interaction is essential since it determines the energy scale of two adjacent spins in the magnetic materials. Its value also affect the formation of magnetic structures such as domain walls and vortices. Therefore it is important for both fundamental scientific interest and technology development to measure the exchange stiffness from simple structures such as monolayer superlattices and thin films to complex systems such as the Magnetic Tunnel Junctions(MTJ). It has been demonstrated that the exchange stiffness in in-plane magnetized MTJs can be estimated by measuring the thermal stability factor and fit of model based on nucleation-type magnetization reversal\cite{thermalEx} and by modelling from microwave noise spectroscopy\cite{noiseEx}. It has also been showed that MTJs with perpendicular magnetic anisotropy can be utilized by characterizing the spin wave dispersion to determine the exchange stiffness\cite{chris}\cite{PMAEX}. However previous studies involving MTJs are focused on nominal circular devices and only rely on the mode spacings between first higher order modes and quasi-uniform modes. However the symmetry breaking in the nominal circular devices\cite{excitation2},which is often inevitable during the fabrication of the STT-MRAM devices, has altered the spin wave modes. In this chapter we would like to perform a comprehensive review of determining the exchange stiffness on both nominal circular devices and stadium shaped devices with different lateral dimensions.
 
+\section{Measurement of ST-FMR on nominal circular devices}
 
-\section{Measurement of ST-FMR on circular devices}
-
+The experimental set-up is based on Fig.\ref{fig:FMR_set_up} where we employ the field modulation technique to improve the signal-to-noise ratio. The STT-MRAM devices we measured are CoFeB based Magnetic Tunnel Junctions. We are mainly focused on the field-domain ST-FMR which sweeps the magnetic field at fixed constant driven frequency. We find that the field-domain measurement is usually faster and yields better signal compared with frequency-domain. 
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:C07MR}\includegraphics[width=75mm]{fig/2018/C07MR}}
 \subfigure{\label{fig:C07FH}\includegraphics[width=75mm]{fig/2018/C07FH}}
-\caption{}
+\caption{(a) example magnetoresistance of one 80 nm MTJ device (b) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state  }
 \end{figure}
 
-
-
+We start with nominal circular devices with diameter ranging from 70 nm to 210 nm. Fig.\ref{fig:C07MR} shows an example magnetoresistance of 80 nm MTJ device. This specific device has resistance of 2511 Ohms at the parallel state and 5631 Ohms at the anti-parallel state. The coercive field is about 2100 Oe. Fig.\ref{fig:C07FH} shows the 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state. From the 2D contour plot we can mainly identify three of the spin wave modes, each of them labelled on the plot. The lowest mode(Mode 0) is the quasi-uniform main mode of the free layer in the MTJs. Mode 1 and Mode 2 is the split first higher order mode(we will discuss the mode profile in the next section).
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.6\textwidth]{fig/2018/C07fit}
-   \caption{07 sample fit}
+   \caption{Top: the frequency versus resonance field for three lowest modes. Bottom: the HWHM linewidth versus resonance field for all the three modes.  }
   \label{fig:07fit}
 \end{figure}
 
+Fig.\ref{fig:07fit} summarizes the mode fitting result for all the three modes we excited from this 80 nm device. The top panel shows the frequency versus resonance field for three lowest modes. We can see a linear relation between the driven frequency and the resonance field as predicted by the Kittel equation. The main mode at zero field is 9.83 GHz and the effective anisotropy field Hk around 3.4 kG. The bottom panel shows the HWHM linewidth versus resonance field for all the three modes. Quite surprisingly, linewidth does not have a strong field dependence from -3000 Oe to 500 Oe (and frequency change by nearly a factor of 4). In theory, the linewidth in the field domain should be given by
+\begin{equation}
+	\Delta H = \alpha  \frac{\omega}{\gamma} + \Delta H_0
+\end{equation}Here, $\Delta H$ is the field-domain HWHM linewidth. $\omega = 2 \pi f$ is the angular frequency. $\gamma / 2 \pi$ is the gyromagnetic ratio. Firstly, this non-linear relation reveals that the fundamental understanding of the large non-Gilbert contribution to the damping is lacking. Secondly, we find that the linewidth for this device is relatively small (around 35 Oe). If we use the zero-field linewidth as upper bound, we have an estimation of Gilbert damping around 0.01. So far we have demonstrated that by performing the ST-FMR measurements, we can determine the "resonance frequency" at zero magnetic field for all the modes excited in the experiment. The frequency of the main mode can be used to determine the effective anisotropy field and the mode spacings between the main mode and the higher order mode is related with the exchange stiffness of the free layer. Before we move to the exchange stiffness, let us first discuss the original of the ST-FMR signal in this perpendicular magnetized MTJs.
 
 
 
-
-\newpage
-
+\clearpage
 
 
 \section{Study of signal amplitude of ST-FMR signal}

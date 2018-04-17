@@ -287,4 +287,24 @@ J.~Sampaio, A.~V. Khvalkovskiy, M.~Kuteifan, M.~Cubukcu, D.~Apalkov,
   magnetic memory cell performance.
 \newblock {\em Applied Physics Letters}, 108(11), 2016.
 
+\bibitem{thermalEx}
+H.~Sato, M.~Yamanouchi, K.~Miura, S.~Ikeda, R.~Koizumi, F.~Matsukura, and
+  H.~Ohno.
+\newblock Cofeb thickness dependence of thermal stability factor in cofeb/mgo
+  perpendicular magnetic tunnel junctions.
+\newblock {\em IEEE Magnetics Letters}, 3:3000204--3000204, 2012.
+
+\bibitem{noiseEx}
+T.~Devolder, L.~Bianchini, K.~Miura, K.~Ito, Joo-Von Kim, P.~Crozat, V.~Morin,
+  A.~Helmer, C.~Chappert, S.~Ikeda, and H.~Ohno.
+\newblock Spin-torque switching window, thermal stability, and material
+  parameters of mgo tunnel junctions.
+\newblock {\em Applied Physics Letters}, 98(16):162502, 2011.
+
+\bibitem{PMAEX}
+T.~Devolder, J.-V. Kim, L.~Nistor, R.~Sousa, B.~Rodmacq, and B.~Diény.
+\newblock Exchange stiffness in ultrathin perpendicularly magnetized cofeb
+  layers determined using the spectroscopy of electrically excited spin waves.
+\newblock {\em Journal of Applied Physics}, 120(18):183902, 2016.
+
 \end{thebibliography}
