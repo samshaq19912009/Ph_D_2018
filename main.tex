@@ -20,12 +20,20 @@
 \usepackage{natbib}
 \usepackage{relsize}
 \usepackage{subfigure}
+%\usepackage{subfig}
 \usepackage{graphicx}
 % Some other useful packages
 \usepackage{caption}
 %\usepackage{subcaption} %\begin{subfigure}...\end{subfigure} within figure
 \usepackage{multirow}
 \usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{varwidth}
+
+%\usepackage{floatrow}
+% Table float box with bottom caption, box width adjusted to content
+%\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
@@ -71,8 +79,6 @@
 % Uncomment the following to have numbered subsubsections (by default
 % numbering goes only to subsections).
 %\setcounter{secnumdepth}{4}
-
-
 % Set this to only select a subset of the includes directives below.
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
@@ -82,6 +88,10 @@
 \begin{document}
 
 % Preliminary pages are always loaded (TOC, CV, etc.)
+
+\newcommand*{\addheight}[2][.5ex]{%
+  \raisebox{0pt}[\dimexpr\height+(#1)\relax]{#2}%
+}
 
 \preliminarypages
 
