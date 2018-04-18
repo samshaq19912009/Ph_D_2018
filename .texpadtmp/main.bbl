@@ -307,4 +307,24 @@ T.~Devolder, J.-V. Kim, L.~Nistor, R.~Sousa, B.~Rodmacq, and B.~Diény.
   layers determined using the spectroscopy of electrically excited spin waves.
 \newblock {\em Journal of Applied Physics}, 120(18):183902, 2016.
 
+\bibitem{Kubota2007}
+Hitoshi Kubota, Akio Fukushima, Kay Yakushiji, Taro Nagahama, Shinji Yuasa,
+  Koji Ando, Hiroki Maehara, Yoshinori Nagamine, Koji Tsunekawa, David~D.
+  Djayaprawira, Naoki Watanabe, and Yoshishige Suzuki.
+\newblock Quantitative measurement of voltage dependence of spin-transfer
+  torque in mgo-based magnetic tunnel junctions.
+\newblock {\em Nature Physics}, 4:37 EP --, Nov 2007.
+
+\bibitem{photovoltage1}
+N.~Mecking, Y.~S. Gui, and C.-M. Hu.
+\newblock Microwave photovoltage and photoresistance effects in ferromagnetic
+  microstrips.
+\newblock {\em Phys. Rev. B}, 76:224430, Dec 2007.
+
+\bibitem{photovoltage2}
+M.~Harder, Z.~X. Cao, Y.~S. Gui, X.~L. Fan, and C.-M. Hu.
+\newblock Analysis of the line shape of electrically detected ferromagnetic
+  resonance.
+\newblock {\em Phys. Rev. B}, 84:054423, Aug 2011.
+
 \end{thebibliography}

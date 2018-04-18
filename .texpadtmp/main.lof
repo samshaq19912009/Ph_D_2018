@@ -55,20 +55,21 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Resistance versus dc voltage at zero magnetic field\relax }}{72}{figure.caption.169}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Write Error Rate curve for one typical device studied in the experiment.\relax }}{73}{figure.caption.170}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces (a) example magnetoresistance of one 80 nm MTJ device (b) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state \relax }}{76}{figure.caption.173}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces (a)Example magnetoresistance of one 80 nm MTJ device (b) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state \relax }}{76}{figure.caption.173}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Top: the frequency versus resonance field for three lowest modes. Bottom: the HWHM linewidth versus resonance field for all the three modes. \relax }}{77}{figure.caption.176}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces \relax }}{79}{figure.caption.179}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces \relax }}{79}{figure.caption.183}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces \relax }}{79}{figure.caption.187}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces \relax }}{80}{figure.caption.190}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces \relax }}{80}{figure.caption.193}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces C10 sample fit\relax }}{81}{figure.caption.196}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces \relax }}{81}{figure.caption.197}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Mode vs Size\relax }}{82}{figure.caption.201}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces \relax }}{83}{figure.caption.204}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Simulated MTJ System\relax }}{84}{figure.caption.208}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces \relax }}{84}{figure.caption.209}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces 55 simulated\relax }}{85}{figure.caption.214}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Circular Device Simulation Summary\relax }}{86}{figure.caption.216}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Single Free layerCircular Device Simulation Summary\relax }}{87}{figure.caption.218}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces (a)Example magnetoresistance of one 60 nm * 80 nm stadium-shaped MTJ device. (b)The resistance versus current loop, with AP state switching to P state at negative dc current and vice versa. (c) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state \relax }}{79}{figure.caption.179}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces (a) The resonance field fitting result for all the three modes. (b) The ST-FMR signal (symmetric and anti-symmetric component) plot versus resonance field. (c) The ratio of two components versus resonance magnetic field. \relax }}{80}{figure.caption.183}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces (a)The power-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b)The amplitude versus the square of rf voltage.\relax }}{81}{figure.caption.187}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces (a) The resonance Field versus rf voltage squared for all the modes at 12 GHz. (b) The Mode 0 HWHM linewidth versus rf voltage squared.\relax }}{81}{figure.caption.190}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces (a) The bias-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b) FMR signal amplitude versus applied dc voltage. \relax }}{82}{figure.caption.193}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Fitting of the FMR symmetric amplitude versus DC voltage as a sum of linear term and quadric term.\relax }}{83}{figure.caption.196}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces \relax }}{83}{figure.caption.197}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces \relax }}{84}{figure.caption.198}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Mode vs Size\relax }}{85}{figure.caption.202}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces \relax }}{86}{figure.caption.205}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Simulated MTJ System\relax }}{87}{figure.caption.209}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces \relax }}{87}{figure.caption.210}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces 55 simulated\relax }}{88}{figure.caption.215}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Circular Device Simulation Summary\relax }}{89}{figure.caption.217}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Single Free layerCircular Device Simulation Summary\relax }}{90}{figure.caption.219}
 \addvspace {10\p@ }
