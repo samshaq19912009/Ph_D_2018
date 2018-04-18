@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  17 APR 2018 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.24)  17 APR 2018 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -500,21 +500,21 @@ Overfull \hbox (7.62521pt too wide) in paragraph at lines 49--49
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [8] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.lot)
+ [8] [9] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [9
+ [10
 
 
-] [10
+] [11
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 97.
 
-[11
+[12
 
 
 ]
@@ -532,7 +532,7 @@ Chapter 1.
 
  (./chapter2.tex
 Chapter 2.
-<fig/Magnet.jpg, id=517, 471.7625pt x 481.8pt>
+<fig/Magnet.jpg, id=526, 471.7625pt x 481.8pt>
 File: fig/Magnet.jpg Graphic file (type jpg)
  <use fig/Magnet.jpg>
 Package pdftex.def Info: fig/Magnet.jpg used on input line 9.
@@ -546,22 +546,22 @@ Overfull \hbox (14.27051pt too wide) in paragraph at lines 18--19
 \OT1/cmr/m/n/12 The Tun-nel Mag-ne-tore-sis-tance effect[[]] refers to the change of re-sis-tance of a ferromagnetic/non-
  []
 
-[4] <fig/Fermi.PNG, id=535, 275.52937pt x 269.50688pt>
+[4] <fig/Fermi.PNG, id=544, 275.52937pt x 269.50688pt>
 File: fig/Fermi.PNG Graphic file (type png)
  <use fig/Fermi.PNG>
 Package pdftex.def Info: fig/Fermi.PNG used on input line 24.
 (pdftex.def)             Requested size: 275.52869pt x 269.50621pt.
- <fig/TMR.PNG, id=537, 660.21657pt x 268.75406pt>
+ <fig/TMR.PNG, id=546, 660.21657pt x 268.75406pt>
 File: fig/TMR.PNG Graphic file (type png)
  <use fig/TMR.PNG>
 Package pdftex.def Info: fig/TMR.PNG used on input line 40.
 (pdftex.def)             Requested size: 469.75502pt x 191.2309pt.
- [5] [6 <./fig/Fermi.PNG> <./fig/TMR.PNG>] <fig/electron.png, id=557, 481.8pt x 566.115pt>
+ [5] [6 <./fig/Fermi.PNG> <./fig/TMR.PNG>] <fig/electron.png, id=566, 481.8pt x 566.115pt>
 File: fig/electron.png Graphic file (type png)
  <use fig/electron.png>
 Package pdftex.def Info: fig/electron.png used on input line 76.
 (pdftex.def)             Requested size: 170.71652pt x 200.58783pt.
- [7] [8 <./fig/electron.png>] <fig/dampingtorque.PNG, id=573, 401.24907pt x 316.18124pt>
+ [7] [8 <./fig/electron.png>] <fig/dampingtorque.PNG, id=581, 401.24907pt x 316.18124pt>
 File: fig/dampingtorque.PNG Graphic file (type png)
  <use fig/dampingtorque.PNG>
 Package pdftex.def Info: fig/dampingtorque.PNG used on input line 96.
@@ -571,12 +571,12 @@ Overfull \hbox (15.88272pt too wide) in paragraph at lines 102--102
 []\OT1/cmr/bx/n/17.28 Magnetic Tun-nel Junc-tions with Per-pen-dic-u-lar Mag-
  []
 
-[9 <./fig/dampingtorque.PNG>] [10] [11] <fig/DC.PNG, id=604, 378.66469pt x 325.96782pt>
+[9 <./fig/dampingtorque.PNG>] [10] [11] <fig/DC.PNG, id=611, 378.66469pt x 325.96782pt>
 File: fig/DC.PNG Graphic file (type png)
  <use fig/DC.PNG>
 Package pdftex.def Info: fig/DC.PNG used on input line 151.
 (pdftex.def)             Requested size: 234.8775pt x 202.19244pt.
- <fig/switching.PNG, id=606, 636.87938pt x 288.3272pt>
+ <fig/switching.PNG, id=613, 636.87938pt x 288.3272pt>
 File: fig/switching.PNG Graphic file (type png)
  <use fig/switching.PNG>
 Package pdftex.def Info: fig/switching.PNG used on input line 162.
@@ -600,27 +600,27 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [19] [20] <fig/FieldMod/set_up.png, id=715, 622.4856pt x 348.3414pt>
+ [19] [20] <fig/FieldMod/set_up.png, id=722, 622.4856pt x 348.3414pt>
 File: fig/FieldMod/set_up.png Graphic file (type png)
  <use fig/FieldMod/set_up.png>
 Package pdftex.def Info: fig/FieldMod/set_up.png used on input line 55.
 (pdftex.def)             Requested size: 375.80544pt x 210.30338pt.
- <fig/FieldMod/AmpMod.png, id=716, 1363.0925pt x 1422.31375pt>
+ <fig/FieldMod/AmpMod.png, id=723, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/AmpMod.png Graphic file (type png)
  <use fig/FieldMod/AmpMod.png>
 Package pdftex.def Info: fig/FieldMod/AmpMod.png used on input line 66.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
- <fig/FieldMod/FieldMod.png, id=717, 1363.0925pt x 1422.31375pt>
+ <fig/FieldMod/FieldMod.png, id=724, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/FieldMod.png Graphic file (type png)
  <use fig/FieldMod/FieldMod.png>
 Package pdftex.def Info: fig/FieldMod/FieldMod.png used on input line 67.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
- [21 <./fig/FieldMod/set_up.png>] <fig/FieldMod/MR.png, id=731, 1363.0925pt x 1422.31375pt>
+ [21 <./fig/FieldMod/set_up.png>] <fig/FieldMod/MR.png, id=739, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/MR.png Graphic file (type png)
  <use fig/FieldMod/MR.png>
 Package pdftex.def Info: fig/FieldMod/MR.png used on input line 80.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
- <fig/FieldMod/Spectrum.png, id=732, 1363.0925pt x 1422.31375pt>
+ <fig/FieldMod/Spectrum.png, id=740, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Spectrum.png Graphic file (type png)
  <use fig/FieldMod/Spectrum.png>
 Package pdftex.def Info: fig/FieldMod/Spectrum.png used on input line 81.
@@ -630,12 +630,12 @@ Overfull \hbox (24.49277pt too wide) in paragraph at lines 86--87
 \OT1/cmr/m/n/12 ture of our sam-ple are SAF-Bot-tom(1.67)/SAF spacer(0.41)/SAFTop(1.1)MgO(0.8)FreeLayer(2.4)
  []
 
-[22 <./fig/FieldMod/AmpMod.png> <./fig/FieldMod/FieldMod.png>] [23 <./fig/FieldMod/MR.png> <./fig/FieldMod/Spectrum.png>] <fig/FieldMod/Res_Field.png, id=753, 1363.0925pt x 1422.31375pt>
+[22 <./fig/FieldMod/AmpMod.png> <./fig/FieldMod/FieldMod.png>] [23 <./fig/FieldMod/MR.png> <./fig/FieldMod/Spectrum.png>] <fig/FieldMod/Res_Field.png, id=760, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Res_Field.png Graphic file (type png)
  <use fig/FieldMod/Res_Field.png>
 Package pdftex.def Info: fig/FieldMod/Res_Field.png used on input line 109.
 (pdftex.def)             Requested size: 213.39566pt x 222.64833pt.
- <fig/FieldMod/Original_LW.png, id=754, 1363.0925pt x 1422.31375pt>
+ <fig/FieldMod/Original_LW.png, id=761, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Original_LW.png Graphic file (type png)
  <use fig/FieldMod/Original_LW.png>
 Package pdftex.def Info: fig/FieldMod/Original_LW.png used on input line 110.
@@ -647,12 +647,12 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- <fig/FieldMod/Improve-measure.png, id=766, 283.7802pt x 146.4672pt>
+ <fig/FieldMod/Improve-measure.png, id=774, 283.7802pt x 146.4672pt>
 File: fig/FieldMod/Improve-measure.png Graphic file (type png)
  <use fig/FieldMod/Improve-measure.png>
 Package pdftex.def Info: fig/FieldMod/Improve-measure.png used on input line 123.
 (pdftex.def)             Requested size: 375.80544pt x 193.98317pt.
- [25] <fig/FieldMod/contour.png, id=777, 1363.0925pt x 1422.31375pt>
+ [25] <fig/FieldMod/contour.png, id=784, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/contour.png Graphic file (type png)
  <use fig/FieldMod/contour.png>
 Package pdftex.def Info: fig/FieldMod/contour.png used on input line 140.
@@ -661,7 +661,7 @@ Package pdftex.def Info: fig/FieldMod/contour.png used on input line 140.
 
 LaTeX Warning: Reference `fig:d' on page 27 undefined on input line 149.
 
-[27 <./fig/FieldMod/contour.png>] <fig/FieldMod/LW_PLOT.png, id=792, 1363.0925pt x 1422.31375pt>
+[27 <./fig/FieldMod/contour.png>] <fig/FieldMod/LW_PLOT.png, id=799, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/LW_PLOT.png Graphic file (type png)
  <use fig/FieldMod/LW_PLOT.png>
 Package pdftex.def Info: fig/FieldMod/LW_PLOT.png used on input line 155.
@@ -670,7 +670,7 @@ Package pdftex.def Info: fig/FieldMod/LW_PLOT.png used on input line 155.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] <fig/Time_oscillation.png, id=805, 1896.08376pt x 1422.31375pt>
+[28] <fig/Time_oscillation.png, id=812, 1896.08376pt x 1422.31375pt>
 File: fig/Time_oscillation.png Graphic file (type png)
  <use fig/Time_oscillation.png>
 Package pdftex.def Info: fig/Time_oscillation.png used on input line 175.
@@ -682,32 +682,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `fig:Sim_spectrum' on page 29 undefined on input line 180.
 
-[29 <./fig/FieldMod/LW_PLOT.png>] [30 <./fig/Time_oscillation.png>] <fig/CW_sim/uniform_spectrum.png, id=820, 483.7272pt x 362.3136pt>
+[29 <./fig/FieldMod/LW_PLOT.png>] [30 <./fig/Time_oscillation.png>] <fig/CW_sim/uniform_spectrum.png, id=828, 483.7272pt x 362.3136pt>
 File: fig/CW_sim/uniform_spectrum.png Graphic file (type png)
  <use fig/CW_sim/uniform_spectrum.png>
 Package pdftex.def Info: fig/CW_sim/uniform_spectrum.png used on input line 192.
 (pdftex.def)             Requested size: 199.16928pt x 149.17978pt.
- <fig/CW_sim/mode_profile_1.png, id=821, 446.6286pt x 397.485pt>
+ <fig/CW_sim/mode_profile_1.png, id=829, 446.6286pt x 397.485pt>
 File: fig/CW_sim/mode_profile_1.png Graphic file (type png)
  <use fig/CW_sim/mode_profile_1.png>
 Package pdftex.def Info: fig/CW_sim/mode_profile_1.png used on input line 193.
 (pdftex.def)             Requested size: 199.16928pt x 177.25327pt.
- [31 <./fig/CW_sim/uniform_spectrum.png> <./fig/CW_sim/mode_profile_1.png>] <fig/CW_sim/uniform_LW.png, id=835, 451.9284pt x 358.941pt>
+ [31 <./fig/CW_sim/uniform_spectrum.png> <./fig/CW_sim/mode_profile_1.png>] <fig/CW_sim/uniform_LW.png, id=842, 451.9284pt x 358.941pt>
 File: fig/CW_sim/uniform_LW.png Graphic file (type png)
  <use fig/CW_sim/uniform_LW.png>
 Package pdftex.def Info: fig/CW_sim/uniform_LW.png used on input line 201.
 (pdftex.def)             Requested size: 281.85587pt x 223.87201pt.
- [32 <./fig/CW_sim/uniform_LW.png>] <fig/CW_sim/random_spectrum.png, id=848, 478.9092pt x 359.4228pt>
+ [32 <./fig/CW_sim/uniform_LW.png>] <fig/CW_sim/random_spectrum.png, id=855, 478.9092pt x 359.4228pt>
 File: fig/CW_sim/random_spectrum.png Graphic file (type png)
  <use fig/CW_sim/random_spectrum.png>
 Package pdftex.def Info: fig/CW_sim/random_spectrum.png used on input line 216.
 (pdftex.def)             Requested size: 142.26378pt x 106.76918pt.
- <fig/CW_sim/mode_profile_2.png, id=849, 446.6286pt x 397.9668pt>
+ <fig/CW_sim/mode_profile_2.png, id=856, 446.6286pt x 397.9668pt>
 File: fig/CW_sim/mode_profile_2.png Graphic file (type png)
  <use fig/CW_sim/mode_profile_2.png>
 Package pdftex.def Info: fig/CW_sim/mode_profile_2.png used on input line 217.
 (pdftex.def)             Requested size: 142.26378pt x 126.76294pt.
- <fig/CW_sim/Kudist.png, id=850, 405.6756pt x 179.2296pt>
+ <fig/CW_sim/Kudist.png, id=857, 405.6756pt x 179.2296pt>
 File: fig/CW_sim/Kudist.png Graphic file (type png)
  <use fig/CW_sim/Kudist.png>
 Package pdftex.def Info: fig/CW_sim/Kudist.png used on input line 218.
@@ -717,7 +717,7 @@ Overfull \hbox (4.40822pt too wide) in paragraph at lines 223--224
 []\OT1/cmr/m/n/12 In fact, since the CoFeB free layer is com-posed of grains, each with slightly dif-fer-ent anisotropy,
  []
 
-[33 <./fig/CW_sim/random_spectrum.png> <./fig/CW_sim/mode_profile_2.png> <./fig/CW_sim/Kudist.png>] <fig/CW_sim/LW_summary.png, id=861, 363.759pt x 289.08pt>
+[33 <./fig/CW_sim/random_spectrum.png> <./fig/CW_sim/mode_profile_2.png> <./fig/CW_sim/Kudist.png>] <fig/CW_sim/LW_summary.png, id=868, 363.759pt x 289.08pt>
 File: fig/CW_sim/LW_summary.png Graphic file (type png)
  <use fig/CW_sim/LW_summary.png>
 Package pdftex.def Info: fig/CW_sim/LW_summary.png used on input line 229.
@@ -726,17 +726,17 @@ Package pdftex.def Info: fig/CW_sim/LW_summary.png used on input line 229.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./fig/CW_sim/LW_summary.png>] <fig/MR18.png, id=870, 445.1832pt x 343.5234pt>
+[34 <./fig/CW_sim/LW_summary.png>] <fig/MR18.png, id=878, 445.1832pt x 343.5234pt>
 File: fig/MR18.png Graphic file (type png)
  <use fig/MR18.png>
 Package pdftex.def Info: fig/MR18.png used on input line 265.
 (pdftex.def)             Requested size: 213.39566pt x 164.66919pt.
- <fig/simulation.png, id=871, 388.3308pt x 292.4526pt>
+ <fig/simulation.png, id=879, 388.3308pt x 292.4526pt>
 File: fig/simulation.png Graphic file (type png)
  <use fig/simulation.png>
 Package pdftex.def Info: fig/simulation.png used on input line 266.
 (pdftex.def)             Requested size: 213.39566pt x 160.70662pt.
- [35] <fig/Mode_pic.png, id=884, 623.931pt x 396.5214pt>
+ [35] <fig/Mode_pic.png, id=891, 623.931pt x 396.5214pt>
 File: fig/Mode_pic.png Graphic file (type png)
  <use fig/Mode_pic.png>
 Package pdftex.def Info: fig/Mode_pic.png used on input line 280.
@@ -748,17 +748,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[36 <./fig/MR18.png> <./fig/simulation.png>] [37 <./fig/Mode_pic.png>] <fig/edge_damage.png, id=899, 438.9198pt x 338.2236pt>
+[36 <./fig/MR18.png> <./fig/simulation.png>] [37 <./fig/Mode_pic.png>] <fig/edge_damage.png, id=906, 438.9198pt x 338.2236pt>
 File: fig/edge_damage.png Graphic file (type png)
  <use fig/edge_damage.png>
 Package pdftex.def Info: fig/edge_damage.png used on input line 295.
 (pdftex.def)             Requested size: 227.62204pt x 175.40248pt.
- <fig/edge_ani.png, id=900, 542.5068pt x 417.7206pt>
+ <fig/edge_ani.png, id=907, 542.5068pt x 417.7206pt>
 File: fig/edge_ani.png Graphic file (type png)
  <use fig/edge_ani.png>
 Package pdftex.def Info: fig/edge_ani.png used on input line 296.
 (pdftex.def)             Requested size: 227.62204pt x 175.26299pt.
- [38 <./fig/edge_damage.png> <./fig/edge_ani.png>] [39] <fig/FieldMod/ap-p.png, id=917, 451.4466pt x 175.857pt>
+ [38 <./fig/edge_damage.png> <./fig/edge_ani.png>] [39] <fig/FieldMod/ap-p.png, id=924, 451.4466pt x 175.857pt>
 File: fig/FieldMod/ap-p.png Graphic file (type png)
  <use fig/FieldMod/ap-p.png>
 Package pdftex.def Info: fig/FieldMod/ap-p.png used on input line 322.
@@ -766,7 +766,7 @@ Package pdftex.def Info: fig/FieldMod/ap-p.png used on input line 322.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- <fig/FieldMod/mode-profile.png, id=921, 860.9766pt x 285.7074pt>
+ <fig/FieldMod/mode-profile.png, id=928, 860.9766pt x 285.7074pt>
 File: fig/FieldMod/mode-profile.png Graphic file (type png)
  <use fig/FieldMod/mode-profile.png>
 Package pdftex.def Info: fig/FieldMod/mode-profile.png used on input line 331.
@@ -786,12 +786,12 @@ Overfull \hbox (8.33029pt too wide) in paragraph at lines 337--338
 []\OT1/cmr/m/n/12 However, in our ex-per-i-men-tal data, we find the fre-quency of the sec-ond higher-order mode(label
  []
 
-[40 <./fig/FieldMod/ap-p.png>] <fig/broken/stastic-1.png, id=928, 496.254pt x 382.0674pt>
+[40 <./fig/FieldMod/ap-p.png>] <fig/broken/stastic-1.png, id=935, 496.254pt x 382.0674pt>
 File: fig/broken/stastic-1.png Graphic file (type png)
  <use fig/broken/stastic-1.png>
 Package pdftex.def Info: fig/broken/stastic-1.png used on input line 342.
 (pdftex.def)             Requested size: 227.62204pt x 175.24593pt.
- <fig/broken/stastic-2.png, id=929, 427.8384pt x 330.033pt>
+ <fig/broken/stastic-2.png, id=936, 427.8384pt x 330.033pt>
 File: fig/broken/stastic-2.png Graphic file (type png)
  <use fig/broken/stastic-2.png>
 Package pdftex.def Info: fig/broken/stastic-2.png used on input line 343.
@@ -800,12 +800,12 @@ Package pdftex.def Info: fig/broken/stastic-2.png used on input line 343.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/broken/freq1-0.png, id=930, 460.6008pt x 355.0866pt>
+<fig/broken/freq1-0.png, id=937, 460.6008pt x 355.0866pt>
 File: fig/broken/freq1-0.png Graphic file (type png)
  <use fig/broken/freq1-0.png>
 Package pdftex.def Info: fig/broken/freq1-0.png used on input line 351.
 (pdftex.def)             Requested size: 227.62204pt x 175.47852pt.
- <fig/broken/freq2-0.png, id=931, 461.0826pt x 355.0866pt>
+ <fig/broken/freq2-0.png, id=938, 461.0826pt x 355.0866pt>
 File: fig/broken/freq2-0.png Graphic file (type png)
  <use fig/broken/freq2-0.png>
 Package pdftex.def Info: fig/broken/freq2-0.png used on input line 352.
@@ -814,32 +814,32 @@ Package pdftex.def Info: fig/broken/freq2-0.png used on input line 352.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41 <./fig/FieldMod/mode-profile.png>] [42 <./fig/broken/stastic-1.png> <./fig/broken/stastic-2.png> <./fig/broken/freq1-0.png> <./fig/broken/freq2-0.png>] <fig/broken/exp_spectrum.png, id=953, 380.622pt x 292.9344pt>
+[41 <./fig/FieldMod/mode-profile.png>] [42 <./fig/broken/stastic-1.png> <./fig/broken/stastic-2.png> <./fig/broken/freq1-0.png> <./fig/broken/freq2-0.png>] <fig/broken/exp_spectrum.png, id=961, 380.622pt x 292.9344pt>
 File: fig/broken/exp_spectrum.png Graphic file (type png)
  <use fig/broken/exp_spectrum.png>
 Package pdftex.def Info: fig/broken/exp_spectrum.png used on input line 366.
 (pdftex.def)             Requested size: 227.62204pt x 175.18538pt.
- <fig/broken/spec_60nm.png, id=954, 397.0032pt x 297.7524pt>
+ <fig/broken/spec_60nm.png, id=962, 397.0032pt x 297.7524pt>
 File: fig/broken/spec_60nm.png Graphic file (type png)
  <use fig/broken/spec_60nm.png>
 Package pdftex.def Info: fig/broken/spec_60nm.png used on input line 367.
 (pdftex.def)             Requested size: 227.62204pt x 170.7156pt.
- [43 <./fig/broken/exp_spectrum.png> <./fig/broken/spec_60nm.png>] <fig/broken/spec_64_56nm.png, id=966, 424.9476pt x 318.4698pt>
+ [43 <./fig/broken/exp_spectrum.png> <./fig/broken/spec_60nm.png>] <fig/broken/spec_64_56nm.png, id=973, 424.9476pt x 318.4698pt>
 File: fig/broken/spec_64_56nm.png Graphic file (type png)
  <use fig/broken/spec_64_56nm.png>
 Package pdftex.def Info: fig/broken/spec_64_56nm.png used on input line 376.
 (pdftex.def)             Requested size: 142.26378pt x 106.61636pt.
- <fig/broken/spec_68_52nm.png, id=967, 455.301pt x 341.5962pt>
+ <fig/broken/spec_68_52nm.png, id=974, 455.301pt x 341.5962pt>
 File: fig/broken/spec_68_52nm.png Graphic file (type png)
  <use fig/broken/spec_68_52nm.png>
 Package pdftex.def Info: fig/broken/spec_68_52nm.png used on input line 377.
 (pdftex.def)             Requested size: 142.26378pt x 106.73291pt.
- <fig/broken/ecc.png, id=968, 440.3652pt x 339.669pt>
+ <fig/broken/ecc.png, id=975, 440.3652pt x 339.669pt>
 File: fig/broken/ecc.png Graphic file (type png)
  <use fig/broken/ecc.png>
 Package pdftex.def Info: fig/broken/ecc.png used on input line 378.
 (pdftex.def)             Requested size: 142.26378pt x 109.73288pt.
- <fig/broken/stastic-mode.png, id=972, 453.8556pt x 92.5056pt>
+ <fig/broken/stastic-mode.png, id=979, 453.8556pt x 92.5056pt>
 File: fig/broken/stastic-mode.png Graphic file (type png)
  <use fig/broken/stastic-mode.png>
 Package pdftex.def Info: fig/broken/stastic-mode.png used on input line 392.
@@ -850,7 +850,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [44 <./fig/broken/spec_64_56nm.png> <./fig/broken/spec_68_52nm.png> <./fig/broken/ecc.png>] [45 <./fig/broken/stastic-mode.png>] <fig/FieldMod/FMR-WER.png, id=989, 260.172pt x 212.9556pt>
+ [44 <./fig/broken/spec_64_56nm.png> <./fig/broken/spec_68_52nm.png> <./fig/broken/ecc.png>] [45 <./fig/broken/stastic-mode.png>] <fig/FieldMod/FMR-WER.png, id=996, 260.172pt x 212.9556pt>
 File: fig/FieldMod/FMR-WER.png Graphic file (type png)
  <use fig/FieldMod/FMR-WER.png>
 Package pdftex.def Info: fig/FieldMod/FMR-WER.png used on input line 414.
@@ -860,7 +860,7 @@ Package pdftex.def Info: fig/FieldMod/FMR-WER.png used on input line 414.
 
  (./chapter4.tex
 Chapter 4.
-<fig/time_set.png, id=1001, 470.2368pt x 203.3196pt>
+<fig/time_set.png, id=1008, 470.2368pt x 203.3196pt>
 File: fig/time_set.png Graphic file (type png)
  <use fig/time_set.png>
 Package pdftex.def Info: fig/time_set.png used on input line 10.
@@ -869,7 +869,7 @@ Package pdftex.def Info: fig/time_set.png used on input line 10.
 
 
 
-] [49 <./fig/time_set.png>] <fig/time_domain.png, id=1018, 638.385pt x 338.2236pt>
+] [49 <./fig/time_set.png>] <fig/time_domain.png, id=1025, 638.385pt x 338.2236pt>
 File: fig/time_domain.png Graphic file (type png)
  <use fig/time_domain.png>
 Package pdftex.def Info: fig/time_domain.png used on input line 34.
@@ -878,17 +878,17 @@ Package pdftex.def Info: fig/time_domain.png used on input line 34.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] <fig/total_sig.png, id=1026, 1896.08376pt x 1422.31375pt>
+[50] <fig/total_sig.png, id=1033, 1896.08376pt x 1422.31375pt>
 File: fig/total_sig.png Graphic file (type png)
  <use fig/total_sig.png>
 Package pdftex.def Info: fig/total_sig.png used on input line 49.
 (pdftex.def)             Requested size: 375.80544pt x 281.89679pt.
- [51 <./fig/time_domain.png>] <fig/APtoP.png, id=1034, 1896.08376pt x 1422.31375pt>
+ [51 <./fig/time_domain.png>] <fig/APtoP.png, id=1041, 1896.08376pt x 1422.31375pt>
 File: fig/APtoP.png Graphic file (type png)
  <use fig/APtoP.png>
 Package pdftex.def Info: fig/APtoP.png used on input line 59.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
- <fig/diff.png, id=1035, 1896.08376pt x 1422.31375pt>
+ <fig/diff.png, id=1042, 1896.08376pt x 1422.31375pt>
 File: fig/diff.png Graphic file (type png)
  <use fig/diff.png>
 Package pdftex.def Info: fig/diff.png used on input line 60.
@@ -896,22 +896,22 @@ Package pdftex.def Info: fig/diff.png used on input line 60.
  [52 <./fig/total_sig.png
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/total_sig.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <fig/2_6.png, id=1046, 1896.08376pt x 1422.31375pt>
+>] <fig/2_6.png, id=1053, 1896.08376pt x 1422.31375pt>
 File: fig/2_6.png Graphic file (type png)
  <use fig/2_6.png>
 Package pdftex.def Info: fig/2_6.png used on input line 71.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
- <fig/6_7.png, id=1047, 1896.08376pt x 1422.31375pt>
+ <fig/6_7.png, id=1054, 1896.08376pt x 1422.31375pt>
 File: fig/6_7.png Graphic file (type png)
  <use fig/6_7.png>
 Package pdftex.def Info: fig/6_7.png used on input line 72.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
- <fig/9.png, id=1048, 1896.08376pt x 1422.31375pt>
+ <fig/9.png, id=1055, 1896.08376pt x 1422.31375pt>
 File: fig/9.png Graphic file (type png)
  <use fig/9.png>
 Package pdftex.def Info: fig/9.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
- <fig/no.png, id=1049, 1896.08376pt x 1422.31375pt>
+ <fig/no.png, id=1056, 1896.08376pt x 1422.31375pt>
 File: fig/no.png Graphic file (type png)
  <use fig/no.png>
 Package pdftex.def Info: fig/no.png used on input line 74.
@@ -922,7 +922,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/APtoP.png): large inter
 > <./fig/diff.png
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/diff.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <fig/dist.png, id=1061, 438.9198pt x 336.7782pt>
+>] <fig/dist.png, id=1068, 438.9198pt x 336.7782pt>
 File: fig/dist.png Graphic file (type png)
  <use fig/dist.png>
 Package pdftex.def Info: fig/dist.png used on input line 84.
@@ -948,7 +948,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/no.png): large interlac
 
  (./chapter5.tex
 Chapter 5.
-<fig/magnoise/Picture1.png, id=1081, 385.44pt x 244.7544pt>
+<fig/magnoise/Picture1.png, id=1088, 385.44pt x 244.7544pt>
 File: fig/magnoise/Picture1.png Graphic file (type png)
  <use fig/magnoise/Picture1.png>
 Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 20.
@@ -957,64 +957,64 @@ Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 20.
 
 
 
-] <fig/magnoise/magnoise-data.png, id=1088, 379.6584pt x 463.0098pt>
+] <fig/magnoise/magnoise-data.png, id=1095, 379.6584pt x 463.0098pt>
 File: fig/magnoise/magnoise-data.png Graphic file (type png)
  <use fig/magnoise/magnoise-data.png>
 Package pdftex.def Info: fig/magnoise/magnoise-data.png used on input line 29.
 (pdftex.def)             Requested size: 281.85587pt x 343.73106pt.
- [57 <./fig/magnoise/Picture1.png>] [58 <./fig/magnoise/magnoise-data.png>] <fig/magnoise/noiseMR.png, id=1105, 353.1594pt x 264.99pt>
+ [57 <./fig/magnoise/Picture1.png>] [58 <./fig/magnoise/magnoise-data.png>] <fig/magnoise/noiseMR.png, id=1112, 353.1594pt x 264.99pt>
 File: fig/magnoise/noiseMR.png Graphic file (type png)
  <use fig/magnoise/noiseMR.png>
 Package pdftex.def Info: fig/magnoise/noiseMR.png used on input line 42.
 (pdftex.def)             Requested size: 213.39566pt x 160.1193pt.
- <fig/magnoise/noiseFMR2D.png, id=1106, 385.44pt x 290.0436pt>
+ <fig/magnoise/noiseFMR2D.png, id=1113, 385.44pt x 290.0436pt>
 File: fig/magnoise/noiseFMR2D.png Graphic file (type png)
  <use fig/magnoise/noiseFMR2D.png>
 Package pdftex.def Info: fig/magnoise/noiseFMR2D.png used on input line 43.
 (pdftex.def)             Requested size: 213.39566pt x 160.57777pt.
- <fig/magnoise/magnoise2D.png, id=1110, 650.43pt x 275.1078pt>
+ <fig/magnoise/magnoise2D.png, id=1117, 650.43pt x 275.1078pt>
 File: fig/magnoise/magnoise2D.png Graphic file (type png)
  <use fig/magnoise/magnoise2D.png>
 Package pdftex.def Info: fig/magnoise/magnoise2D.png used on input line 51.
 (pdftex.def)             Requested size: 469.75502pt x 198.69453pt.
- <fig/magnoise/STFMR-freq.png, id=1113, 345.4506pt x 258.7266pt>
+ <fig/magnoise/STFMR-freq.png, id=1120, 345.4506pt x 258.7266pt>
 File: fig/magnoise/STFMR-freq.png Graphic file (type png)
  <use fig/magnoise/STFMR-freq.png>
 Package pdftex.def Info: fig/magnoise/STFMR-freq.png used on input line 60.
 (pdftex.def)             Requested size: 213.39566pt x 159.82848pt.
- <fig/magnoise/noise-freq.png, id=1114, 369.0588pt x 277.035pt>
+ <fig/magnoise/noise-freq.png, id=1121, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-freq.png Graphic file (type png)
  <use fig/magnoise/noise-freq.png>
 Package pdftex.def Info: fig/magnoise/noise-freq.png used on input line 61.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- [59 <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png>] <fig/magnoise/FMR-field.png, id=1125, 353.6412pt x 264.99pt>
+ [59 <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png>] <fig/magnoise/FMR-field.png, id=1132, 353.6412pt x 264.99pt>
 File: fig/magnoise/FMR-field.png Graphic file (type png)
  <use fig/magnoise/FMR-field.png>
 Package pdftex.def Info: fig/magnoise/FMR-field.png used on input line 70.
 (pdftex.def)             Requested size: 213.39566pt x 159.90498pt.
- <fig/magnoise/noise-field.png, id=1126, 369.0588pt x 277.035pt>
+ <fig/magnoise/noise-field.png, id=1133, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-field.png Graphic file (type png)
  <use fig/magnoise/noise-field.png>
 Package pdftex.def Info: fig/magnoise/noise-field.png used on input line 71.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- [60 <./fig/magnoise/magnoise2D.png> <./fig/magnoise/STFMR-freq.png> <./fig/magnoise/noise-freq.png>] [61 <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise-field.png>] <fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=1145, 1896.08376pt x 1422.31375pt>
+ [60 <./fig/magnoise/magnoise2D.png> <./fig/magnoise/STFMR-freq.png> <./fig/magnoise/noise-freq.png>] [61 <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise-field.png>] <fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=1153, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 91.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=1146, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=1154, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-P-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-P-STATE.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-P-STATE.png used on input line 92.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
  [62
 
- <./fig/in-plane/S6-B3-R6-C13-AP-STATE.png> <./fig/in-plane/S6-B3-R6-C13-P-STATE.png>] <fig/in-plane/ap-dc.png, id=1158, 1896.08376pt x 1422.31375pt>
+ <./fig/in-plane/S6-B3-R6-C13-AP-STATE.png> <./fig/in-plane/S6-B3-R6-C13-P-STATE.png>] <fig/in-plane/ap-dc.png, id=1165, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/ap-dc.png Graphic file (type png)
  <use fig/in-plane/ap-dc.png>
 Package pdftex.def Info: fig/in-plane/ap-dc.png used on input line 101.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/p-dc.png, id=1159, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/p-dc.png, id=1166, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/p-dc.png Graphic file (type png)
  <use fig/in-plane/p-dc.png>
 Package pdftex.def Info: fig/in-plane/p-dc.png used on input line 102.
@@ -1023,7 +1023,7 @@ File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input line 111.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- <fig/in-plane/S6-B3-R6-C13-inplane.png, id=1162, 1896.08376pt x 1422.31375pt>
+ <fig/in-plane/S6-B3-R6-C13-inplane.png, id=1169, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-inplane.png Graphic file (type png)
  <use fig/in-plane/S6-B3-R6-C13-inplane.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-inplane.png used on input line 112.
@@ -1037,12 +1037,12 @@ Chapter 6.
 
 
 
-] <fig/WER_setup.PNG, id=1190, 682.80093pt x 335.75438pt>
+] <fig/WER_setup.PNG, id=1198, 682.80093pt x 335.75438pt>
 File: fig/WER_setup.PNG Graphic file (type png)
  <use fig/WER_setup.PNG>
 Package pdftex.def Info: fig/WER_setup.PNG used on input line 13.
 (pdftex.def)             Requested size: 469.75502pt x 230.9945pt.
- <fig/pulse.PNG, id=1192, 449.42906pt x 338.76563pt>
+ <fig/pulse.PNG, id=1200, 449.42906pt x 338.76563pt>
 File: fig/pulse.PNG Graphic file (type png)
  <use fig/pulse.PNG>
 Package pdftex.def Info: fig/pulse.PNG used on input line 23.
@@ -1058,7 +1058,7 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [68 <./fig/pulse.PNG>] [69] [70] [71] <fig/mr.png, id=1224, 1896.08376pt x 1422.31375pt>
+ [68 <./fig/pulse.PNG>] [69] [70] [71] <fig/mr.png, id=1231, 1896.08376pt x 1422.31375pt>
 File: fig/mr.png Graphic file (type png)
  <use fig/mr.png>
 Package pdftex.def Info: fig/mr.png used on input line 101.
@@ -1066,7 +1066,7 @@ Package pdftex.def Info: fig/mr.png used on input line 101.
  [72 <./fig/mr.png
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mr.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <fig/wer_1.png, id=1237, 1896.08376pt x 1422.31375pt>
+>] <fig/wer_1.png, id=1245, 1896.08376pt x 1422.31375pt>
 File: fig/wer_1.png Graphic file (type png)
  <use fig/wer_1.png>
 Package pdftex.def Info: fig/wer_1.png used on input line 112.
@@ -1083,99 +1083,99 @@ Chapter 7.
 
 
 
-] <fig/2018/C07MR.png, id=1270, 436.9926pt x 327.624pt>
+] <fig/2018/C07MR.png, id=1277, 436.9926pt x 327.624pt>
 File: fig/2018/C07MR.png Graphic file (type png)
  <use fig/2018/C07MR.png>
 Package pdftex.def Info: fig/2018/C07MR.png used on input line 11.
 (pdftex.def)             Requested size: 213.39566pt x 159.98724pt.
- <fig/2018/C07FH.png, id=1271, 445.665pt x 334.3692pt>
+ <fig/2018/C07FH.png, id=1278, 445.665pt x 334.3692pt>
 File: fig/2018/C07FH.png Graphic file (type png)
  <use fig/2018/C07FH.png>
 Package pdftex.def Info: fig/2018/C07FH.png used on input line 12.
 (pdftex.def)             Requested size: 213.39566pt x 160.10252pt.
- [76 <./fig/2018/C07MR.png> <./fig/2018/C07FH.png>] <fig/2018/C07fit.png, id=1283, 344.9688pt x 359.4228pt>
+ [76 <./fig/2018/C07MR.png> <./fig/2018/C07FH.png>] <fig/2018/C07fit.png, id=1291, 344.9688pt x 359.4228pt>
 File: fig/2018/C07fit.png Graphic file (type png)
  <use fig/2018/C07fit.png>
 Package pdftex.def Info: fig/2018/C07fit.png used on input line 20.
 (pdftex.def)             Requested size: 281.85587pt x 293.68657pt.
- [77 <./fig/2018/C07fit.png>] [78] <fig/2018/C10MR.png, id=1299, 327.624pt x 246.1998pt>
+ [77 <./fig/2018/C07fit.png>] [78] <fig/2018/C10MR.png, id=1307, 327.624pt x 246.1998pt>
 File: fig/2018/C10MR.png Graphic file (type png)
  <use fig/2018/C10MR.png>
 Package pdftex.def Info: fig/2018/C10MR.png used on input line 47.
 (pdftex.def)             Requested size: 142.26378pt x 106.9082pt.
- <fig/2018/C10RDC.png, id=1300, 318.4698pt x 238.9728pt>
+ <fig/2018/C10RDC.png, id=1308, 318.4698pt x 238.9728pt>
 File: fig/2018/C10RDC.png Graphic file (type png)
  <use fig/2018/C10RDC.png>
 Package pdftex.def Info: fig/2018/C10RDC.png used on input line 48.
 (pdftex.def)             Requested size: 142.26378pt x 106.74913pt.
- <fig/2018/C102D.png, id=1301, 330.5148pt x 248.127pt>
+ <fig/2018/C102D.png, id=1309, 330.5148pt x 248.127pt>
 File: fig/2018/C102D.png Graphic file (type png)
  <use fig/2018/C102D.png>
 Package pdftex.def Info: fig/2018/C102D.png used on input line 49.
 (pdftex.def)             Requested size: 142.26378pt x 106.8023pt.
  [79
 
- <./fig/2018/C10MR.png> <./fig/2018/C10RDC.png> <./fig/2018/C102D.png>] <fig/2018/C10fit.png, id=1317, 297.7524pt x 241.8636pt>
+ <./fig/2018/C10MR.png> <./fig/2018/C10RDC.png> <./fig/2018/C102D.png>] <fig/2018/C10fit.png, id=1324, 297.7524pt x 241.8636pt>
 File: fig/2018/C10fit.png Graphic file (type png)
  <use fig/2018/C10fit.png>
 Package pdftex.def Info: fig/2018/C10fit.png used on input line 57.
 (pdftex.def)             Requested size: 142.26378pt x 115.55807pt.
- <fig/2018/C10signal.png, id=1318, 327.624pt x 245.718pt>
+ <fig/2018/C10signal.png, id=1325, 327.624pt x 245.718pt>
 File: fig/2018/C10signal.png Graphic file (type png)
  <use fig/2018/C10signal.png>
 Package pdftex.def Info: fig/2018/C10signal.png used on input line 58.
 (pdftex.def)             Requested size: 142.26378pt x 106.69899pt.
- <fig/2018/C10ratio.png, id=1319, 330.033pt x 247.6452pt>
+ <fig/2018/C10ratio.png, id=1326, 330.033pt x 247.6452pt>
 File: fig/2018/C10ratio.png Graphic file (type png)
  <use fig/2018/C10ratio.png>
 Package pdftex.def Info: fig/2018/C10ratio.png used on input line 59.
 (pdftex.def)             Requested size: 142.26378pt x 106.74986pt.
- <fig/2018/C10power.png, id=1324, 461.5644pt x 345.9324pt>
+ <fig/2018/C10power.png, id=1331, 461.5644pt x 345.9324pt>
 File: fig/2018/C10power.png Graphic file (type png)
  <use fig/2018/C10power.png>
 Package pdftex.def Info: fig/2018/C10power.png used on input line 67.
 (pdftex.def)             Requested size: 213.39566pt x 159.93317pt.
- <fig/2018/C10powersignal.png, id=1325, 424.4658pt x 332.9238pt>
+ <fig/2018/C10powersignal.png, id=1332, 424.4658pt x 332.9238pt>
 File: fig/2018/C10powersignal.png Graphic file (type png)
  <use fig/2018/C10powersignal.png>
 Package pdftex.def Info: fig/2018/C10powersignal.png used on input line 68.
 (pdftex.def)             Requested size: 213.39566pt x 167.37589pt.
- [80 <./fig/2018/C10fit.png> <./fig/2018/C10signal.png> <./fig/2018/C10ratio.png>] <fig/2018/C10powerFH.png, id=1341, 452.4102pt x 339.1872pt>
+ [80 <./fig/2018/C10fit.png> <./fig/2018/C10signal.png> <./fig/2018/C10ratio.png>] <fig/2018/C10powerFH.png, id=1348, 452.4102pt x 339.1872pt>
 File: fig/2018/C10powerFH.png Graphic file (type png)
  <use fig/2018/C10powerFH.png>
 Package pdftex.def Info: fig/2018/C10powerFH.png used on input line 77.
 (pdftex.def)             Requested size: 213.39566pt x 159.98732pt.
- <fig/2018/C10powerLW.png, id=1342, 423.984pt x 317.988pt>
+ <fig/2018/C10powerLW.png, id=1349, 423.984pt x 317.988pt>
 File: fig/2018/C10powerLW.png Graphic file (type png)
  <use fig/2018/C10powerLW.png>
 Package pdftex.def Info: fig/2018/C10powerLW.png used on input line 78.
 (pdftex.def)             Requested size: 213.39566pt x 160.05136pt.
- [81 <./fig/2018/C10power.png> <./fig/2018/C10powersignal.png> <./fig/2018/C10powerFH.png> <./fig/2018/C10powerLW.png>] <fig/2018/C10DC.png, id=1359, 423.984pt x 317.988pt>
+ [81 <./fig/2018/C10power.png> <./fig/2018/C10powersignal.png> <./fig/2018/C10powerFH.png> <./fig/2018/C10powerLW.png>] <fig/2018/C10DC.png, id=1366, 423.984pt x 317.988pt>
 File: fig/2018/C10DC.png Graphic file (type png)
  <use fig/2018/C10DC.png>
 Package pdftex.def Info: fig/2018/C10DC.png used on input line 86.
 (pdftex.def)             Requested size: 213.39566pt x 160.05136pt.
- <fig/2018/C10DCsignal.png, id=1360, 388.8126pt x 291.489pt>
+ <fig/2018/C10DCsignal.png, id=1367, 388.8126pt x 291.489pt>
 File: fig/2018/C10DCsignal.png Graphic file (type png)
  <use fig/2018/C10DCsignal.png>
 Package pdftex.def Info: fig/2018/C10DCsignal.png used on input line 87.
 (pdftex.def)             Requested size: 213.39566pt x 159.98586pt.
- <fig/2018/C10DCFIT.png, id=1363, 493.3632pt x 370.5042pt>
+ <fig/2018/C10DCFIT.png, id=1370, 493.3632pt x 370.5042pt>
 File: fig/2018/C10DCFIT.png Graphic file (type png)
  <use fig/2018/C10DCFIT.png>
 Package pdftex.def Info: fig/2018/C10DCFIT.png used on input line 95.
 (pdftex.def)             Requested size: 281.85587pt x 211.67012pt.
- <fig/2018/demo.png, id=1365, 172.0026pt x 150.8034pt>
+ <fig/2018/demo.png, id=1372, 172.0026pt x 150.8034pt>
 File: fig/2018/demo.png Graphic file (type png)
  <use fig/2018/demo.png>
 Package pdftex.def Info: fig/2018/demo.png used on input line 104.
 (pdftex.def)             Requested size: 187.89914pt x 164.7406pt.
- [82 <./fig/2018/C10DC.png> <./fig/2018/C10DCsignal.png>] [83 <./fig/2018/C10DCFIT.png> <./fig/2018/demo.png>] <fig/2018/C10DC-FH.png, id=1381, 370.0224pt x 277.5168pt>
+ [82 <./fig/2018/C10DC.png> <./fig/2018/C10DCsignal.png>] [83 <./fig/2018/C10DCFIT.png> <./fig/2018/demo.png>] <fig/2018/C10DC-FH.png, id=1388, 370.0224pt x 277.5168pt>
 File: fig/2018/C10DC-FH.png Graphic file (type png)
  <use fig/2018/C10DC-FH.png>
 Package pdftex.def Info: fig/2018/C10DC-FH.png used on input line 124.
 (pdftex.def)             Requested size: 213.39566pt x 160.04518pt.
- <fig/2018/C10DC-LW.png, id=1382, 393.1488pt x 294.8616pt>
+ <fig/2018/C10DC-LW.png, id=1389, 393.1488pt x 294.8616pt>
 File: fig/2018/C10DC-LW.png Graphic file (type png)
 
 <use fig/2018/C10DC-LW.png>
@@ -1186,105 +1186,105 @@ Overfull \hbox (3.391pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 Before we end this sec-tion, we can also fit the spin-wave modes un-der fi-nite dc bias. Fig.[]7.10(a)[]
  []
 
-[84 <./fig/2018/C10DC-FH.png> <./fig/2018/C10DC-LW.png>] [85] <fig/2018/ModevsSize.png, id=1399, 459.1554pt x 344.487pt>
+[84 <./fig/2018/C10DC-FH.png> <./fig/2018/C10DC-LW.png>] [85] <fig/2018/ModevsSize.png, id=1407, 459.1554pt x 344.487pt>
 File: fig/2018/ModevsSize.png Graphic file (type png)
  <use fig/2018/ModevsSize.png>
 Package pdftex.def Info: fig/2018/ModevsSize.png used on input line 148.
 (pdftex.def)             Requested size: 281.85587pt x 211.47714pt.
- <fig/2018/GapvsSize.png, id=1401, 476.5002pt x 357.9774pt>
-File: fig/2018/GapvsSize.png Graphic file (type png)
- <use fig/2018/GapvsSize.png>
-Package pdftex.def Info: fig/2018/GapvsSize.png used on input line 176.
-(pdftex.def)             Requested size: 213.39566pt x 160.31815pt.
- <fig/2018/LinearFit.png, id=1402, 506.8536pt x 380.1402pt>
-File: fig/2018/LinearFit.png Graphic file (type png)
- <use fig/2018/LinearFit.png>
-Package pdftex.def Info: fig/2018/LinearFit.png used on input line 177.
-(pdftex.def)             Requested size: 213.39566pt x 160.04642pt.
  [86
 
- <./fig/2018/ModevsSize.png>] [87 <./fig/2018/GapvsSize.png> <./fig/2018/LinearFit.png>] <fig/2018/simulated.png, id=1418, 502.9992pt x 317.0244pt>
+ <./fig/2018/ModevsSize.png>] <fig/2018/GapvsSize.png, id=1418, 476.5002pt x 357.9774pt>
+File: fig/2018/GapvsSize.png Graphic file (type png)
+ <use fig/2018/GapvsSize.png>
+Package pdftex.def Info: fig/2018/GapvsSize.png used on input line 173.
+(pdftex.def)             Requested size: 213.39566pt x 160.31815pt.
+ <fig/2018/LinearFit.png, id=1419, 506.8536pt x 380.1402pt>
+File: fig/2018/LinearFit.png Graphic file (type png)
+ <use fig/2018/LinearFit.png>
+Package pdftex.def Info: fig/2018/LinearFit.png used on input line 174.
+(pdftex.def)             Requested size: 213.39566pt x 160.04642pt.
+ [87 <./fig/2018/GapvsSize.png> <./fig/2018/LinearFit.png>] [88] <fig/2018/simulated.png, id=1439, 502.9992pt x 317.0244pt>
 File: fig/2018/simulated.png Graphic file (type png)
  <use fig/2018/simulated.png>
-Package pdftex.def Info: fig/2018/simulated.png used on input line 189.
+Package pdftex.def Info: fig/2018/simulated.png used on input line 195.
 (pdftex.def)             Requested size: 375.80544pt x 236.86795pt.
- <fig/2018/sim/70_70.png, id=1419, 419.166pt x 314.6154pt>
+ <fig/2018/sim/70_70.png, id=1440, 419.166pt x 314.6154pt>
 File: fig/2018/sim/70_70.png Graphic file (type png)
  <use fig/2018/sim/70_70.png>
-Package pdftex.def Info: fig/2018/sim/70_70.png used on input line 202.
+Package pdftex.def Info: fig/2018/sim/70_70.png used on input line 208.
 (pdftex.def)             Requested size: 142.26378pt x 106.7806pt.
- <fig/2018/sim/ellipse.png, id=1420, 370.0224pt x 277.9986pt>
+ <fig/2018/sim/ellipse.png, id=1441, 370.0224pt x 277.9986pt>
 File: fig/2018/sim/ellipse.png Graphic file (type png)
  <use fig/2018/sim/ellipse.png>
-Package pdftex.def Info: fig/2018/sim/ellipse.png used on input line 203.
+Package pdftex.def Info: fig/2018/sim/ellipse.png used on input line 209.
 (pdftex.def)             Requested size: 142.26378pt x 106.88344pt.
- <fig/2018/sim/split.png, id=1421, 384.4764pt x 151.767pt>
+ <fig/2018/sim/split.png, id=1442, 384.4764pt x 151.767pt>
 File: fig/2018/sim/split.png Graphic file (type png)
  <use fig/2018/sim/split.png>
-Package pdftex.def Info: fig/2018/sim/split.png used on input line 204.
+Package pdftex.def Info: fig/2018/sim/split.png used on input line 210.
 (pdftex.def)             Requested size: 142.26378pt x 56.15753pt.
- <fig/2018/sim/55sim.png, id=1422, 509.7444pt x 382.5492pt>
+ <fig/2018/sim/55sim.png, id=1443, 509.7444pt x 382.5492pt>
 File: fig/2018/sim/55sim.png Graphic file (type png)
  <use fig/2018/sim/55sim.png>
-Package pdftex.def Info: fig/2018/sim/55sim.png used on input line 229.
+Package pdftex.def Info: fig/2018/sim/55sim.png used on input line 235.
 (pdftex.def)             Requested size: 375.80544pt x 282.04294pt.
- <fig/2018/sim/65sim.png, id=1423, 309.3156pt x 232.2276pt>
+ <fig/2018/sim/65sim.png, id=1444, 309.3156pt x 232.2276pt>
 File: fig/2018/sim/65sim.png Graphic file (type png)
  <use fig/2018/sim/65sim.png>
-Package pdftex.def Info: fig/2018/sim/65sim.png used on input line 239.
+Package pdftex.def Info: fig/2018/sim/65sim.png used on input line 245.
 (pdftex.def)             Requested size: 170.71652pt x 128.1685pt.
- <fig/2018/sim/75sim.png, id=1424, 326.1786pt x 244.2726pt>
+ <fig/2018/sim/75sim.png, id=1445, 326.1786pt x 244.2726pt>
 File: fig/2018/sim/75sim.png Graphic file (type png)
  <use fig/2018/sim/75sim.png>
-Package pdftex.def Info: fig/2018/sim/75sim.png used on input line 240.
+Package pdftex.def Info: fig/2018/sim/75sim.png used on input line 246.
 (pdftex.def)             Requested size: 170.71652pt x 127.84993pt.
- <fig/2018/sim/105sim.png, id=1425, 331.9602pt x 248.6088pt>
+ <fig/2018/sim/105sim.png, id=1446, 331.9602pt x 248.6088pt>
 File: fig/2018/sim/105sim.png Graphic file (type png)
  <use fig/2018/sim/105sim.png>
-Package pdftex.def Info: fig/2018/sim/105sim.png used on input line 241.
+Package pdftex.def Info: fig/2018/sim/105sim.png used on input line 247.
 (pdftex.def)             Requested size: 170.71652pt x 127.85097pt.
- <fig/2018/sim/135sim.png, id=1426, 323.2878pt x 242.8272pt>
+ <fig/2018/sim/135sim.png, id=1447, 323.2878pt x 242.8272pt>
 File: fig/2018/sim/135sim.png Graphic file (type png)
  <use fig/2018/sim/135sim.png>
-Package pdftex.def Info: fig/2018/sim/135sim.png used on input line 242.
+Package pdftex.def Info: fig/2018/sim/135sim.png used on input line 248.
 (pdftex.def)             Requested size: 170.71652pt x 128.22723pt.
- <fig/2018/sim/circular_summary.png, id=1427, 495.2904pt x 371.4678pt>
+ <fig/2018/sim/circular_summary.png, id=1448, 495.2904pt x 371.4678pt>
 File: fig/2018/sim/circular_summary.png Graphic file (type png)
  <use fig/2018/sim/circular_summary.png>
-Package pdftex.def Info: fig/2018/sim/circular_summary.png used on input line 252.
+Package pdftex.def Info: fig/2018/sim/circular_summary.png used on input line 258.
 (pdftex.def)             Requested size: 281.85587pt x 211.39308pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 258.
+               Default added (so using `tbp') on input line 264.
 
 
-Overfull \hbox (25.95337pt too wide) in paragraph at lines 260--269
+Overfull \hbox (25.95337pt too wide) in paragraph at lines 266--275
  [][] 
  []
 
-<fig/2018/sim/free_only_circular.png, id=1428, 544.9158pt x 409.0482pt>
+<fig/2018/sim/free_only_circular.png, id=1449, 544.9158pt x 409.0482pt>
 File: fig/2018/sim/free_only_circular.png Graphic file (type png)
  <use fig/2018/sim/free_only_circular.png>
-Package pdftex.def Info: fig/2018/sim/free_only_circular.png used on input line 276.
+Package pdftex.def Info: fig/2018/sim/free_only_circular.png used on input line 282.
 (pdftex.def)             Requested size: 281.85587pt x 211.57655pt.
-) [88
+) [89
 
- <./fig/2018/simulated.png> <./fig/2018/sim/70_70.png> <./fig/2018/sim/ellipse.png> <./fig/2018/sim/split.png>] [89 <./fig/2018/sim/55sim.png>] [90 <./fig/2018/sim/65sim.png> <./fig/2018/sim/75sim.png> <./fig/2018/sim/105sim.png> <./fig/2018/sim/135sim.png> <./fig/2018/sim/circular_summary.png>] [91 <./fig/2018/sim/free_only_circular.png>] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.bbl [92
+ <./fig/2018/simulated.png> <./fig/2018/sim/70_70.png> <./fig/2018/sim/ellipse.png> <./fig/2018/sim/split.png>] [90 <./fig/2018/sim/55sim.png>] [91 <./fig/2018/sim/65sim.png> <./fig/2018/sim/75sim.png> <./fig/2018/sim/105sim.png> <./fig/2018/sim/135sim.png> <./fig/2018/sim/circular_summary.png>] [92 <./fig/2018/sim/free_only_circular.png>] (/Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.bbl [93
 
 
 
-] [93]
+] [94]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ß in font cmr12!
- [94]
+ [95]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [95]
+ [96]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
-) [96]
+) [97]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -1298,7 +1298,7 @@ Overfull \hbox (58.7856pt too wide) in paragraph at lines 41--50
  [][] 
  []
 
-[97
+[98
 
 
 ]
@@ -1333,7 +1333,7 @@ Overfull \hbox (70.5302pt too wide) in paragraph at lines 111--120
  [][] 
  []
 
-) [98] [99]
+) [99] [100]
 
 Package caption Warning: Unused \captionsetup[figure] on input line 126.
 See the caption package documentation for explanation.
@@ -1355,18 +1355,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 9362 strings out of 494437
- 144872 string characters out of 6166645
- 261148 words of memory out of 5000000
- 12026 multiletter control sequences out of 15000+600000
+ 9369 strings out of 494437
+ 144973 string characters out of 6166645
+ 262355 words of memory out of 5000000
+ 12029 multiletter control sequences out of 15000+600000
  11983 words of font info for 42 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  36i,13n,41p,1902b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.pdf (111 pages, 12745041 bytes).
+Output written on /Users/Sakamoto/Desktop/Ph_D_2018/.texpadtmp/main.pdf (113 pages, 12749437 bytes).
 PDF statistics:
- 1631 PDF objects out of 1728 (max. 8388607)
- 1286 compressed objects within 13 object streams
- 396 named destinations out of 1000 (max. 500000)
+ 1654 PDF objects out of 1728 (max. 8388607)
+ 1306 compressed objects within 14 object streams
+ 400 named destinations out of 1000 (max. 500000)
  849 words of extra memory for PDF output out of 10000 (max. 10000000)
 

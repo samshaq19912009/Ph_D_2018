@@ -129,45 +129,50 @@ Before we end this section, we can also fit the spin-wave modes under finite dc 
 
 
 
-\section{Summary of Circular Devices}
+\section{Summary of Circular Devices: Experimental Data}
 
-
+Now we would like to summarize the experimental data of circular devices with different diameters. As we have demonstrated in Fig.\ref{fig:C07FH}, the signature of the spin wave modes excited in these devices are one lowest quasi-uniform main mode(Mode 0) with two split higher-order modes(Mode 1 Mode 2). For each dimension, we can measure over ten devices to obtain mode statistics. The idea of measuring nominally identical devices is to reduce random sample-to-sample variations. For each measured device, we can list the frequencies of three spin-wave modes at zero magnetic field. These raw data can be found from the appendix. From the mode statistics we can extract the average mode frequency and standard deviations.
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.6\textwidth]{fig/2018/ModevsSize}
-   \caption{Mode vs Size}
+   \caption{Summary of main mode of all the three modes. The error bar indicates the standard deviations obtained from sample statistics.}
   \label{fig:ModeVsSize}
 \end{figure}
 
+The summary of main mode and standard deviations of all the three modes are plotted in Fig.\ref{fig:ModeVsSize}. As the device diameter goes up, the mode frequencies of three modes reduces due to shape anisotropy reduction.
 
+Now let us first focus on the main mode and plot it as a function of device diameter as shown in Fig.\ref{fig:GapvsSize}. The effective demagnetization factor is given by\cite{demagfactor}.
 
-The effective demagnetization factor is
 \begin{equation}\label{eq:Nz}
 	\centering
 	N_z \approx 1- \frac{1}{\pi d} [2 \ln(4 \frac{d}{t} ) -1 ]
 \end{equation}
 
-where the d is the device diameter and t is the free layer thickness. Eq.\ref{eq:Nz}
-
-The total perpendicular anisotropy $H_ku$ can be written as 
+where the d is the device diameter and t is the free layer thickness. From Eq.\ref{eq:Nz} and the fact that $N_x + N_y + N_z = 1$, the total perpendicular anisotropy $H_{ku}$ can be written as\cite{Kittel}
 
 \begin{equation}\label{eq:Hk}
 	\centering
 	H_k = H_{ku} + 2 \pi (1 - 3 N_z) M_s
 \end{equation}
 
-Assuming the free layer thickness 1.6 nm, the fitted result  $M_s  1820 emu/cm^3$ and  $H_{ku}$  24 KOe.
-
-
+Assuming the free layer thickness 1.6 nm, the fitted result  $M_s \ 1820 \ \text{emu}/cm^3$ and  $H_{ku} \ 24 \ \text{KOe}$, which is comparably with other independent measured values.
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:GapvsSize}\includegraphics[width=75mm]{fig/2018/GapvsSize}}
 \subfigure{\label{fig:LinearFit}\includegraphics[width=75mm]{fig/2018/LinearFit}}
-\caption{}
+\caption{(a) Main mode frequency is plotted as a function of device diameter. (b) Mode Gap plotted as a function $1/d^2$ with d represents the diameter of the device.}
 \end{figure}
 
+
+
+Fig.\ref{fig:LinearFit} shows mode gap plotted as a function $1/d^2$ with d represents the diameter of the device. The mode gap between first two modes in a circular device can be modeled as
+\begin{equation}
+	\hbar (\omega_1 - \omega_0 ) = D (s/d)^2
+\end{equation}
+
+Here $\omega = 2\pi  f$ represents the frequency of the mode. D is the exchange stiffness which is related with exchange constant $Aex$ by $A_{ex} = \frac{D M_s}{2 g \mu_B} $. (g: g-factor. $M_s$ saturation magnetization. $\mu_B$ Bohr magneton). s is a numerical factor which is close to 3.68. By perform a linear fit of Fig.\ref{fig:LinearFit} we can obtain the $A_{ex}$ value of 8.9 pJ/m, which is reduced from the bulk value around 15 pJ/m.
 
 \clearpage
 
