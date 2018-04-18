@@ -34,9 +34,9 @@
 \contentsline {chapter}{\numberline {7}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{75}{chapter.171}
 \contentsline {section}{\numberline {7.1}Measurement of ST-FMR on nominal circular devices}{76}{section.172}
 \contentsline {section}{\numberline {7.2}Study of signal amplitude of ST-FMR signal}{79}{section.178}
-\contentsline {section}{\numberline {7.3}Summary of Circular Devices}{85}{section.201}
-\contentsline {section}{\numberline {7.4}Micromagnetic Simulations of the Mode Spacing}{87}{section.208}
-\contentsline {chapter}{Bibliography}{91}{section*.220}
-\contentsline {chapter}{\numberline {A}Appendix Title}{96}{appendix.222}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{96}{section.223}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{97}{section.224}
+\contentsline {section}{\numberline {7.3}Summary of Circular Devices}{86}{section.203}
+\contentsline {section}{\numberline {7.4}Micromagnetic Simulations of the Mode Spacing}{88}{section.210}
+\contentsline {chapter}{Bibliography}{92}{section*.222}
+\contentsline {chapter}{\numberline {A}Appendix Title}{97}{appendix.224}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{97}{section.225}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{98}{section.226}
