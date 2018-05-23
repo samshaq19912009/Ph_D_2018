@@ -25,7 +25,12 @@ We start with nominal circular devices with diameter ranging from 70 nm to 210 n
 Fig.\ref{fig:07fit} summarizes the mode fitting result for all the three modes we excited from this 80 nm device. The top panel shows the frequency versus resonance field for three lowest modes. We can see a linear relation between the driven frequency and the resonance field as predicted by the Kittel equation. The main mode at zero field is 9.83 GHz and the effective anisotropy field Hk around 3.4 kG. The bottom panel shows the HWHM linewidth versus resonance field for all the three modes. Quite surprisingly, linewidth does not have a strong field dependence from -3000 Oe to 500 Oe (and frequency change by nearly a factor of 4). In theory, the linewidth in the field domain should be given by
 \begin{equation}
 	\Delta H = \alpha  \frac{\omega}{\gamma} + \Delta H_0
-\end{equation}Here, $\Delta H$ is the field-domain HWHM linewidth. $\omega = 2 \pi f$ is the angular frequency. $\gamma / 2 \pi$ is the gyromagnetic ratio. Firstly, this non-linear relation reveals that the fundamental understanding of the large non-Gilbert contribution to the damping is lacking. Secondly, we find that the linewidth for this device is relatively small (around 35 Oe). If we use the zero-field linewidth as upper bound, we have an estimation of Gilbert damping around 0.01. So far we have demonstrated that by performing the ST-FMR measurements, we can determine the "resonance frequency" at zero magnetic field for all the modes excited in the experiment. The frequency of the main mode can be used to determine the effective anisotropy field and the mode spacings between the main mode and the higher order mode is related with the exchange stiffness of the free layer. Before we move to the exchange stiffness, let us first discuss the original of the ST-FMR signal in this perpendicular magnetized MTJs.
+\end{equation}
+Here, $\Delta H$ is the field-domain HWHM linewidth. $\omega = 2 \pi f$ is the angular frequency. $\gamma / 2 \pi$ is the gyromagnetic ratio. Firstly, this non-linear relation reveals that the fundamental understanding of the large non-Gilbert contribution to the damping is lacking. Secondly, we find that the linewidth for this device is relatively small (around 35 Oe). If we use the zero-field linewidth as upper bound, we have an estimation of Gilbert damping around 0.01. 
+
+
+So far we have demonstrated that by performing the ST-FMR measurements, we can determine the "resonance frequency" at zero magnetic field for all the modes excited in the experiment. The frequency of the main mode can be used to determine the effective anisotropy field and the mode spacings between the main mode and the higher order mode is related with the exchange stiffness of the free layer. Before we move to the exchange stiffness, let us first discuss the original of the ST-FMR signal in this perpendicular magnetized MTJs.
+
 
 
 
@@ -74,7 +79,8 @@ The applied power determines the rf voltage across the MTJs. Fig.\ref{fig:C10pow
 \caption{(a) The resonance Field versus rf voltage squared  for all the modes at 12 GHz. (b) The Mode 0 HWHM linewidth versus rf voltage squared.}
 \end{figure}
 
-Fig.\ref{fig:C10powerfit} shows the resonance Field versus rf voltage squared  for all the modes at 12 GHz and Fig.\ref{fig:C10powerLW} shows the Mode 0 HWHM linewidth versus rf voltage squared. The linewidth shows a linear dependence with zero rf voltage linewidth around 23 Oe. The linear relation of both resonance field and linewidth ensures that we keep the ST-FMR measurement at the linear region where there is no non-linear broadening of the signal. 
+Fig.\ref{fig:C10powerfit} shows the resonance Field versus rf voltage squared  for all the modes at 12 GHz and Fig.\ref{fig:C10powerLW} shows the Mode 0 HWHM linewidth versus rf voltage squared. The linewidth shows a linear dependence with zero rf voltage linewidth around 23 Oe. The linear relation of both resonance field and linewidth ensures that we keep the ST-FMR measurement at the linear region where there is no non-linear broadening of the signal.
+ 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:C10DC}\includegraphics[width=75mm]{fig/2018/C10DC}}
@@ -120,7 +126,11 @@ The first term is related with contributions from photo-voltage(related to recti
 \caption{(a) The resonance field versus bias for three modes. (b) Mode 0 HWHM linewidth versus applied dc bias.}
 \end{figure}
 
-Before we end this section, we can also fit the spin-wave modes under finite dc bias. Fig.\ref{fig:C10DCFH} shows the resonance field versus bias for three modes. The main mode has both linear and quadratic dependence. The quadratic dependence is harder to analyze since it is a mixed contribution from field-like torque and ohmic heating. The linear term is believed to relate with voltage-controlled magnetic anisotropy(VCMA). The linear slope gives VCMA 244 Oe/V, close to previously measured circular devices. Fig.\ref{fig:C10DCLW} shows Mode 0 HWHM linewidth versus applied bias. At positive voltage(damping), we find the linewidth increase as increasing voltage(as expected). At negative voltage(anti-damping),however, the linewidth unexpectedly increase with larger negative voltage. This is also a strong evidence of non-linear damping in this type of devices. One possible explanation is that, when approaching the switching region, the free layer has more fluctuations which contributes to the linewidth broadening.
+Before we end this section, we can also fit the spin-wave modes under finite dc bias. Fig.\ref{fig:C10DCFH} shows the resonance field versus bias for three modes. The main mode has both linear and quadratic dependence. The quadratic dependence is harder to analyze since it is a mixed contribution from field-like torque and ohmic heating. The linear term is believed to relate with voltage-controlled magnetic anisotropy(VCMA). The linear slope gives VCMA 244 Oe/V, close to previously measured circular devices. Fig.\ref{fig:C10DCLW} shows Mode 0 HWHM linewidth versus applied bias. At positive voltage(damping), we find the linewidth increase as increasing voltage(as expected). At negative voltage(anti-damping),however, the linewidth unexpectedly increase with larger negative voltage. This is also a strong evidence of non-linear damping in this type of devices. One possible explanation is that, when approaching the switching region, the free layer has more fluctuations which contributes to the linewidth broadening.
+
+
+
+
 
 
 
@@ -162,7 +172,8 @@ Assuming the free layer thickness 1.6 nm, the fitted result  $M_s \ 1820 \ \text
 \centering
 \subfigure{\label{fig:GapvsSize}\includegraphics[width=75mm]{fig/2018/GapvsSize}}
 \subfigure{\label{fig:LinearFit}\includegraphics[width=75mm]{fig/2018/LinearFit}}
-\caption{(a) Main mode frequency is plotted as a function of device diameter. (b) Mode Gap plotted as a function $1/d^2$ with d represents the diameter of the device.}
+\caption{(a) Main mode frequency is plotted as a function of 
+device diameter. (b) Mode Gap plotted as a function $1/d^2$ with d represents the diameter of the device.}
 \end{figure}
 
 
@@ -179,6 +190,7 @@ Here $\omega = 2\pi  f$ represents the frequency of the mode. D is the exchange 
 
 \section{Micromagnetic Simulations of the Mode Spacing}
 
+After we obtained reliable experimental data, we can use Micromagnetic simulation to determine the exchange stiffness based on the mode spacings.
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.8\textwidth]{fig/2018/simulated}
