@@ -190,28 +190,26 @@ Here $\omega = 2\pi  f$ represents the frequency of the mode. D is the exchange 
 
 \section{Micromagnetic Simulations of the Mode Spacing}
 
-After we obtained reliable experimental data, we can use Micromagnetic simulation to determine the exchange stiffness based on the mode spacings.
+After we obtained reliable experimental data, we can use Micromagnetic simulation to determine the exchange stiffness based on the mode spacings. Fig.\ref{fig:simulated} shows the simulated Magnetic Tunnel Junctions(MTJs) with magnetization and thickness for each active layer. The free layer and SAF top layer magnetization are obtained from independent measurement results and the SAF Bottom layer magnetization is determined by simulating the magnetization versus external magnetic field curve so that the center of the magnetization curve is close to zero. This is because of the balanced SAF layer dipolar field confirmed by the experiment.
+
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.8\textwidth]{fig/2018/simulated}
-   \caption{Simulated MTJ System}
+   \caption{Simulated MTJs structures. The magnetization and thickness parameters are listed for each magnetic layer.}
   \label{fig:simulated}
 \end{figure}
 
-
-
-Used parameter $ A_ex  12 pJ/m $
-$ K_u 10.5*105 J/m^3$
-
+In the micromagnetic simulations, we use the perpendicular magnetic anisotropy to fit for the frequencies of the main mode. The mode gap is ideally determined only by the exchange stiffness. Fig.\ref{fig:7070} shows a typical simulated spectrum for 70 nm diameter circular devices with the magnet anisotropy $10.5*10^5 J/m^3$ and the exchange stiffness $ A_{ex} \; 12 \; pJ/m $. The mode profiles of these two modes are listed around the spectrum peak. The main mode has uniform amplitude with small variations around the edges. The first higher-order mode has a node at the center of the circle. As we identified previously, the nominal circular devices have common shape distortions so that the actual size is not perfectly circular. In the next step of the simulations, we introduce such shape distortions to make a ellipse MTJ device. Fig.\ref{fig:ellipse} shows the simulated spectrum of ellipse devices with different degree of symmetry breaking. As we vary the shape distortion, the frequency of the main mode does not change too much, and the first order higher mode splits into two modes(mode 1 and 2). As the ellipticity increases, the frequency of the lower mode 1 decreases while the frequency of the higher mode 2 increases. Fig.\ref{fig:shape} shows the splitting of the first order mode(with node in the center) into two separate modes with nodes along the long and short axis of the ellipse.
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:7070}\includegraphics[width=50mm]{fig/2018/sim/70_70}}
 \subfigure{\label{fig:ellipse}\includegraphics[width=50mm]{fig/2018/sim/ellipse}}
 \subfigure{\label{fig:shape}\includegraphics[width=50mm]{fig/2018/sim/split}}
-\caption{}
+\caption{(a) Simulated 70 nm diameter spectrum with mode profiles showing around the peak. (b) Simulated spectrum with different elliptical shapes. (c) The mode profile splitting of the first higher order mode into two modes in the ellipse with nodes along short and long axis.}
 \end{figure}
 
+As we mentioned previously, the mode spacings between the main mode and the first higher order mode are ideally determined by the exchange stiffness. The question we need to answer now is how we define the mode spacing with shape distortions. Table.\ref{shapedist} summarizes the simulated mode frequencies with different geometries and comparisons with the experimental data. As we can see from the table, as we increase the ellipticity, the mode gap (1+2)-0, which is defined as the average of mode 1 and mode 2 minus the mode 0, is nearly constant.
 
 
 \begin{table}[ht!]
@@ -226,9 +224,11 @@ $ K_u 10.5*105 J/m^3$
 \textbf{Gap 2-1} & 0 & 0.44 & 1.14 & 1.68 & 0.66 \\ \hline
 \textbf{Aspect ratio} & 1 & 1.15 & 1.41 & 1.63 &  \\ \hline
 \end{tabular}
-\caption{Shape distortion}
+\caption{The simulated mode frequencies with different geometries and comparisons with the experimental data. All the numbers are in GHz unit.}
 \label{shapedist}
 \end{table}
+
+Now we can summarize the procedure of the mode spacing fitting for these nominal circular devices. We will use the average of mode 1 and 2 from the experiment to fit for the mode spacings between the simulated mode 1 and 0 in circular device spectrum. It should be noted that the shape distortions can be random across the devices and the actual shape of each device can be different. This will create unavoidable uncertainty in the exchange stiffness fitting.
 
 
 \begin{figure}[!ht]
@@ -237,6 +237,9 @@ $ K_u 10.5*105 J/m^3$
    \caption{55 simulated}
   \label{fig:55sim}
 \end{figure}
+
+Before we move to detailed micromagnetic simulations, we need to consider the actual size of the MTJs. In the MTJ fabrication process, we find that the diameter of the MTJs in this batch is typically 14.4 nm smaller than the listed diameter. For nominal 70 nm devices, the input diameter is 55 nm(an integer number of micromagnetic cell size). The top of Fig.\ref{fig:55sim} shows the simulated 55 nm frequencies of the main mode and first higher order mode as a function of input exchange stiffness. 
+
 
 
 
