@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {7.2}Study of signal amplitude of ST-FMR signal}{80}{section.178}
 \contentsline {section}{\numberline {7.3}Summary of Circular Devices: Experimental Data}{87}{section.203}
 \contentsline {section}{\numberline {7.4}Micromagnetic Simulations of the Mode Spacing}{90}{section.211}
-\contentsline {chapter}{\numberline {A}Appendix Title}{95}{appendix.224}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{95}{section.225}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{96}{section.226}
-\contentsline {chapter}{Bibliography}{95}{section*.223}
+\contentsline {chapter}{\numberline {A}Appendix Title}{96}{appendix.224}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{96}{section.225}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{97}{section.226}
+\contentsline {chapter}{Bibliography}{96}{section*.223}

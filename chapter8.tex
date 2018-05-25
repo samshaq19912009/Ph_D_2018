@@ -180,6 +180,7 @@ device diameter. (b) Mode Gap plotted as a function $1/d^2$ with d represents th
 
 Fig.\ref{fig:LinearFit} shows mode gap plotted as a function $1/d^2$ with d represents the diameter of the device. The mode gap between first two modes in a circular device can be modeled as
 \begin{equation}
+\label{eq:wave}
 	\hbar (\omega_1 - \omega_0 ) = D (s/d)^2
 \end{equation}
 
@@ -234,14 +235,11 @@ Now we can summarize the procedure of the mode spacing fitting for these nominal
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.8\textwidth]{fig/2018/sim/55sim}
-   \caption{55 simulated}
+   \caption{Top: Simulated mode frequencies for the first two modes excited in the 55 nm diameter circular devices as a function of the exchange constant. Bottom: The mode spacings as a function the exchange constant with linear fitting.}
   \label{fig:55sim}
 \end{figure}
 
-Before we move to detailed micromagnetic simulations, we need to consider the actual size of the MTJs. In the MTJ fabrication process, we find that the diameter of the MTJs in this batch is typically 14.4 nm smaller than the listed diameter. For nominal 70 nm devices, the input diameter is 55 nm(an integer number of micromagnetic cell size). The top of Fig.\ref{fig:55sim} shows the simulated 55 nm frequencies of the main mode and first higher order mode as a function of input exchange stiffness. 
-
-
-
+Before we move to detailed micromagnetic simulations, we need to consider the actual size of the MTJs. In the MTJ fabrication process, we find that the diameter of the MTJs in this batch is typically 14.4 nm smaller than the listed diameter. For nominal 70 nm devices, the input diameter is 55 nm(an integer number of micromagnetic cell size). The top of Fig.\ref{fig:55sim} shows the simulated 55 nm frequencies of the main mode and first higher order mode as a function of input exchange stiffness. The frequencies of the two modes are increasing linearly with the exchange stiffness. The bottom of Fig.\ref{fig:55sim} shows the mode spacings between the first two modes as a function of $A_{ex}$, which can be then fit by a line. The linear dependence of the mode spacings on the exchange stiffness is expected as we discussed in the Eq.\ref{eq:wave}. 
 
 \begin{table}[ht!]
 \centering
@@ -251,9 +249,11 @@ Before we move to detailed micromagnetic simulations, we need to consider the ac
       \addheight{\includegraphics[width=60mm]{fig/2018/sim/105sim}} &
       \addheight{\includegraphics[width=60mm]{fig/2018/sim/135sim}} \\
 \end{tabular}
-\caption{Circular Device Simulation Summary}
+\caption{Circular Device Simulation Summary. For different sizes, Both the frequencies of the two modes and the mode spacing are plotted against the exchange constant}
 \label{circularsummary}
 \end{table}
+
+Based on this linear relation, we can determine the best-fit exchange stiffness from the experimental value of mode spacings. Moreover, we can also obtain the standard deviations of the fitted exchange value based on the standard deviations of the mode spacings from the experiment. By varying the diameters of the devices, we can repeat this fitting procedure for different sizes as listed in the Table.\ref{circularsummary}. Typically we find that by varying the device diameter, the mode spacing has similar linear trend versus the exchange stiffness. The linear slope, however, is decreasing as the device diameter increases. Since the linear slope gives the sensitivity of the exchange stiffness fitting, the relatively larger devices mode spacings are less sensitive to the exchange, which introduces larger fitting variations as we will see.
 
 
 
