@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.31)  25 MAY 2018 10:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.31)  29 MAY 2018 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,7 +381,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@definition=\count127
 \c@example=\count128
 
-(./preliminaries.tex) (./main.aux (./chapter8.aux) (./appendix.aux))
+(./preliminaries.tex) (./main.aux (./chapter1.aux) (./chapter2.aux
+
+LaTeX Warning: Label `eq:MvsT' multiply defined.
+
+) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux)
+(./chapter8.aux) (./appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -498,35 +503,67 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ] [2
 
-] (./main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
+] (./main.toc
 [3
 
 
-] (./main.lof [4
-
-
 ])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [4] (./main.lof
+Overfull \hbox (4.15263pt too wide) in paragraph at lines 15--15
+ [][] [][]\OT1/cmr/m/n/12 (a) Fit-ted res-o-nance fre-quency plot-ted against e
+x-ter-nal mag-netic field (b)Fitted 
+ []
+
+[5
+
+
+]
+Overfull \hbox (10.50627pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/m/n/12 Loren-ti-zan curve. (b)Spatial pro-file of mode am-pli-tude(To
+p) and phase(Bottom) 
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[6]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (0.1096pt too wide) in paragraph at lines 40--40
+ [][] [][]\OT1/cmr/m/n/12 Switching events for dif-fer-ent in-di-vid-ual events
+.(a)(b)(c) show switch-ing events 
+ []
+
+
+Overfull \hbox (7.62521pt too wide) in paragraph at lines 49--49
+ [][] [][]\OT1/cmr/m/n/12 2D con-tour plot of ST-FMR spec-trum taken at AP stat
+e(left) and P state(right). 
+ []
+
+[7] [8])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5] (./main.lot)
+ [9] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [6
+ [10
 
 
-] [7
+] [11
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 97.
 
-[8
+[12
 
 
 ]
@@ -548,7 +585,7 @@ Chapter 2.
 Package natbib Warning: Citation `wiki:Ferromagnetism' on page 3 undefined on i
 nput line 5.
 
-<fig/Magnet.jpg, id=190, 471.7625pt x 481.8pt>
+<fig/Magnet.jpg, id=536, 471.7625pt x 481.8pt>
 File: fig/Magnet.jpg Graphic file (type jpg)
  <use fig/Magnet.jpg>
 Package pdftex.def Info: fig/Magnet.jpg used on input line 9.
@@ -579,13 +616,13 @@ Overfull \hbox (21.73346pt too wide) in paragraph at lines 18--19
 T1/cmr/m/n/12 ] refers to the change of re-sis-tance of a ferromagnetic/non-
  []
 
-[4] <fig/Fermi.PNG, id=204, 275.52937pt x 269.50688pt>
+[4] <fig/Fermi.PNG, id=545, 275.52937pt x 269.50688pt>
 File: fig/Fermi.PNG Graphic file (type png)
  <use fig/Fermi.PNG>
 Package pdftex.def Info: fig/Fermi.PNG used on input line 24.
 (pdftex.def)             Requested size: 275.52869pt x 269.50621pt.
 
-<fig/TMR.PNG, id=206, 660.21657pt x 268.75406pt>
+<fig/TMR.PNG, id=547, 660.21657pt x 268.75406pt>
 File: fig/TMR.PNG Graphic file (type png)
  <use fig/TMR.PNG>
 Package pdftex.def Info: fig/TMR.PNG used on input line 40.
@@ -595,16 +632,13 @@ Package pdftex.def Info: fig/TMR.PNG used on input line 40.
 Package natbib Warning: Citation `Mg0' on page 7 undefined on input line 67.
 
 
-LaTeX Warning: Reference `fig:electron' on page 7 undefined on input line 72.
-
-
 Package natbib Warning: Citation `STT' on page 7 undefined on input line 72.
 
 
 Package natbib Warning: Citation `Currenttorque' on page 7 undefined on input l
 ine 72.
 
-<fig/electron.png, id=222, 481.8pt x 566.115pt>
+<fig/electron.png, id=564, 481.8pt x 566.115pt>
 File: fig/electron.png Graphic file (type png)
  <use fig/electron.png>
 Package pdftex.def Info: fig/electron.png used on input line 76.
@@ -614,7 +648,7 @@ Package pdftex.def Info: fig/electron.png used on input line 76.
 
 Package natbib Warning: Citation `Bias' on page 9 undefined on input line 92.
 
-<fig/dampingtorque.PNG, id=235, 401.24907pt x 316.18124pt>
+<fig/dampingtorque.PNG, id=575, 401.24907pt x 316.18124pt>
 File: fig/dampingtorque.PNG Graphic file (type png)
 
 <use fig/dampingtorque.PNG>
@@ -634,12 +668,7 @@ line 108.
 Package natbib Warning: Citation `MTJConductance' on page 10 undefined on input
  line 125.
 
-[10]
-
-LaTeX Warning: Reference `eq:criticalV' on page 11 undefined on input line 140.
-
-
-[11] <fig/DC.PNG, id=263, 378.66469pt x 325.96782pt>
+[10] [11] <fig/DC.PNG, id=600, 378.66469pt x 325.96782pt>
 File: fig/DC.PNG Graphic file (type png)
  <use fig/DC.PNG>
 Package pdftex.def Info: fig/DC.PNG used on input line 151.
@@ -649,7 +678,7 @@ Package pdftex.def Info: fig/DC.PNG used on input line 151.
 Package natbib Warning: Citation `subswitch' on page 12 undefined on input line
  157.
 
-<fig/switching.PNG, id=264, 636.87938pt x 288.3272pt>
+<fig/switching.PNG, id=601, 636.87938pt x 288.3272pt>
 File: fig/switching.PNG Graphic file (type png)
  <use fig/switching.PNG>
 Package pdftex.def Info: fig/switching.PNG used on input line 162.
@@ -664,23 +693,7 @@ e 187.
 Package natbib Warning: Citation `Kittel' on page 14 undefined on input line 18
 7.
 
-
-LaTeX Warning: Reference `eq:Mmotion' on page 14 undefined on input line 202.
-
-
-LaTeX Warning: Reference `eq:Mmotion' on page 14 undefined on input line 202.
-
-[14]
-
-LaTeX Warning: Reference `eq:resonance' on page 15 undefined on input line 231.
-
-
-[15]
-
-LaTeX Warning: Reference `eq:resonance' on page 16 undefined on input line 261.
-
-
-[16]
+[14] [15] [16]
 
 Package natbib Warning: Citation `Sankey2006' on page 17 undefined on input lin
 e 269.
@@ -775,9 +788,6 @@ Package natbib Warning: Citation `Kittel' on page 19 undefined on input line 36
 
 [19]
 
-LaTeX Warning: Reference `eq:damping' on page 20 undefined on input line 44.
-
-
 Package natbib Warning: Citation `chris' on page 20 undefined on input line 49.
 
 
@@ -785,24 +795,21 @@ Package natbib Warning: Citation `chris' on page 20 undefined on input line 49.
 Package natbib Warning: Citation `dragging' on page 20 undefined on input line 
 49.
 
-
-LaTeX Warning: Reference `fig:Amp' on page 20 undefined on input line 49.
-
-[20] <fig/FieldMod/set_up.png, id=336, 622.4856pt x 348.3414pt>
+[20] <fig/FieldMod/set_up.png, id=674, 622.4856pt x 348.3414pt>
 File: fig/FieldMod/set_up.png Graphic file (type png)
 
 <use fig/FieldMod/set_up.png>
 Package pdftex.def Info: fig/FieldMod/set_up.png used on input line 55.
 (pdftex.def)             Requested size: 375.80544pt x 210.30338pt.
 
-<fig/FieldMod/AmpMod.png, id=337, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/AmpMod.png, id=675, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/AmpMod.png Graphic file (type png)
 
 <use fig/FieldMod/AmpMod.png>
 Package pdftex.def Info: fig/FieldMod/AmpMod.png used on input line 66.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
 
-<fig/FieldMod/FieldMod.png, id=338, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/FieldMod.png, id=676, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/FieldMod.png Graphic file (type png)
 
 <use fig/FieldMod/FieldMod.png>
@@ -813,25 +820,15 @@ Package pdftex.def Info: fig/FieldMod/FieldMod.png used on input line 67.
 Package natbib Warning: Citation `FieldMod' on page 21 undefined on input line 
 75.
 
-
-LaTeX Warning: Reference `fig:FMR_set_up' on page 21 undefined on input line 75
-.
-
-
-LaTeX Warning: Reference `fig:Field' on page 21 undefined on input line 75.
-
-
-LaTeX Warning: Reference `fig:Amp' on page 21 undefined on input line 75.
-
 [21 <./fig/FieldMod/set_up.png>]
-<fig/FieldMod/MR.png, id=345, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/MR.png, id=686, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/MR.png Graphic file (type png)
 
 <use fig/FieldMod/MR.png>
 Package pdftex.def Info: fig/FieldMod/MR.png used on input line 80.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
 
-<fig/FieldMod/Spectrum.png, id=346, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/Spectrum.png, id=687, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Spectrum.png Graphic file (type png)
 
 <use fig/FieldMod/Spectrum.png>
@@ -839,14 +836,8 @@ Package pdftex.def Info: fig/FieldMod/Spectrum.png used on input line 81.
 (pdftex.def)             Requested size: 199.16928pt x 207.80367pt.
 
 
-LaTeX Warning: Reference `fig:MR' on page 22 undefined on input line 86.
-
-
 Package natbib Warning: Citation `Spinflop' on page 22 undefined on input line 
 86.
-
-
-LaTeX Warning: Reference `fig:Spectrum' on page 22 undefined on input line 86.
 
 
 Overfull \hbox (24.49277pt too wide) in paragraph at lines 86--87
@@ -856,35 +847,28 @@ op(1.1)MgO(0.8)FreeLayer(2.4)
 
 [22 <./fig/FieldMod/AmpMod.png> <./fig/FieldMod/FieldMod.png>] [23 <./fig/Field
 Mod/MR.png> <./fig/FieldMod/Spectrum.png>]
-<fig/FieldMod/Res_Field.png, id=367, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/Res_Field.png, id=705, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Res_Field.png Graphic file (type png)
 
 <use fig/FieldMod/Res_Field.png>
 Package pdftex.def Info: fig/FieldMod/Res_Field.png used on input line 109.
 (pdftex.def)             Requested size: 213.39566pt x 222.64833pt.
 
-<fig/FieldMod/Original_LW.png, id=368, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/Original_LW.png, id=706, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/Original_LW.png Graphic file (type png)
 
 <use fig/FieldMod/Original_LW.png>
 Package pdftex.def Info: fig/FieldMod/Original_LW.png used on input line 110.
 (pdftex.def)             Requested size: 213.39566pt x 222.64833pt.
-
-
-LaTeX Warning: Reference `fig:Free' on page 24 undefined on input line 114.
-
-[24 <./fig/FieldMod/Res_Field.png> <./fig/FieldMod/Original_LW.png>]
+ [24 <./fig/FieldMod/Res_Field.png> <./fig/FieldMod/Original_LW.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-
-LaTeX Warning: Reference `fig:cable' on page 25 undefined on input line 120.
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-<fig/FieldMod/Improve-measure.png, id=379, 283.7802pt x 146.4672pt>
+<fig/FieldMod/Improve-measure.png, id=720, 283.7802pt x 146.4672pt>
 File: fig/FieldMod/Improve-measure.png Graphic file (type png)
 
 <use fig/FieldMod/Improve-measure.png>
@@ -897,38 +881,21 @@ Package natbib Warning: Citation `Bias' on page 25 undefined on input line 134.
 
 
 
-LaTeX Warning: Reference `fig:LW' on page 25 undefined on input line 134.
-
-
 Package natbib Warning: Citation `3-Magon' on page 25 undefined on input line 1
 34.
 
-[25]
-
-LaTeX Warning: Reference `fig:2D' on page 26 undefined on input line 136.
-
-<fig/FieldMod/contour.png, id=385, 1363.0925pt x 1422.31375pt>
+[25] <fig/FieldMod/contour.png, id=728, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/contour.png Graphic file (type png)
 
 <use fig/FieldMod/contour.png>
 Package pdftex.def Info: fig/FieldMod/contour.png used on input line 140.
 (pdftex.def)             Requested size: 375.80544pt x 392.12497pt.
-
-
-LaTeX Warning: Reference `fig:2D' on page 26 undefined on input line 147.
-
-[26 <./fig/FieldMod/Improve-measure.png>]
+ [26 <./fig/FieldMod/Improve-measure.png>]
 
 LaTeX Warning: Reference `fig:d' on page 27 undefined on input line 149.
 
-
-LaTeX Warning: Reference `fig:LW' on page 27 undefined on input line 149.
-
 [27 <./fig/FieldMod/contour.png>]
-
-LaTeX Warning: Reference `fig:LW_FIT' on page 28 undefined on input line 151.
-
-<fig/FieldMod/LW_PLOT.png, id=398, 1363.0925pt x 1422.31375pt>
+<fig/FieldMod/LW_PLOT.png, id=742, 1363.0925pt x 1422.31375pt>
 File: fig/FieldMod/LW_PLOT.png Graphic file (type png)
 
 <use fig/FieldMod/LW_PLOT.png>
@@ -947,10 +914,6 @@ Package natbib Warning: Citation `STFMR_1' on page 28 undefined on input line 1
 60.
 
 
-LaTeX Warning: Reference `eq:criticalV' on page 28 undefined on input line 160.
-
-
-
 Package natbib Warning: Citation `OOMMF' on page 28 undefined on input line 171
 .
 
@@ -958,7 +921,7 @@ Package natbib Warning: Citation `OOMMF' on page 28 undefined on input line 171
 Package natbib Warning: Citation `grain' on page 28 undefined on input line 171
 .
 
-[28] <fig/Time_oscillation.png, id=405, 1896.08376pt x 1422.31375pt>
+[28] <fig/Time_oscillation.png, id=748, 1896.08376pt x 1422.31375pt>
 File: fig/Time_oscillation.png Graphic file (type png)
 
 <use fig/Time_oscillation.png>
@@ -967,10 +930,6 @@ Package pdftex.def Info: fig/Time_oscillation.png used on input line 175.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:timeOscilation' on page 29 undefined on input lin
-e 180.
 
 
 LaTeX Warning: Reference `fig:Sim_spectrum' on page 29 undefined on input line 
@@ -985,7 +944,7 @@ Package natbib Warning: Citation `Ohno2010' on page 29 undefined on input line
 180.
 
 [29 <./fig/FieldMod/LW_PLOT.png>] [30 <./fig/Time_oscillation.png>]
-<fig/CW_sim/uniform_spectrum.png, id=418, 483.7272pt x 362.3136pt>
+<fig/CW_sim/uniform_spectrum.png, id=761, 483.7272pt x 362.3136pt>
 File: fig/CW_sim/uniform_spectrum.png Graphic file (type png)
 
 <use fig/CW_sim/uniform_spectrum.png>
@@ -993,53 +952,21 @@ Package pdftex.def Info: fig/CW_sim/uniform_spectrum.png used on input line 192
 .
 (pdftex.def)             Requested size: 199.16928pt x 149.17978pt.
 
-<fig/CW_sim/mode_profile_1.png, id=419, 446.6286pt x 397.485pt>
+<fig/CW_sim/mode_profile_1.png, id=762, 446.6286pt x 397.485pt>
 File: fig/CW_sim/mode_profile_1.png Graphic file (type png)
 
 <use fig/CW_sim/mode_profile_1.png>
 Package pdftex.def Info: fig/CW_sim/mode_profile_1.png used on input line 193.
 (pdftex.def)             Requested size: 199.16928pt x 177.25327pt.
-
-
-LaTeX Warning: Reference `fig:LW' on page 31 undefined on input line 198.
-
-
-LaTeX Warning: Reference `fig:uniform_lw' on page 31 undefined on input line 19
-8.
-
-[31 <./fig/CW_sim/uniform_spectrum.png> <./fig/CW_sim/mode_profile_1.png>]
-<fig/CW_sim/uniform_LW.png, id=430, 451.9284pt x 358.941pt>
+ [31 <./fig/CW_sim/uniform_spectrum.png> <./fig/CW_sim/mode_profile_1.png>]
+<fig/CW_sim/uniform_LW.png, id=774, 451.9284pt x 358.941pt>
 File: fig/CW_sim/uniform_LW.png Graphic file (type png)
 
 <use fig/CW_sim/uniform_LW.png>
 Package pdftex.def Info: fig/CW_sim/uniform_LW.png used on input line 201.
 (pdftex.def)             Requested size: 281.85587pt x 223.87201pt.
-
-
-LaTeX Warning: Reference `fig:random_spectrum' on page 32 undefined on input li
-ne 207.
-
-
-LaTeX Warning: Reference `fig:random_mode_profile' on page 32 undefined on inpu
-t line 207.
-
-
-LaTeX Warning: Reference `fig:uniform_mode_profile' on page 32 undefined on inp
-ut line 207.
-
-
-LaTeX Warning: Reference `fig:Hk_dist' on page 32 undefined on input line 207.
-
-
-LaTeX Warning: Reference `fig:CW_lw_summary' on page 32 undefined on input line
- 207.
-
-[32 <./fig/CW_sim/uniform_LW.png>]
-
-LaTeX Warning: Reference `fig:CW_lw_summary' on page 33 undefined on input line
- 212.
-
-<fig/CW_sim/random_spectrum.png, id=437, 478.9092pt x 359.4228pt>
+ [32 <./fig/CW_sim/uniform_LW.png>]
+<fig/CW_sim/random_spectrum.png, id=787, 478.9092pt x 359.4228pt>
 File: fig/CW_sim/random_spectrum.png Graphic file (type png)
 
 <use fig/CW_sim/random_spectrum.png>
@@ -1047,14 +974,14 @@ Package pdftex.def Info: fig/CW_sim/random_spectrum.png used on input line 216.
 
 (pdftex.def)             Requested size: 142.26378pt x 106.76918pt.
 
-<fig/CW_sim/mode_profile_2.png, id=438, 446.6286pt x 397.9668pt>
+<fig/CW_sim/mode_profile_2.png, id=788, 446.6286pt x 397.9668pt>
 File: fig/CW_sim/mode_profile_2.png Graphic file (type png)
 
 <use fig/CW_sim/mode_profile_2.png>
 Package pdftex.def Info: fig/CW_sim/mode_profile_2.png used on input line 217.
 (pdftex.def)             Requested size: 142.26378pt x 126.76294pt.
 
-<fig/CW_sim/Kudist.png, id=439, 405.6756pt x 179.2296pt>
+<fig/CW_sim/Kudist.png, id=789, 405.6756pt x 179.2296pt>
 File: fig/CW_sim/Kudist.png Graphic file (type png)
 
 <use fig/CW_sim/Kudist.png>
@@ -1072,7 +999,7 @@ ach with slightly dif-fer-ent anisotropy,
  []
 
 [33 <./fig/CW_sim/random_spectrum.png> <./fig/CW_sim/mode_profile_2.png> <./fig
-/CW_sim/Kudist.png>] <fig/CW_sim/LW_summary.png, id=452, 363.759pt x 289.08pt>
+/CW_sim/Kudist.png>] <fig/CW_sim/LW_summary.png, id=799, 363.759pt x 289.08pt>
 File: fig/CW_sim/LW_summary.png Graphic file (type png)
 
 <use fig/CW_sim/LW_summary.png>
@@ -1080,42 +1007,30 @@ Package pdftex.def Info: fig/CW_sim/LW_summary.png used on input line 229.
 (pdftex.def)             Requested size: 375.80544pt x 298.65997pt.
 
 
-LaTeX Warning: Reference `table:summary_LW' on page 34 undefined on input line 
-253.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./fig/CW_sim/LW_summary.png>] [35]
+[34 <./fig/CW_sim/LW_summary.png>]
 
-Package natbib Warning: Citation `OOMMF' on page 36 undefined on input line 257
+Package natbib Warning: Citation `OOMMF' on page 35 undefined on input line 257
 .
 
 
-Package natbib Warning: Citation `Modes' on page 36 undefined on input line 257
+Package natbib Warning: Citation `Modes' on page 35 undefined on input line 257
 .
 
-<fig/MR18.png, id=465, 445.1832pt x 343.5234pt>
+<fig/MR18.png, id=806, 445.1832pt x 343.5234pt>
 File: fig/MR18.png Graphic file (type png)
  <use fig/MR18.png>
 Package pdftex.def Info: fig/MR18.png used on input line 265.
 (pdftex.def)             Requested size: 213.39566pt x 164.66919pt.
 
-<fig/simulation.png, id=466, 388.3308pt x 292.4526pt>
+<fig/simulation.png, id=807, 388.3308pt x 292.4526pt>
 File: fig/simulation.png Graphic file (type png)
  <use fig/simulation.png>
 Package pdftex.def Info: fig/simulation.png used on input line 266.
 (pdftex.def)             Requested size: 213.39566pt x 160.70662pt.
 
-
-LaTeX Warning: Reference `fig:MR18' on page 36 undefined on input line 270.
-
-
-LaTeX Warning: Reference `fig:Simulation' on page 36 undefined on input line 27
-0.
-
-[36 <./fig/MR18.png> <./fig/simulation.png>]
-
-LaTeX Warning: Reference `fig:mode' on page 37 undefined on input line 272.
-
-<fig/Mode_pic.png, id=478, 623.931pt x 396.5214pt>
+[35] <fig/Mode_pic.png, id=818, 623.931pt x 396.5214pt>
 File: fig/Mode_pic.png Graphic file (type png)
  <use fig/Mode_pic.png>
 Package pdftex.def Info: fig/Mode_pic.png used on input line 280.
@@ -1127,72 +1042,35 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[37]
-
-LaTeX Warning: Reference `fig:edge_damage' on page 38 undefined on input line 2
-91.
-
-
-LaTeX Warning: Reference `fig:edge_ani' on page 38 undefined on input line 291.
-
-
-[38 <./fig/Mode_pic.png>]
-<fig/edge_damage.png, id=489, 438.9198pt x 338.2236pt>
+[36 <./fig/MR18.png> <./fig/simulation.png>] [37 <./fig/Mode_pic.png>]
+<fig/edge_damage.png, id=833, 438.9198pt x 338.2236pt>
 File: fig/edge_damage.png Graphic file (type png)
 
 <use fig/edge_damage.png>
 Package pdftex.def Info: fig/edge_damage.png used on input line 295.
 (pdftex.def)             Requested size: 227.62204pt x 175.40248pt.
- <fig/edge_ani.png, id=490, 542.5068pt x 417.7206pt>
+ <fig/edge_ani.png, id=834, 542.5068pt x 417.7206pt>
 File: fig/edge_ani.png Graphic file (type png)
 
 <use fig/edge_ani.png>
 Package pdftex.def Info: fig/edge_ani.png used on input line 296.
 (pdftex.def)             Requested size: 227.62204pt x 175.26299pt.
-
-
-LaTeX Warning: Reference `fig:edge_damage' on page 39 undefined on input line 3
-00.
-
-
-LaTeX Warning: Reference `fig:edge_damage' on page 39 undefined on input line 3
-00.
-
-
-LaTeX Warning: Reference `fig:edge_ani' on page 39 undefined on input line 300.
-
-
-[39 <./fig/edge_damage.png> <./fig/edge_ani.png>]
-
-LaTeX Warning: Reference `fig:circularmode' on page 40 undefined on input line 
-318.
-
-<fig/FieldMod/ap-p.png, id=500, 451.4466pt x 175.857pt>
+ [38 <./fig/edge_damage.png> <./fig/edge_ani.png>]
+[39] <fig/FieldMod/ap-p.png, id=852, 451.4466pt x 175.857pt>
 File: fig/FieldMod/ap-p.png Graphic file (type png)
 
 <use fig/FieldMod/ap-p.png>
 Package pdftex.def Info: fig/FieldMod/ap-p.png used on input line 322.
 (pdftex.def)             Requested size: 469.75502pt x 182.99161pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 
+
 Package natbib Warning: Citation `excitation2' on page 40 undefined on input li
 ne 327.
 
-
-LaTeX Warning: Reference `fig:circularmode' on page 40 undefined on input line 
-327.
-
-
-LaTeX Warning: Reference `fig:circularmode' on page 40 undefined on input line 
-327.
-
-[40] <fig/FieldMod/mode-profile.png, id=507, 860.9766pt x 285.7074pt>
+<fig/FieldMod/mode-profile.png, id=855, 860.9766pt x 285.7074pt>
 File: fig/FieldMod/mode-profile.png Graphic file (type png)
 
 <use fig/FieldMod/mode-profile.png>
@@ -1209,37 +1087,37 @@ Missing character: There is no ô in font cmr12!
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:stat1' on page 41 undefined on input line 337.
-
-
 Overfull \hbox (8.33029pt too wide) in paragraph at lines 337--338
 []\OT1/cmr/m/n/12 However, in our ex-per-i-men-tal data, we find the fre-quency
  of the sec-ond higher-order mode(label
  []
 
-[41 <./fig/FieldMod/ap-p.png>]
-<fig/broken/stastic-1.png, id=514, 496.254pt x 382.0674pt>
+[40 <./fig/FieldMod/ap-p.png>]
+<fig/broken/stastic-1.png, id=862, 496.254pt x 382.0674pt>
 File: fig/broken/stastic-1.png Graphic file (type png)
 
 <use fig/broken/stastic-1.png>
 Package pdftex.def Info: fig/broken/stastic-1.png used on input line 342.
 (pdftex.def)             Requested size: 227.62204pt x 175.24593pt.
 
-<fig/broken/stastic-2.png, id=515, 427.8384pt x 330.033pt>
+<fig/broken/stastic-2.png, id=863, 427.8384pt x 330.033pt>
 File: fig/broken/stastic-2.png Graphic file (type png)
 
 <use fig/broken/stastic-2.png>
 Package pdftex.def Info: fig/broken/stastic-2.png used on input line 343.
 (pdftex.def)             Requested size: 227.62204pt x 175.58643pt.
 
-<fig/broken/freq1-0.png, id=516, 460.6008pt x 355.0866pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/broken/freq1-0.png, id=864, 460.6008pt x 355.0866pt>
 File: fig/broken/freq1-0.png Graphic file (type png)
 
 <use fig/broken/freq1-0.png>
 Package pdftex.def Info: fig/broken/freq1-0.png used on input line 351.
 (pdftex.def)             Requested size: 227.62204pt x 175.47852pt.
 
-<fig/broken/freq2-0.png, id=517, 461.0826pt x 355.0866pt>
+<fig/broken/freq2-0.png, id=865, 461.0826pt x 355.0866pt>
 File: fig/broken/freq2-0.png Graphic file (type png)
 
 <use fig/broken/freq2-0.png>
@@ -1249,78 +1127,43 @@ Package pdftex.def Info: fig/broken/freq2-0.png used on input line 352.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:freq10' on page 42 undefined on input line 358.
-
-
-LaTeX Warning: Reference `fig:freq20' on page 42 undefined on input line 358.
-
-[42 <./fig/FieldMod/mode-profile.png> <./fig/broken/stastic-1.png> <./fig/broke
-n/stastic-2.png>]
-
-LaTeX Warning: Reference `fig:exp_spectrum' on page 43 undefined on input line 
-361.
-
-
-LaTeX Warning: Reference `fig:spectrum_60' on page 43 undefined on input line 3
-61.
-
-<fig/broken/exp_spectrum.png, id=529, 380.622pt x 292.9344pt>
+[41 <./fig/FieldMod/mode-profile.png>] [42 <./fig/broken/stastic-1.png> <./fig/
+broken/stastic-2.png> <./fig/broken/freq1-0.png> <./fig/broken/freq2-0.png>]
+<fig/broken/exp_spectrum.png, id=888, 380.622pt x 292.9344pt>
 File: fig/broken/exp_spectrum.png Graphic file (type png)
 
 <use fig/broken/exp_spectrum.png>
 Package pdftex.def Info: fig/broken/exp_spectrum.png used on input line 366.
 (pdftex.def)             Requested size: 227.62204pt x 175.18538pt.
 
-<fig/broken/spec_60nm.png, id=530, 397.0032pt x 297.7524pt>
+<fig/broken/spec_60nm.png, id=889, 397.0032pt x 297.7524pt>
 File: fig/broken/spec_60nm.png Graphic file (type png)
 
 <use fig/broken/spec_60nm.png>
 Package pdftex.def Info: fig/broken/spec_60nm.png used on input line 367.
 (pdftex.def)             Requested size: 227.62204pt x 170.7156pt.
- [43 <./fig/broken/freq1-0.png> <./fig/broken/freq2-0.png>]
-
-LaTeX Warning: Reference `fig:spectrum_68_52' on page 44 undefined on input lin
-e 372.
-
-
-LaTeX Warning: Reference `fig:spectrum_64_56' on page 44 undefined on input lin
-e 372.
-
-[44 <./fig/broken/exp_spectrum.png> <./fig/broken/spec_60nm.png>]
-<fig/broken/spec_64_56nm.png, id=549, 424.9476pt x 318.4698pt>
+ [43 <./fig/broken/exp_spectrum.png> <./fig/broken/spec_60nm.png>]
+<fig/broken/spec_64_56nm.png, id=900, 424.9476pt x 318.4698pt>
 File: fig/broken/spec_64_56nm.png Graphic file (type png)
 
 <use fig/broken/spec_64_56nm.png>
 Package pdftex.def Info: fig/broken/spec_64_56nm.png used on input line 376.
 (pdftex.def)             Requested size: 142.26378pt x 106.61636pt.
 
-<fig/broken/spec_68_52nm.png, id=550, 455.301pt x 341.5962pt>
+<fig/broken/spec_68_52nm.png, id=901, 455.301pt x 341.5962pt>
 File: fig/broken/spec_68_52nm.png Graphic file (type png)
 
 <use fig/broken/spec_68_52nm.png>
 Package pdftex.def Info: fig/broken/spec_68_52nm.png used on input line 377.
 (pdftex.def)             Requested size: 142.26378pt x 106.73291pt.
 
-<fig/broken/ecc.png, id=551, 440.3652pt x 339.669pt>
+<fig/broken/ecc.png, id=902, 440.3652pt x 339.669pt>
 File: fig/broken/ecc.png Graphic file (type png)
  <use fig/broken/ecc.png>
 Package pdftex.def Info: fig/broken/ecc.png used on input line 378.
 (pdftex.def)             Requested size: 142.26378pt x 109.73288pt.
 
-
-LaTeX Warning: Reference `fig:spectrum_64_56' on page 45 undefined on input lin
-e 383.
-
-
-LaTeX Warning: Reference `fig:exp_spectrum' on page 45 undefined on input line 
-383.
-
-
-LaTeX Warning: Reference `fig:eccentricity' on page 45 undefined on input line 
-383.
-
-<fig/broken/stastic-mode.png, id=552, 453.8556pt x 92.5056pt>
+<fig/broken/stastic-mode.png, id=906, 453.8556pt x 92.5056pt>
 File: fig/broken/stastic-mode.png Graphic file (type png)
 
 <use fig/broken/stastic-mode.png>
@@ -1332,57 +1175,35 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45 <./fig/broken/spec_64_56nm.png> <./fig/broken/spec_68_52nm.png> <./fig/brok
-en/ecc.png>] [46 <./fig/broken/stastic-mode.png>]
-
-LaTeX Warning: Reference `fig:WERSTFMR' on page 47 undefined on input line 410.
-
-
-<fig/FieldMod/FMR-WER.png, id=571, 260.172pt x 212.9556pt>
+ [44 <./fig/broken/spec_64_56nm.png> <./fig/broken/spec_68_52nm.png> <./fig/bro
+ken/ecc.png>] [45 <./fig/broken/stastic-mode.png>] <fig/FieldMod/FMR-WER.png, i
+d=923, 260.172pt x 212.9556pt>
 File: fig/FieldMod/FMR-WER.png Graphic file (type png)
 
 <use fig/FieldMod/FMR-WER.png>
 Package pdftex.def Info: fig/FieldMod/FMR-WER.png used on input line 414.
 (pdftex.def)             Requested size: 281.85587pt x 230.71648pt.
-) [47 <./fig/FieldMod/FMR-WER.png>] [48]
+) [46 <./fig/FieldMod/FMR-WER.png>] [47]
 \openout2 = `chapter4.aux'.
 
 
 (./chapter4.tex
 Chapter 4.
 
-Package natbib Warning: Citation `Cui' on page 49 undefined on input line 3.
+Package natbib Warning: Citation `Cui' on page 48 undefined on input line 3.
 
-
-LaTeX Warning: Reference `fig:time_set' on page 49 undefined on input line 6.
-
-<fig/time_set.png, id=583, 470.2368pt x 203.3196pt>
+<fig/time_set.png, id=934, 470.2368pt x 203.3196pt>
 File: fig/time_set.png Graphic file (type png)
  <use fig/time_set.png>
 Package pdftex.def Info: fig/time_set.png used on input line 10.
 (pdftex.def)             Requested size: 281.85587pt x 121.87169pt.
 
-[49
+[48
 
 
 
-]
-
-LaTeX Warning: Reference `orgi' on page 50 undefined on input line 22.
-
-[50 <./fig/time_set.png>]
-
-LaTeX Warning: Reference `deltaequ' on page 51 undefined on input line 28.
-
-
-LaTeX Warning: Reference `fig:time_domain' on page 51 undefined on input line 3
-0.
-
-<fig/time_domain.png, id=597, 638.385pt x 338.2236pt>
+] [49 <./fig/time_set.png>]
+<fig/time_domain.png, id=949, 638.385pt x 338.2236pt>
 File: fig/time_domain.png Graphic file (type png)
 
 <use fig/time_domain.png>
@@ -1392,84 +1213,52 @@ Package pdftex.def Info: fig/time_domain.png used on input line 34.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51]
-
-LaTeX Warning: Reference `fig:Total_sig' on page 52 undefined on input line 45.
-
-
-
-LaTeX Warning: Reference `fig:Total_sig' on page 52 undefined on input line 45.
-
-
-<fig/total_sig.png, id=603, 1896.08376pt x 1422.31375pt>
+[50] <fig/total_sig.png, id=957, 1896.08376pt x 1422.31375pt>
 File: fig/total_sig.png Graphic file (type png)
 
 <use fig/total_sig.png>
 Package pdftex.def Info: fig/total_sig.png used on input line 49.
 (pdftex.def)             Requested size: 375.80544pt x 281.89679pt.
- [52 <./fig/time_domain.png>]
-
-LaTeX Warning: Reference `fig:APtoP' on page 53 undefined on input line 55.
-
-
-LaTeX Warning: Reference `fig:diff' on page 53 undefined on input line 55.
-
-<fig/APtoP.png, id=612, 1896.08376pt x 1422.31375pt>
+ [51 <./fig/time_domain.png>]
+<fig/APtoP.png, id=965, 1896.08376pt x 1422.31375pt>
 File: fig/APtoP.png Graphic file (type png)
  <use fig/APtoP.png>
 Package pdftex.def Info: fig/APtoP.png used on input line 59.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
 
-<fig/diff.png, id=613, 1896.08376pt x 1422.31375pt>
+<fig/diff.png, id=966, 1896.08376pt x 1422.31375pt>
 File: fig/diff.png Graphic file (type png)
  <use fig/diff.png>
 Package pdftex.def Info: fig/diff.png used on input line 60.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
-
-
-LaTeX Warning: Reference `fig:26' on page 53 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:9' on page 53 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:no' on page 53 undefined on input line 64.
-
-[53 <./fig/total_sig.png
+ [52 <./fig/total_sig.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/total_sig.png): large interlaced 
 PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <fig/2_6.png, id=620, 1896.08376pt x 1422.31375pt>
+>] <fig/2_6.png, id=977, 1896.08376pt x 1422.31375pt>
 File: fig/2_6.png Graphic file (type png)
  <use fig/2_6.png>
 Package pdftex.def Info: fig/2_6.png used on input line 71.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
 
-<fig/6_7.png, id=621, 1896.08376pt x 1422.31375pt>
+<fig/6_7.png, id=978, 1896.08376pt x 1422.31375pt>
 File: fig/6_7.png Graphic file (type png)
  <use fig/6_7.png>
 Package pdftex.def Info: fig/6_7.png used on input line 72.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
 
-<fig/9.png, id=622, 1896.08376pt x 1422.31375pt>
+<fig/9.png, id=979, 1896.08376pt x 1422.31375pt>
 File: fig/9.png Graphic file (type png)
  <use fig/9.png>
 Package pdftex.def Info: fig/9.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
 
-<fig/no.png, id=623, 1896.08376pt x 1422.31375pt>
+<fig/no.png, id=980, 1896.08376pt x 1422.31375pt>
 File: fig/no.png Graphic file (type png)
  <use fig/no.png>
 Package pdftex.def Info: fig/no.png used on input line 74.
 (pdftex.def)             Requested size: 227.62204pt x 170.7354pt.
-
-
-LaTeX Warning: Reference `fig:dist' on page 54 undefined on input line 78.
-
-
-LaTeX Warning: Reference `fig:dist' on page 54 undefined on input line 78.
-
-[54 <./fig/APtoP.png
+ [53 <./fig/APtoP.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/APtoP.png): large interlaced PNG 
 might cause out of memory (use non-interlaced PNG to fix this)
@@ -1477,7 +1266,7 @@ might cause out of memory (use non-interlaced PNG to fix this)
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/diff.png): large interlaced PNG m
 ight cause out of memory (use non-interlaced PNG to fix this)
->] <fig/dist.png, id=634, 438.9198pt x 336.7782pt>
+>] <fig/dist.png, id=992, 438.9198pt x 336.7782pt>
 File: fig/dist.png Graphic file (type png)
  <use fig/dist.png>
 Package pdftex.def Info: fig/dist.png used on input line 84.
@@ -1486,10 +1275,7 @@ Package pdftex.def Info: fig/dist.png used on input line 84.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:dist' on page 55 undefined on input line 89.
-
-[55 <./fig/2_6.png
+[54 <./fig/2_6.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/2_6.png): large interlaced PNG mi
 ght cause out of memory (use non-interlaced PNG to fix this)
@@ -1505,144 +1291,90 @@ t cause out of memory (use non-interlaced PNG to fix this)
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/no.png): large interlaced PNG mig
 ht cause out of memory (use non-interlaced PNG to fix this)
->]) [56 <./fig/dist.png>]
+>]) [55 <./fig/dist.png>]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 Chapter 5.
 
-Package natbib Warning: Citation `MagnoisePRL' on page 57 undefined on input li
+Package natbib Warning: Citation `MagnoisePRL' on page 56 undefined on input li
 ne 13.
 
 
-Package natbib Warning: Citation `Magnoise' on page 57 undefined on input line 
+Package natbib Warning: Citation `Magnoise' on page 56 undefined on input line 
 13.
 
-
-LaTeX Warning: Reference `fig:magnoise-setup' on page 57 undefined on input lin
-e 16.
-
-<fig/magnoise/Picture1.png, id=654, 385.44pt x 244.7544pt>
+<fig/magnoise/Picture1.png, id=1011, 385.44pt x 244.7544pt>
 File: fig/magnoise/Picture1.png Graphic file (type png)
 
 <use fig/magnoise/Picture1.png>
 Package pdftex.def Info: fig/magnoise/Picture1.png used on input line 20.
 (pdftex.def)             Requested size: 281.85587pt x 178.97545pt.
- [57
+ [56
 
 
 
 ]
-<fig/magnoise/magnoise-data.png, id=662, 379.6584pt x 463.0098pt>
+<fig/magnoise/magnoise-data.png, id=1016, 379.6584pt x 463.0098pt>
 File: fig/magnoise/magnoise-data.png Graphic file (type png)
 
 <use fig/magnoise/magnoise-data.png>
 Package pdftex.def Info: fig/magnoise/magnoise-data.png used on input line 29.
 (pdftex.def)             Requested size: 281.85587pt x 343.73106pt.
-
-
-LaTeX Warning: Reference `fig:magnoisedata' on page 58 undefined on input line 
-35.
-
-
-LaTeX Warning: Reference `fig:magnoisedata' on page 58 undefined on input line 
-35.
-
-
-LaTeX Warning: Reference `fig:magnoisedata' on page 58 undefined on input line 
-35.
-
-
-LaTeX Warning: Reference `fig:magnoisedata' on page 58 undefined on input line 
-35.
-
-[58 <./fig/magnoise/Picture1.png>]
-
-LaTeX Warning: Reference `fig:noiseMR' on page 59 undefined on input line 38.
-
-
-LaTeX Warning: Reference `fig:noiseFMR2D' on page 59 undefined on input line 38
-.
-
-[59 <./fig/magnoise/magnoise-data.png>]
-<fig/magnoise/noiseMR.png, id=676, 353.1594pt x 264.99pt>
+ [57 <./fig/magnoise/Picture1.png>]
+[58 <./fig/magnoise/magnoise-data.png>]
+<fig/magnoise/noiseMR.png, id=1033, 353.1594pt x 264.99pt>
 File: fig/magnoise/noiseMR.png Graphic file (type png)
 
 <use fig/magnoise/noiseMR.png>
 Package pdftex.def Info: fig/magnoise/noiseMR.png used on input line 42.
 (pdftex.def)             Requested size: 213.39566pt x 160.1193pt.
 
-<fig/magnoise/noiseFMR2D.png, id=677, 385.44pt x 290.0436pt>
+<fig/magnoise/noiseFMR2D.png, id=1034, 385.44pt x 290.0436pt>
 File: fig/magnoise/noiseFMR2D.png Graphic file (type png)
 
 <use fig/magnoise/noiseFMR2D.png>
 Package pdftex.def Info: fig/magnoise/noiseFMR2D.png used on input line 43.
 (pdftex.def)             Requested size: 213.39566pt x 160.57777pt.
 
-
-LaTeX Warning: Reference `fig:magnoise-2D' on page 60 undefined on input line 4
-7.
-
-
-LaTeX Warning: Reference `fig:magnoise-2D' on page 60 undefined on input line 4
-7.
-
-
-LaTeX Warning: Reference `fig:magnoise-2D' on page 60 undefined on input line 4
-7.
-
-<fig/magnoise/magnoise2D.png, id=678, 650.43pt x 275.1078pt>
+<fig/magnoise/magnoise2D.png, id=1038, 650.43pt x 275.1078pt>
 File: fig/magnoise/magnoise2D.png Graphic file (type png)
 
 <use fig/magnoise/magnoise2D.png>
 Package pdftex.def Info: fig/magnoise/magnoise2D.png used on input line 51.
 (pdftex.def)             Requested size: 469.75502pt x 198.69453pt.
 
-
-LaTeX Warning: Reference `fig:FMRfreq' on page 60 undefined on input line 56.
-
-
-LaTeX Warning: Reference `fig:Noisefreq' on page 60 undefined on input line 56.
-
-
-<fig/magnoise/STFMR-freq.png, id=679, 345.4506pt x 258.7266pt>
+<fig/magnoise/STFMR-freq.png, id=1041, 345.4506pt x 258.7266pt>
 File: fig/magnoise/STFMR-freq.png Graphic file (type png)
 
 <use fig/magnoise/STFMR-freq.png>
 Package pdftex.def Info: fig/magnoise/STFMR-freq.png used on input line 60.
 (pdftex.def)             Requested size: 213.39566pt x 159.82848pt.
 
-<fig/magnoise/noise-freq.png, id=680, 369.0588pt x 277.035pt>
+<fig/magnoise/noise-freq.png, id=1042, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-freq.png Graphic file (type png)
 
 <use fig/magnoise/noise-freq.png>
 Package pdftex.def Info: fig/magnoise/noise-freq.png used on input line 61.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- [60 <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png>]
-<fig/magnoise/FMR-field.png, id=690, 353.6412pt x 264.99pt>
+ [59 <./fig/magnoise/noiseMR.png> <./fig/magnoise/noiseFMR2D.png>]
+<fig/magnoise/FMR-field.png, id=1053, 353.6412pt x 264.99pt>
 File: fig/magnoise/FMR-field.png Graphic file (type png)
 
 <use fig/magnoise/FMR-field.png>
 Package pdftex.def Info: fig/magnoise/FMR-field.png used on input line 70.
 (pdftex.def)             Requested size: 213.39566pt x 159.90498pt.
 
-<fig/magnoise/noise-field.png, id=691, 369.0588pt x 277.035pt>
+<fig/magnoise/noise-field.png, id=1054, 369.0588pt x 277.035pt>
 File: fig/magnoise/noise-field.png Graphic file (type png)
 
 <use fig/magnoise/noise-field.png>
 Package pdftex.def Info: fig/magnoise/noise-field.png used on input line 71.
 (pdftex.def)             Requested size: 213.39566pt x 160.19005pt.
- [61 <./fig/magnoise/magnoise2D.png> <./fig/magnoise/STFMR-freq.png> <./fig/mag
-noise/noise-freq.png>]
-
-LaTeX Warning: Reference `fig:FMRfield' on page 62 undefined on input line 76.
-
-
-LaTeX Warning: Reference `fig:Noisefield' on page 62 undefined on input line 76
-.
-
-[62 <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise-field.png>]
-<fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=712, 1896.08376pt x 1422.31375pt>
+ [60 <./fig/magnoise/magnoise2D.png> <./fig/magnoise/STFMR-freq.png> <./fig/mag
+noise/noise-freq.png>] [61 <./fig/magnoise/FMR-field.png> <./fig/magnoise/noise
+-field.png>]
+<fig/in-plane/S6-B3-R6-C13-AP-STATE.png, id=1073, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
 
 <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
@@ -1650,297 +1382,252 @@ Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input l
 ine 91.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
 
-<fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=713, 1896.08376pt x 1422.31375pt>
+<fig/in-plane/S6-B3-R6-C13-P-STATE.png, id=1074, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-P-STATE.png Graphic file (type png)
 
 <use fig/in-plane/S6-B3-R6-C13-P-STATE.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-P-STATE.png used on input li
 ne 92.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
-
-
-LaTeX Warning: Reference `fig:S6AP' on page 63 undefined on input line 96.
-
-
-LaTeX Warning: Reference `fig:S6P' on page 63 undefined on input line 96.
-
-[63
+ [62
 
  <./fig/in-plane/S6-B3-R6-C13-AP-STATE.png> <./fig/in-plane/S6-B3-R6-C13-P-STAT
-E.png>] <fig/in-plane/ap-dc.png, id=724, 1896.08376pt x 1422.31375pt>
+E.png>]
+<fig/in-plane/ap-dc.png, id=1085, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/ap-dc.png Graphic file (type png)
 
 <use fig/in-plane/ap-dc.png>
 Package pdftex.def Info: fig/in-plane/ap-dc.png used on input line 101.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
 
-<fig/in-plane/p-dc.png, id=725, 1896.08376pt x 1422.31375pt>
+<fig/in-plane/p-dc.png, id=1086, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/p-dc.png Graphic file (type png)
 
 <use fig/in-plane/p-dc.png>
 Package pdftex.def Info: fig/in-plane/p-dc.png used on input line 102.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
-
-
-LaTeX Warning: Reference `fig:S6APDC' on page 64 undefined on input line 106.
-
-
-LaTeX Warning: Reference `fig:S6PDC' on page 64 undefined on input line 106.
-
 File: fig/in-plane/S6-B3-R6-C13-AP-STATE.png Graphic file (type png)
-<use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
+ <use fig/in-plane/S6-B3-R6-C13-AP-STATE.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-AP-STATE.png used on input l
 ine 111.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
 
-<fig/in-plane/S6-B3-R6-C13-inplane.png, id=726, 1896.08376pt x 1422.31375pt>
+<fig/in-plane/S6-B3-R6-C13-inplane.png, id=1089, 1896.08376pt x 1422.31375pt>
 File: fig/in-plane/S6-B3-R6-C13-inplane.png Graphic file (type png)
 
 <use fig/in-plane/S6-B3-R6-C13-inplane.png>
 Package pdftex.def Info: fig/in-plane/S6-B3-R6-C13-inplane.png used on input li
 ne 112.
 (pdftex.def)             Requested size: 213.39566pt x 160.05765pt.
- [64]
-
-LaTeX Warning: Reference `fig:S6APIN' on page 65 undefined on input line 116.
-
-
-LaTeX Warning: Reference `fig:S6APOUT' on page 65 undefined on input line 116.
-
-[65 <./fig/in-plane/ap-dc.png> <./fig/in-plane/p-dc.png> <./fig/in-plane/S6-B3-
-R6-C13-inplane.png>]
-
-LaTeX Warning: Reference `table:APtoP' on page 66 undefined on input line 138.
-
-) [66]
+ [63] [64 <./fig/in-plane/ap-dc.png> <./fig/in-plane/p-dc.png> <./fig/in-plane/
+S6-B3-R6-C13-inplane.png>]) [65]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex
+
+(./chapter6.tex
 Chapter 6.
-[67
+[66
 
 
 
-]
-
-LaTeX Warning: Reference `fig:WER' on page 68 undefined on input line 9.
-
-<fig/WER_setup.PNG, id=755, 682.80093pt x 335.75438pt>
+] <fig/WER_setup.PNG, id=1118, 682.80093pt x 335.75438pt>
 File: fig/WER_setup.PNG Graphic file (type png)
- <use fig/WER_setup.PNG>
+
+<use fig/WER_setup.PNG>
 Package pdftex.def Info: fig/WER_setup.PNG used on input line 13.
 (pdftex.def)             Requested size: 469.75502pt x 230.9945pt.
-
-
-LaTeX Warning: Reference `fig:Pulse' on page 68 undefined on input line 19.
-
-<fig/pulse.PNG, id=756, 449.42906pt x 338.76563pt>
+ <fig/pulse.PNG, id=1120, 449.42906pt x 338.76563pt>
 File: fig/pulse.PNG Graphic file (type png)
- <use fig/pulse.PNG>
+
+<use fig/pulse.PNG>
 Package pdftex.def Info: fig/pulse.PNG used on input line 23.
 (pdftex.def)             Requested size: 234.8775pt x 177.04305pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68 <./fig/WER_setup.PNG>]
+[67 <./fig/WER_setup.PNG>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [69 <./fig/pulse.PNG>] [70]
+ [68 <./fig/pulse.PNG>] [69] [70] [71]
 
-LaTeX Warning: Reference `eq:2' on page 71 undefined on input line 75.
-
-[71] [72]
-
-Package natbib Warning: Citation `Sub' on page 73 undefined on input line 97.
+Package natbib Warning: Citation `Sub' on page 72 undefined on input line 97.
 
 
-Package natbib Warning: Citation `Sun1991' on page 73 undefined on input line 9
+Package natbib Warning: Citation `Sun1991' on page 72 undefined on input line 9
 7.
 
 
-Package natbib Warning: Citation `Back-hopping' on page 73 undefined on input l
+Package natbib Warning: Citation `Back-hopping' on page 72 undefined on input l
 ine 97.
 
 
-Package natbib Warning: Citation `High_bias' on page 73 undefined on input line
+Package natbib Warning: Citation `High_bias' on page 72 undefined on input line
  97.
 
 
-Package natbib Warning: Citation `BitError' on page 73 undefined on input line 
+Package natbib Warning: Citation `BitError' on page 72 undefined on input line 
 97.
 
-<fig/mr.png, id=785, 1896.08376pt x 1422.31375pt>
+<fig/mr.png, id=1147, 1896.08376pt x 1422.31375pt>
 File: fig/mr.png Graphic file (type png)
  <use fig/mr.png>
 Package pdftex.def Info: fig/mr.png used on input line 101.
 (pdftex.def)             Requested size: 234.8775pt x 176.18279pt.
-
-
-LaTeX Warning: Reference `fig:mr_wer' on page 73 undefined on input line 106.
-
-[73 <./fig/mr.png
+ [72 <./fig/mr.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/mr.png): large interlaced PNG mig
 ht cause out of memory (use non-interlaced PNG to fix this)
->]
-
-LaTeX Warning: Reference `fig:wer_1' on page 74 undefined on input line 108.
-
-<fig/wer_1.png, id=794, 1896.08376pt x 1422.31375pt>
+>] <fig/wer_1.png, id=1156, 1896.08376pt x 1422.31375pt>
 File: fig/wer_1.png Graphic file (type png)
  <use fig/wer_1.png>
 Package pdftex.def Info: fig/wer_1.png used on input line 112.
 (pdftex.def)             Requested size: 234.8775pt x 176.18279pt.
 
 
-Package natbib Warning: Citation `Back-hopping' on page 74 undefined on input l
+Package natbib Warning: Citation `Back-hopping' on page 73 undefined on input l
 ine 117.
 
 
-Package natbib Warning: Citation `Correlation' on page 74 undefined on input li
+Package natbib Warning: Citation `Correlation' on page 73 undefined on input li
 ne 119.
 
 
-Package natbib Warning: Citation `Para' on page 74 undefined on input line 119.
+Package natbib Warning: Citation `Para' on page 73 undefined on input line 119.
 
 
 
-Package natbib Warning: Citation `subswitch' on page 74 undefined on input line
+Package natbib Warning: Citation `subswitch' on page 73 undefined on input line
  119.
 
 
-Package natbib Warning: Citation `Sub' on page 74 undefined on input line 119.
+Package natbib Warning: Citation `Sub' on page 73 undefined on input line 119.
 
 
-Package natbib Warning: Citation `DMI' on page 74 undefined on input line 119.
+Package natbib Warning: Citation `DMI' on page 73 undefined on input line 119.
 
-[74 <./fig/wer_1.png
+[73 <./fig/wer_1.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/wer_1.png): large interlaced PNG 
 might cause out of memory (use non-interlaced PNG to fix this)
->]) [75]
+>]) [74]
 \openout2 = `chapter8.aux'.
 
  (./chapter8.tex
 Chapter 7.
 
-Package natbib Warning: Citation `FieldMod' on page 76 undefined on input line 
+Package natbib Warning: Citation `FieldMod' on page 75 undefined on input line 
 3.
 
 
-Package natbib Warning: Citation `thermalEx' on page 76 undefined on input line
+Package natbib Warning: Citation `thermalEx' on page 75 undefined on input line
  3.
 
 
-Package natbib Warning: Citation `noiseEx' on page 76 undefined on input line 3
+Package natbib Warning: Citation `noiseEx' on page 75 undefined on input line 3
 .
 
 
-Package natbib Warning: Citation `chris' on page 76 undefined on input line 3.
+Package natbib Warning: Citation `chris' on page 75 undefined on input line 3.
 
 
-Package natbib Warning: Citation `PMAEX' on page 76 undefined on input line 3.
+Package natbib Warning: Citation `PMAEX' on page 75 undefined on input line 3.
 
 
-Package natbib Warning: Citation `excitation2' on page 76 undefined on input li
+Package natbib Warning: Citation `excitation2' on page 75 undefined on input li
 ne 3.
 
-[76
+[75
 
 
 
-]
-
-LaTeX Warning: Reference `fig:FMR_set_up' on page 77 undefined on input line 7.
-
-
-<fig/2018/C07MR.png, id=811, 436.9926pt x 327.624pt>
+] <fig/2018/C07MR.png, id=1171, 436.9926pt x 327.624pt>
 File: fig/2018/C07MR.png Graphic file (type png)
- <use fig/2018/C07MR.png>
+
+<use fig/2018/C07MR.png>
 Package pdftex.def Info: fig/2018/C07MR.png used on input line 11.
 (pdftex.def)             Requested size: 213.39566pt x 159.98724pt.
-
-<fig/2018/C07FH.png, id=812, 445.665pt x 334.3692pt>
+ <fig/2018/C07FH.png, id=1172, 445.665pt x 334.3692pt>
 File: fig/2018/C07FH.png Graphic file (type png)
- <use fig/2018/C07FH.png>
+
+<use fig/2018/C07FH.png>
 Package pdftex.def Info: fig/2018/C07FH.png used on input line 12.
 (pdftex.def)             Requested size: 213.39566pt x 160.10252pt.
-
-[77 <./fig/2018/C07MR.png> <./fig/2018/C07FH.png>]
-<fig/2018/C07fit.png, id=825, 344.9688pt x 359.4228pt>
+ [76 <./fig/2018/C07MR.png> <./fig/2018/C07FH.png>]
+<fig/2018/C07fit.png, id=1183, 344.9688pt x 359.4228pt>
 File: fig/2018/C07fit.png Graphic file (type png)
 
 <use fig/2018/C07fit.png>
 Package pdftex.def Info: fig/2018/C07fit.png used on input line 20.
 (pdftex.def)             Requested size: 281.85587pt x 293.68657pt.
- [78 <./fig/2018/C07fit.png>] [79]
+ [77 <./fig/2018/C07fit.png>] [78]
 
-Package natbib Warning: Citation `chris' on page 80 undefined on input line 42.
+Package natbib Warning: Citation `chris' on page 79 undefined on input line 42.
 
 
 
-Package natbib Warning: Citation `Sankey2008' on page 80 undefined on input lin
+Package natbib Warning: Citation `Sankey2008' on page 79 undefined on input lin
 e 42.
 
 
-Package natbib Warning: Citation `Kubota2007' on page 80 undefined on input lin
+Package natbib Warning: Citation `Kubota2007' on page 79 undefined on input lin
 e 42.
 
-<fig/2018/C10MR.png, id=840, 327.624pt x 246.1998pt>
+<fig/2018/C10MR.png, id=1196, 327.624pt x 246.1998pt>
 File: fig/2018/C10MR.png Graphic file (type png)
  <use fig/2018/C10MR.png>
 Package pdftex.def Info: fig/2018/C10MR.png used on input line 47.
 (pdftex.def)             Requested size: 142.26378pt x 106.9082pt.
 
-<fig/2018/C10RDC.png, id=841, 318.4698pt x 238.9728pt>
+<fig/2018/C10RDC.png, id=1197, 318.4698pt x 238.9728pt>
 File: fig/2018/C10RDC.png Graphic file (type png)
 
 <use fig/2018/C10RDC.png>
 Package pdftex.def Info: fig/2018/C10RDC.png used on input line 48.
 (pdftex.def)             Requested size: 142.26378pt x 106.74913pt.
- <fig/2018/C102D.png, id=842, 330.5148pt x 248.127pt>
-File: fig/2018/C102D.png Graphic file (type png)
 
-<use fig/2018/C102D.png>
+<fig/2018/C102D.png, id=1198, 330.5148pt x 248.127pt>
+File: fig/2018/C102D.png Graphic file (type png)
+ <use fig/2018/C102D.png>
 Package pdftex.def Info: fig/2018/C102D.png used on input line 49.
 (pdftex.def)             Requested size: 142.26378pt x 106.8023pt.
- [80
 
- <./fig/2018/C10MR.png> <./fig/2018/C10RDC.png> <./fig/2018/C102D.png>] <fig/20
-18/C10fit.png, id=859, 297.7524pt x 241.8636pt>
+[79
+
+ <./fig/2018/C10MR.png> <./fig/2018/C10RDC.png> <./fig/2018/C102D.png>]
+<fig/2018/C10fit.png, id=1212, 297.7524pt x 241.8636pt>
 File: fig/2018/C10fit.png Graphic file (type png)
 
 <use fig/2018/C10fit.png>
 Package pdftex.def Info: fig/2018/C10fit.png used on input line 57.
 (pdftex.def)             Requested size: 142.26378pt x 115.55807pt.
 
-<fig/2018/C10signal.png, id=860, 327.624pt x 245.718pt>
+<fig/2018/C10signal.png, id=1213, 327.624pt x 245.718pt>
 File: fig/2018/C10signal.png Graphic file (type png)
 
 <use fig/2018/C10signal.png>
 Package pdftex.def Info: fig/2018/C10signal.png used on input line 58.
 (pdftex.def)             Requested size: 142.26378pt x 106.69899pt.
 
-<fig/2018/C10ratio.png, id=861, 330.033pt x 247.6452pt>
+<fig/2018/C10ratio.png, id=1214, 330.033pt x 247.6452pt>
 File: fig/2018/C10ratio.png Graphic file (type png)
 
 <use fig/2018/C10ratio.png>
 Package pdftex.def Info: fig/2018/C10ratio.png used on input line 59.
 (pdftex.def)             Requested size: 142.26378pt x 106.74986pt.
 
-<fig/2018/C10power.png, id=866, 461.5644pt x 345.9324pt>
+<fig/2018/C10power.png, id=1219, 461.5644pt x 345.9324pt>
 File: fig/2018/C10power.png Graphic file (type png)
 
 <use fig/2018/C10power.png>
 Package pdftex.def Info: fig/2018/C10power.png used on input line 67.
 (pdftex.def)             Requested size: 213.39566pt x 159.93317pt.
 
-<fig/2018/C10powersignal.png, id=867, 424.4658pt x 332.9238pt>
+<fig/2018/C10powersignal.png, id=1220, 424.4658pt x 332.9238pt>
 File: fig/2018/C10powersignal.png Graphic file (type png)
 
 <use fig/2018/C10powersignal.png>
@@ -1948,65 +1635,65 @@ Package pdftex.def Info: fig/2018/C10powersignal.png used on input line 68.
 (pdftex.def)             Requested size: 213.39566pt x 167.37589pt.
 
 
-Package natbib Warning: Citation `photovoltage1' on page 81 undefined on input 
+Package natbib Warning: Citation `photovoltage1' on page 80 undefined on input 
 line 72.
 
 
-Package natbib Warning: Citation `photovoltage2' on page 81 undefined on input 
+Package natbib Warning: Citation `photovoltage2' on page 80 undefined on input 
 line 72.
 
-[81 <./fig/2018/C10fit.png> <./fig/2018/C10signal.png> <./fig/2018/C10ratio.png
->] <fig/2018/C10powerFH.png, id=886, 452.4102pt x 339.1872pt>
+[80 <./fig/2018/C10fit.png> <./fig/2018/C10signal.png> <./fig/2018/C10ratio.png
+>] <fig/2018/C10powerFH.png, id=1234, 452.4102pt x 339.1872pt>
 File: fig/2018/C10powerFH.png Graphic file (type png)
 
 <use fig/2018/C10powerFH.png>
 Package pdftex.def Info: fig/2018/C10powerFH.png used on input line 77.
 (pdftex.def)             Requested size: 213.39566pt x 159.98732pt.
 
-<fig/2018/C10powerLW.png, id=887, 423.984pt x 317.988pt>
+<fig/2018/C10powerLW.png, id=1235, 423.984pt x 317.988pt>
 File: fig/2018/C10powerLW.png Graphic file (type png)
 
 <use fig/2018/C10powerLW.png>
 Package pdftex.def Info: fig/2018/C10powerLW.png used on input line 78.
 (pdftex.def)             Requested size: 213.39566pt x 160.05136pt.
- [82 <./fig/2018/C10power.png> <./fig/2018/C10powersignal.png> <./fig/2018/C10p
+ [81 <./fig/2018/C10power.png> <./fig/2018/C10powersignal.png> <./fig/2018/C10p
 owerFH.png> <./fig/2018/C10powerLW.png>]
-<fig/2018/C10DC.png, id=907, 423.984pt x 317.988pt>
+<fig/2018/C10DC.png, id=1250, 423.984pt x 317.988pt>
 File: fig/2018/C10DC.png Graphic file (type png)
  <use fig/2018/C10DC.png>
 Package pdftex.def Info: fig/2018/C10DC.png used on input line 86.
 (pdftex.def)             Requested size: 213.39566pt x 160.05136pt.
 
-<fig/2018/C10DCsignal.png, id=908, 388.8126pt x 291.489pt>
+<fig/2018/C10DCsignal.png, id=1251, 388.8126pt x 291.489pt>
 File: fig/2018/C10DCsignal.png Graphic file (type png)
 
 <use fig/2018/C10DCsignal.png>
 Package pdftex.def Info: fig/2018/C10DCsignal.png used on input line 87.
 (pdftex.def)             Requested size: 213.39566pt x 159.98586pt.
 
-<fig/2018/C10DCFIT.png, id=911, 493.3632pt x 370.5042pt>
+<fig/2018/C10DCFIT.png, id=1254, 493.3632pt x 370.5042pt>
 File: fig/2018/C10DCFIT.png Graphic file (type png)
 
 <use fig/2018/C10DCFIT.png>
 Package pdftex.def Info: fig/2018/C10DCFIT.png used on input line 95.
 (pdftex.def)             Requested size: 281.85587pt x 211.67012pt.
 
-<fig/2018/demo.png, id=913, 172.0026pt x 150.8034pt>
+<fig/2018/demo.png, id=1256, 172.0026pt x 150.8034pt>
 File: fig/2018/demo.png Graphic file (type png)
  <use fig/2018/demo.png>
 Package pdftex.def Info: fig/2018/demo.png used on input line 104.
 (pdftex.def)             Requested size: 187.89914pt x 164.7406pt.
 
-[83 <./fig/2018/C10DC.png> <./fig/2018/C10DCsignal.png>] [84 <./fig/2018/C10DCF
+[82 <./fig/2018/C10DC.png> <./fig/2018/C10DCsignal.png>] [83 <./fig/2018/C10DCF
 IT.png> <./fig/2018/demo.png>]
-<fig/2018/C10DC-FH.png, id=936, 370.0224pt x 277.5168pt>
+<fig/2018/C10DC-FH.png, id=1273, 370.0224pt x 277.5168pt>
 File: fig/2018/C10DC-FH.png Graphic file (type png)
 
 <use fig/2018/C10DC-FH.png>
 Package pdftex.def Info: fig/2018/C10DC-FH.png used on input line 124.
 (pdftex.def)             Requested size: 213.39566pt x 160.04518pt.
 
-<fig/2018/C10DC-LW.png, id=937, 393.1488pt x 294.8616pt>
+<fig/2018/C10DC-LW.png, id=1274, 393.1488pt x 294.8616pt>
 File: fig/2018/C10DC-LW.png Graphic file (type png)
 
 <use fig/2018/C10DC-LW.png>
@@ -2015,11 +1702,11 @@ Package pdftex.def Info: fig/2018/C10DC-LW.png used on input line 125.
 
 Overfull \hbox (3.391pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 Before we end this sec-tion, we can also fit the spin-wave mo
-des un-der fi-nite dc bias. Fig.[]1.10(a)[]
+des un-der fi-nite dc bias. Fig.[]7.10(a)[]
  []
 
-[85 <./fig/2018/C10DC-FH.png> <./fig/2018/C10DC-LW.png>] [86]
-<fig/2018/ModevsSize.png, id=957, 459.1554pt x 344.487pt>
+[84 <./fig/2018/C10DC-FH.png> <./fig/2018/C10DC-LW.png>] [85]
+<fig/2018/ModevsSize.png, id=1292, 459.1554pt x 344.487pt>
 File: fig/2018/ModevsSize.png Graphic file (type png)
 
 <use fig/2018/ModevsSize.png>
@@ -2027,123 +1714,123 @@ Package pdftex.def Info: fig/2018/ModevsSize.png used on input line 148.
 (pdftex.def)             Requested size: 281.85587pt x 211.47714pt.
 
 
-Package natbib Warning: Citation `demagfactor' on page 87 undefined on input li
+Package natbib Warning: Citation `demagfactor' on page 86 undefined on input li
 ne 155.
 
-[87
+[86
 
  <./fig/2018/ModevsSize.png>]
 
-Package natbib Warning: Citation `Kittel' on page 88 undefined on input line 16
+Package natbib Warning: Citation `Kittel' on page 87 undefined on input line 16
 2.
 
-<fig/2018/GapvsSize.png, id=969, 476.5002pt x 357.9774pt>
+<fig/2018/GapvsSize.png, id=1301, 476.5002pt x 357.9774pt>
 File: fig/2018/GapvsSize.png Graphic file (type png)
 
 <use fig/2018/GapvsSize.png>
 Package pdftex.def Info: fig/2018/GapvsSize.png used on input line 173.
 (pdftex.def)             Requested size: 213.39566pt x 160.31815pt.
 
-<fig/2018/LinearFit.png, id=970, 506.8536pt x 380.1402pt>
+<fig/2018/LinearFit.png, id=1302, 506.8536pt x 380.1402pt>
 File: fig/2018/LinearFit.png Graphic file (type png)
 
 <use fig/2018/LinearFit.png>
 Package pdftex.def Info: fig/2018/LinearFit.png used on input line 174.
 (pdftex.def)             Requested size: 213.39566pt x 160.04642pt.
- [88 <./fig/2018/GapvsSize.png> <./fig/2018/LinearFit.png>] [89] <fig/2018/simu
-lated.png, id=993, 502.9992pt x 317.0244pt>
+ [87 <./fig/2018/GapvsSize.png> <./fig/2018/LinearFit.png>] [88] <fig/2018/simu
+lated.png, id=1321, 502.9992pt x 317.0244pt>
 File: fig/2018/simulated.png Graphic file (type png)
 
 <use fig/2018/simulated.png>
 Package pdftex.def Info: fig/2018/simulated.png used on input line 198.
 (pdftex.def)             Requested size: 375.80544pt x 236.86795pt.
- [90
+ [89
 
  <./fig/2018/simulated.png>]
-<fig/2018/sim/70_70.png, id=1005, 419.166pt x 314.6154pt>
+<fig/2018/sim/70_70.png, id=1331, 419.166pt x 314.6154pt>
 File: fig/2018/sim/70_70.png Graphic file (type png)
 
 <use fig/2018/sim/70_70.png>
 Package pdftex.def Info: fig/2018/sim/70_70.png used on input line 207.
 (pdftex.def)             Requested size: 142.26378pt x 106.7806pt.
 
-<fig/2018/sim/ellipse.png, id=1006, 370.0224pt x 277.9986pt>
+<fig/2018/sim/ellipse.png, id=1332, 370.0224pt x 277.9986pt>
 File: fig/2018/sim/ellipse.png Graphic file (type png)
 
 <use fig/2018/sim/ellipse.png>
 Package pdftex.def Info: fig/2018/sim/ellipse.png used on input line 208.
 (pdftex.def)             Requested size: 142.26378pt x 106.88344pt.
 
-<fig/2018/sim/split.png, id=1007, 384.4764pt x 151.767pt>
+<fig/2018/sim/split.png, id=1333, 384.4764pt x 151.767pt>
 File: fig/2018/sim/split.png Graphic file (type png)
 
 <use fig/2018/sim/split.png>
 Package pdftex.def Info: fig/2018/sim/split.png used on input line 209.
 (pdftex.def)             Requested size: 142.26378pt x 56.15753pt.
- [91 <./fig/2018/sim/70_70.png> <./fig/2018/sim/ellipse.png> <./fig/2018/sim/sp
+ [90 <./fig/2018/sim/70_70.png> <./fig/2018/sim/ellipse.png> <./fig/2018/sim/sp
 lit.png>]
-<fig/2018/sim/55sim.png, id=1022, 509.7444pt x 382.5492pt>
+<fig/2018/sim/55sim.png, id=1345, 509.7444pt x 382.5492pt>
 File: fig/2018/sim/55sim.png Graphic file (type png)
 
 <use fig/2018/sim/55sim.png>
 Package pdftex.def Info: fig/2018/sim/55sim.png used on input line 237.
 (pdftex.def)             Requested size: 375.80544pt x 282.04294pt.
- [92 <./fig/2018/sim/55sim.png>]
-<fig/2018/sim/65sim.png, id=1033, 309.3156pt x 232.2276pt>
+ [91 <./fig/2018/sim/55sim.png>]
+<fig/2018/sim/65sim.png, id=1354, 309.3156pt x 232.2276pt>
 File: fig/2018/sim/65sim.png Graphic file (type png)
 
 <use fig/2018/sim/65sim.png>
 Package pdftex.def Info: fig/2018/sim/65sim.png used on input line 247.
 (pdftex.def)             Requested size: 170.71652pt x 128.1685pt.
 
-<fig/2018/sim/75sim.png, id=1034, 326.1786pt x 244.2726pt>
+<fig/2018/sim/75sim.png, id=1355, 326.1786pt x 244.2726pt>
 File: fig/2018/sim/75sim.png Graphic file (type png)
 
 <use fig/2018/sim/75sim.png>
 Package pdftex.def Info: fig/2018/sim/75sim.png used on input line 248.
 (pdftex.def)             Requested size: 170.71652pt x 127.84993pt.
 
-<fig/2018/sim/105sim.png, id=1035, 331.9602pt x 248.6088pt>
+<fig/2018/sim/105sim.png, id=1356, 331.9602pt x 248.6088pt>
 File: fig/2018/sim/105sim.png Graphic file (type png)
 
 <use fig/2018/sim/105sim.png>
 Package pdftex.def Info: fig/2018/sim/105sim.png used on input line 249.
 (pdftex.def)             Requested size: 170.71652pt x 127.85097pt.
 
-<fig/2018/sim/135sim.png, id=1036, 323.2878pt x 242.8272pt>
+<fig/2018/sim/135sim.png, id=1357, 323.2878pt x 242.8272pt>
 File: fig/2018/sim/135sim.png Graphic file (type png)
 
 <use fig/2018/sim/135sim.png>
 Package pdftex.def Info: fig/2018/sim/135sim.png used on input line 250.
 (pdftex.def)             Requested size: 170.71652pt x 128.22723pt.
- [93 <./fig/2018/sim/65sim.png> <./fig/2018/sim/75sim.png> <./fig/2018/sim/105s
+ [92 <./fig/2018/sim/65sim.png> <./fig/2018/sim/75sim.png> <./fig/2018/sim/105s
 im.png> <./fig/2018/sim/135sim.png>]
-<fig/2018/sim/circular_summary.png, id=1048, 495.2904pt x 371.4678pt>
+<fig/2018/sim/circular_summary.png, id=1367, 495.2904pt x 371.4678pt>
 File: fig/2018/sim/circular_summary.png Graphic file (type png)
 
 <use fig/2018/sim/circular_summary.png>
 Package pdftex.def Info: fig/2018/sim/circular_summary.png used on input line 2
-62.
+60.
 (pdftex.def)             Requested size: 281.85587pt x 211.39308pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 268.
+               Default added (so using `tbp') on input line 267.
 
 
-Overfull \hbox (25.95337pt too wide) in paragraph at lines 270--279
+Overfull \hbox (25.95337pt too wide) in paragraph at lines 269--278
  [][] 
  []
 
-<fig/2018/sim/free_only_circular.png, id=1049, 544.9158pt x 409.0482pt>
+<fig/2018/sim/free_only_circular.png, id=1370, 544.9158pt x 409.0482pt>
 File: fig/2018/sim/free_only_circular.png Graphic file (type png)
 
 <use fig/2018/sim/free_only_circular.png>
 Package pdftex.def Info: fig/2018/sim/free_only_circular.png used on input line
- 286.
+ 287.
 (pdftex.def)             Requested size: 281.85587pt x 211.57655pt.
-) [94 <./fig/2018/sim/circular_summary.png>] [95 <./fig/2018/sim/free_only_circ
-ular.png>]
+ [93 <./fig/2018/sim/circular_summary.png>] [94 <./fig/2018/sim/free_only_circu
+lar.png>]) [95]
 No file main.bbl.
 \openout2 = `appendix.aux'.
 
@@ -2209,184 +1896,41 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 (./chapter5.aux) (./chapter6.aux) (./chapter8.aux) (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ACED705270AE190F2D154A63CEB1FEB7;3105.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A3959B0DE5CADF89DE145F72C9B8A6D9;979
-(rerunfilecheck)             After:  ACED705270AE190F2D154A63CEB1FEB7;3105.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 9151 strings out of 495028
- 137988 string characters out of 6181497
- 239301 words of memory out of 5000000
- 11708 multiletter control sequences out of 15000+600000
+ 9155 strings out of 495028
+ 137977 string characters out of 6181497
+ 259464 words of memory out of 5000000
+ 11742 multiletter control sequences out of 15000+600000
  11636 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,13n,39p,1902b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.47} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.53} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.52} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.51} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.46} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.45} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.39} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.38} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.32} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.29} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.28} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.26} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.25} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.23} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.22} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.21} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.19} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.31} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.17} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.58} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.56} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.54} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.57} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.44} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.63} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.61} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.60} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.48} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.40} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.15} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (107 pages, 13125692 bytes).
+ 36i,13n,39p,1902b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+>
+Output written on main.pdf (111 pages, 13109939 bytes).
 PDF statistics:
- 1210 PDF objects out of 1440 (max. 8388607)
- 874 compressed objects within 9 object streams
- 385 named destinations out of 1000 (max. 500000)
- 625 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 1180 compressed objects within 12 object streams
+ 343 named destinations out of 1000 (max. 500000)
+ 849 words of extra memory for PDF output out of 10000 (max. 10000000)
 
