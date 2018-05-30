@@ -307,6 +307,11 @@ T.~Devolder, J.-V. Kim, L.~Nistor, R.~Sousa, B.~Rodmacq, and B.~Diény.
   layers determined using the spectroscopy of electrically excited spin waves.
 \newblock {\em Journal of Applied Physics}, 120(18):183902, 2016.
 
+\bibitem{demagfactor}
+M~Beleggia, M~De Graef, and Y~T Millev.
+\newblock The equivalent ellipsoid of a magnetized body.
+\newblock {\em Journal of Physics D: Applied Physics}, 39(5):891, 2006.
+
 \bibitem{Kubota2007}
 Hitoshi Kubota, Akio Fukushima, Kay Yakushiji, Taro Nagahama, Shinji Yuasa,
   Koji Ando, Hiroki Maehara, Yoshinori Nagamine, Koji Tsunekawa, David~D.
@@ -326,10 +331,5 @@ M.~Harder, Z.~X. Cao, Y.~S. Gui, X.~L. Fan, and C.-M. Hu.
 \newblock Analysis of the line shape of electrically detected ferromagnetic
   resonance.
 \newblock {\em Phys. Rev. B}, 84:054423, Aug 2011.
-
-\bibitem{demagfactor}
-M~Beleggia, M~De Graef, and Y~T Millev.
-\newblock The equivalent ellipsoid of a magnetized body.
-\newblock {\em Journal of Physics D: Applied Physics}, 39(5):891, 2006.
 
 \end{thebibliography}

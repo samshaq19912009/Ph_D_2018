@@ -37,108 +37,6 @@ So far we have demonstrated that by performing the ST-FMR measurements, we can d
 \clearpage
 
 
-\section{Study of signal amplitude of ST-FMR signal}
-
-While we have not discussed the origin of the ST-FMR signal in the perpendicular magnetized MTJs with magnetic field applied in the easy axis, the exact source of the signal is not very clear. In fact, in a ideal circular device with rotation symmetry, such arrangement should yield no DC self rectification since the spin transfer torque is zero with free layer pinned in the perpendicular direction. However, we can still detect a measurable signal out of this set-up. It is argued that there are local misalignments between the uniaxial anisotropy and applied magnetic field due to shape distortion\cite{chris}. It is also possible that the non-uniformity of spin-transfer torque from the tunnel current across the free layer and non-uniform  tunnel magnetoresistance (TMR) should contribute to the ST-FMR signal. Previous work has been done to quantitatively measure the spin-transfer-torque in the ST-FMR signal\cite{Sankey2008}\cite{Kubota2007} for the MTJs with in-plane easy axis. However, in our field-modulated ST-FMR set-up, such experiments are not accessible since we are actually measuring the field derivatives of the real signal. Nevertheless, we still would like to qualitatively measure the signal amplitude of our ST-FMR data and try to gain some knowledge out of it.
-
-
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10MR}\includegraphics[width=50mm]{fig/2018/C10MR}}
-\subfigure{\label{fig:C10RDC}\includegraphics[width=50mm]{fig/2018/C10RDC}}
-\subfigure{\label{fig:C102D}\includegraphics[width=50mm]{fig/2018/C102D}}
-\caption{(a) Example magnetoresistance of one 60 nm * 80 nm stadium-shaped MTJ device. (b) The resistance versus current loop, with AP state switching to P state at negative dc current and vice versa. (c) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state }
-\end{figure}
-
-The device employed in this study has a stadium shape with lateral dimensions 60 nm * 80 nm. Fig.\ref{fig:C10MR} shows the magnetoresistance of this device, which has resistance of 3445 Ohms at the parallel state and 7800 Ohms at the anti-parallel state. The coercive field is about 1850 Oe. Fig.\ref{fig:C10DC} shows the resistance versus current loop. The negative(positive) current is the anti-damping polarity for AP to P(P to AP)state. This demonstrate the effect of spin-transfer-torque switching. Fig.\ref{fig:C102D} shows the 2D contour plot of the ST-FMR signal of this device with -1 dBm power applied at the AP state. Again we can mainly identify three of the spin wave modes. 
-
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10FH}\includegraphics[width=50mm]{fig/2018/C10fit}}
-\subfigure{\label{fig:C10signal}\includegraphics[width=50mm]{fig/2018/C10signal}}
-\subfigure{\label{fig:C10ratio}\includegraphics[width=50mm]{fig/2018/C10ratio}}
-\caption{(a) The resonance field fitting result for all the three modes. (b) The ST-FMR signal (symmetric and anti-symmetric component) plot versus resonance field. (c) The ratio of two components versus resonance magnetic field. }
-\end{figure}
-
-Fig.\ref{fig:C10FH} summarizes the mode fitting result for all the three modes we excited from this stadium shape device. The linear relation is reproduced as expected. The main mode at zero field is 10.81 GHz and the effective anisotropy field Hk around 3.7 kG. Fig.\ref{fig:C10signal} shows the ST-FMR signal (symmetric and anti-symmetric component) plot versus resonance field. The amplitude is larger at small field and smaller at negative large magnetic field. This is due to magnetic susceptibility as expected. As we can see from Fig.\ref{fig:C10MR} that the MTJ at the AP state aligns better with the external negative magnetic field, which gives smaller ST-FMR amplitude. Fig.\ref{fig:C10ratio} shows the ratio of two components versus resonance magnetic field. And we see that the ratio remain relatively unchanged over the resonance field. The ratio of this two components is related with different signal mechanism which will be discussed later.
-
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10power}\includegraphics[width=75mm]{fig/2018/C10power}}
-\subfigure{\label{fig:C10poweramp}\includegraphics[width=75mm]{fig/2018/C10powersignal}}
-\caption{(a) The power-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b) The amplitude versus the square of rf voltage.}
-\end{figure}
-
-The applied power determines the rf voltage across the MTJs. Fig.\ref{fig:C10power} shows the power-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. We can then plot the amplitude versus the square of rf voltage as shown in Fig.\ref{fig:C10poweramp}. The good linear fit indicating the ST-FMR signal mainly arises from rectification \cite{photovoltage1}. As the rf voltage approaches zero, both symmetric and anti-symmetric components goes to zero at a similar value. In fact, if we apply zero dc bias into the MTJ, this limit will go to zero at zero rf voltage. Thus we can confirm there is also a non-zero contribution from the photo-resistance effect\cite{photovoltage2}.
-
-
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10powerfit}\includegraphics[width=75mm]{fig/2018/C10powerFH}}
-\subfigure{\label{fig:C10powerLW}\includegraphics[width=75mm]{fig/2018/C10powerLW}}
-\caption{(a) The resonance Field versus rf voltage squared  for all the modes at 12 GHz. (b) The Mode 0 HWHM linewidth versus rf voltage squared.}
-\end{figure}
-
-Fig.\ref{fig:C10powerfit} shows the resonance Field versus rf voltage squared  for all the modes at 12 GHz and Fig.\ref{fig:C10powerLW} shows the Mode 0 HWHM linewidth versus rf voltage squared. The linewidth shows a linear dependence with zero rf voltage linewidth around 23 Oe. The linear relation of both resonance field and linewidth ensures that we keep the ST-FMR measurement at the linear region where there is no non-linear broadening of the signal.
- 
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10DC}\includegraphics[width=75mm]{fig/2018/C10DC}}
-\subfigure{\label{fig:C10DCamp}\includegraphics[width=75mm]{fig/2018/C10DCsignal}}
-\caption{(a) The bias-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b) FMR signal amplitude versus applied dc voltage. }
-\end{figure}
-
-After we vary the applied the power in the ST-FMR measurement, it is also interesting to change the dc bias. Fig.\ref{fig:C10DC} shows the bias-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. All the three modes have the same curvature under external bias, which proves that these are all the spin-wave modes from the free layer. Fig.\ref{fig:C10DCamp} shows the FMR signal amplitude versus applied dc voltage. We find that the symmetric component(relating to spin transfer torque) shows a quadric+linear dependent and the anti-symmetric component was nearly invariant versus bias.
-
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=0.6\textwidth]{fig/2018/C10DCFIT}
-   \caption{Fitting of the FMR symmetric amplitude versus DC voltage as a sum of linear term and quadric term.}
-  \label{fig:C10DCfit}
-\end{figure}
-
-We can further analyze the FMR symmetric amplitude versus DC voltage as shown in Fig.\ref{fig:C10DCfit}. The Symmetric amplitude shows as sum of linear term and quadric term. The linear term, related to the photo-resistance contribution, changes the sign with different polarity of dc voltage. Moreover, the linear term is nearly dominated except at large dc voltage, which indicating that the photo-resistance effect is not negligible in the system!
-
-\begin{figure}[!ht]
-  \centering
-  \includegraphics[width=0.4\textwidth]{fig/2018/demo}
-   \caption{Demo of Perpendicular magnetized MTJs angle oscillation with out-of-plane magnetic field.}
-  \label{fig:demo}
-\end{figure}
-
-The ST-FMR signal of MTJs with PMA can be modeled as shown in the Fig.\ref{fig:demo}. In the MTJs, there is a small angle $\theta_{mis}$ between the free layer and the fixed layer. The magnetic field H is applied in the perpendicular direction. After apply dc bias and microwave power, the resistance of the MTJ can be written as 
-	\begin{equation}
-		R = R_{dc} + R_{ac} \sin{\omega t} + R_{20} \sin{2 \omega t} 
-	\end{equation}
-	
-Here the $R_dc$ is the time-averaged MTJ resistance and $R_ac$ is the oscillating MTJ resistance. $R_{20}$ is the higher harmonic component of the resistance. The amplitude the angular oscillation is $\theta_A$. After we define those variables, the ST-FMR signal can be expressed as 
-\begin{equation}
-	V_{ST-FMR} \propto I_{dc}R_{dc} + \frac{1}{2} <I_{ac}R_{ac}>
-\end{equation}
-
-The first term is related with contributions from photo-voltage(related to rectification) and the second term is related with photo-resistance(related to time-averaged resistance).
-
-
-\begin{figure}[!ht]
-\centering
-\subfigure{\label{fig:C10DCFH}\includegraphics[width=75mm]{fig/2018/C10DC-FH}}
-\subfigure{\label{fig:C10DCLW}\includegraphics[width=75mm]{fig/2018/C10DC-LW}}
-\caption{(a) The resonance field versus bias for three modes. (b) Mode 0 HWHM linewidth versus applied dc bias.}
-\end{figure}
-
-Before we end this section, we can also fit the spin-wave modes under finite dc bias. Fig.\ref{fig:C10DCFH} shows the resonance field versus bias for three modes. The main mode has both linear and quadratic dependence. The quadratic dependence is harder to analyze since it is a mixed contribution from field-like torque and ohmic heating. The linear term is believed to relate with voltage-controlled magnetic anisotropy(VCMA). The linear slope gives VCMA 244 Oe/V, close to previously measured circular devices. Fig.\ref{fig:C10DCLW} shows Mode 0 HWHM linewidth versus applied bias. At positive voltage(damping), we find the linewidth increase as increasing voltage(as expected). At negative voltage(anti-damping),however, the linewidth unexpectedly increase with larger negative voltage. This is also a strong evidence of non-linear damping in this type of devices. One possible explanation is that, when approaching the switching region, the free layer has more fluctuations which contributes to the linewidth broadening.
-
-
-
-
-
-
-
-\clearpage
-
-
-
-
 \section{Summary of Circular Devices: Experimental Data}
 
 Now we would like to summarize the experimental data of circular devices with different diameters. As we have demonstrated in Fig.\ref{fig:C07FH}, the signature of the spin wave modes excited in these devices are one lowest quasi-uniform main mode(Mode 0) with two split higher-order modes(Mode 1 Mode 2). For each dimension, we can measure over ten devices to obtain mode statistics. The idea of measuring nominally identical devices is to reduce random sample-to-sample variations. For each measured device, we can list the frequencies of three spin-wave modes at zero magnetic field. These raw data can be found from the appendix. From the mode statistics we can extract the average mode frequency and standard deviations.
@@ -293,5 +191,177 @@ Second, we find that the exchange stiffness is increasing as the device diameter
 
 Before we move to other geometries, we find that the mode spacings do not go to zero as the exchange stiffness shown in the Fig.\ref{fig:circularsummary}. If we would only consider the exchange couplings between the free layers, the mode spacings should go to zero at zero $A_{ex}$. To understand this behavior, we perform the same simulation without the SAF layers in the MTJs as shown in the Fig.\ref{fig:freecircularsummary}. Only the dynamics of the free layer is considered in this simulation. We also plot the mode spacings as a function of the $A_{ex}$ for different diameters. We find that the mode spacings go to zero as the $A_{ex}$ goes to zero in this free-layer-only simulation.  So we can conclude that the non-zero intercept of the mode spacings at zero $A_{ex}$ is likely due to the dipolar field from the SAF layers on the free layer.
 
+\section{Study of signal amplitude of ST-FMR signal}
+
+While we have not discussed the origin of the ST-FMR signal in the perpendicular magnetized MTJs with magnetic field applied in the easy axis, the exact source of the signal is not very clear. In fact, in a ideal circular device with rotation symmetry, such arrangement should yield no DC self rectification since the spin transfer torque is zero with free layer pinned in the perpendicular direction. However, we can still detect a measurable signal out of this set-up. It is argued that there are local misalignments between the uniaxial anisotropy and applied magnetic field due to shape distortion\cite{chris}. It is also possible that the non-uniformity of spin-transfer torque from the tunnel current across the free layer and non-uniform  tunnel magnetoresistance (TMR) should contribute to the ST-FMR signal. Previous work has been done to quantitatively measure the spin-transfer-torque in the ST-FMR signal\cite{Sankey2008}\cite{Kubota2007} for the MTJs with in-plane easy axis. However, in our field-modulated ST-FMR set-up, such experiments are not accessible since we are actually measuring the field derivatives of the real signal. Nevertheless, we still would like to qualitatively measure the signal amplitude of our ST-FMR data and try to gain some knowledge out of it.
 
 
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10MR}\includegraphics[width=50mm]{fig/2018/C10MR}}
+\subfigure{\label{fig:C10RDC}\includegraphics[width=50mm]{fig/2018/C10RDC}}
+\subfigure{\label{fig:C102D}\includegraphics[width=50mm]{fig/2018/C102D}}
+\caption{(a) Example magnetoresistance of one 60 nm * 80 nm stadium-shaped MTJ device. (b) The resistance versus current loop, with AP state switching to P state at negative dc current and vice versa. (c) 2D contour plot of the ST-FMR signal of this device with -2 dBm power applied at the AP state }
+\end{figure}
+
+The device employed in this study has a stadium shape with lateral dimensions 60 nm * 80 nm. The introduced broken symmetry away from perfect circular is designed to promote better ST-FMR signal. Fig.\ref{fig:C10MR} shows the magnetoresistance of this device, which has resistance of 3445 Ohms at the parallel state and 7800 Ohms at the anti-parallel state. The coercive field is about 1850 Oe. Fig.\ref{fig:C10DC} shows the resistance versus current loop. The negative(positive) current is the anti-damping polarity for AP to P(P to AP)state. This demonstrate the effect of spin-transfer-torque switching. Fig.\ref{fig:C102D} shows the 2D contour plot of the ST-FMR signal of this device with -1 dBm power applied at the AP state. Again we can mainly identify three of the spin wave modes. 
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10FH}\includegraphics[width=50mm]{fig/2018/C10fit}}
+\subfigure{\label{fig:C10signal}\includegraphics[width=50mm]{fig/2018/C10signal}}
+\subfigure{\label{fig:C10ratio}\includegraphics[width=50mm]{fig/2018/C10ratio}}
+\caption{(a) The resonance field fitting result for all the three modes. (b) The ST-FMR signal (symmetric and anti-symmetric component) plot versus resonance field. (c) The ratio of two components versus resonance magnetic field. }
+\end{figure}
+
+Fig.\ref{fig:C10FH} summarizes the mode fitting result for all the three modes we excited from this stadium shape device. The linear relation is reproduced as expected. The main mode at zero field is 10.81 GHz and the effective anisotropy field Hk around 3.7 kG. Fig.\ref{fig:C10signal} shows the ST-FMR signal (symmetric and anti-symmetric component) plot versus resonance field. The amplitude is larger at small field and smaller at negative large magnetic field. This is due to magnetic susceptibility as expected. As we can see from Fig.\ref{fig:C10MR} that the MTJ at the AP state aligns better with the external negative magnetic field, which gives smaller ST-FMR amplitude. Fig.\ref{fig:C10ratio} shows the ratio of two components versus resonance magnetic field. And we see that the ratio remain relatively unchanged over the resonance field. The ratio of this two components is related with different signal mechanism which will be discussed later.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10power}\includegraphics[width=75mm]{fig/2018/C10power}}
+\subfigure{\label{fig:C10poweramp}\includegraphics[width=75mm]{fig/2018/C10powersignal}}
+\caption{(a) The power-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b) The amplitude versus the square of rf voltage.}
+\end{figure}
+
+The applied power determines the rf voltage across the MTJs. Fig.\ref{fig:C10power} shows the power-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. We can then plot the amplitude versus the square of rf voltage as shown in Fig.\ref{fig:C10poweramp}. The good linear fit indicating the ST-FMR signal mainly arises from rectification \cite{photovoltage1}. As the rf voltage approaches zero, both symmetric and anti-symmetric components goes to zero at a similar value. In fact, if we apply zero dc bias into the MTJ, this limit will go to zero at zero rf voltage. Thus we can confirm there is also a non-zero contribution from the photo-resistance effect\cite{photovoltage2}.
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10powerfit}\includegraphics[width=75mm]{fig/2018/C10powerFH}}
+\subfigure{\label{fig:C10powerLW}\includegraphics[width=75mm]{fig/2018/C10powerLW}}
+\caption{(a) The resonance Field versus rf voltage squared  for all the modes at 12 GHz. (b) The Mode 0 HWHM linewidth versus rf voltage squared.}
+\end{figure}
+
+Fig.\ref{fig:C10powerfit} shows the resonance Field versus rf voltage squared  for all the modes at 12 GHz and Fig.\ref{fig:C10powerLW} shows the Mode 0 HWHM linewidth versus rf voltage squared. The linewidth shows a linear dependence with zero rf voltage linewidth around 23 Oe. The linear relation of both resonance field and linewidth ensures that we keep the ST-FMR measurement at the linear region where there is no non-linear broadening of the signal.
+ 
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10DC}\includegraphics[width=75mm]{fig/2018/C10DC}}
+\subfigure{\label{fig:C10DCamp}\includegraphics[width=75mm]{fig/2018/C10DCsignal}}
+\caption{(a) The bias-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. (b) FMR signal amplitude versus applied dc voltage. }
+\end{figure}
+
+After we vary the applied the power in the ST-FMR measurement, it is also interesting to change the dc bias. Fig.\ref{fig:C10DC} shows the bias-dependent ST-FMR field sweep spectrum at AP state with 12 GHz. All the three modes have the same curvature under external bias, which proves that these are all the spin-wave modes from the free layer. Fig.\ref{fig:C10DCamp} shows the FMR signal amplitude versus applied dc voltage. We find that the symmetric component(relating to spin transfer torque) shows a quadric+linear dependent and the anti-symmetric component was nearly invariant versus bias.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{fig/2018/C10DCFIT}
+   \caption{Fitting of the FMR symmetric amplitude versus DC voltage as a sum of linear term and quadric term.}
+  \label{fig:C10DCfit}
+\end{figure}
+
+We can further analyze the FMR symmetric amplitude versus DC voltage as shown in Fig.\ref{fig:C10DCfit}. The Symmetric amplitude shows as sum of linear term and quadric term. The linear term, related to the photo-resistance contribution, changes the sign with different polarity of dc voltage. Moreover, the linear term is nearly dominated except at large dc voltage, which indicating that the photo-resistance effect is not negligible in the system!
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.4\textwidth]{fig/2018/demo}
+   \caption{Demo of Perpendicular magnetized MTJs angle oscillation with out-of-plane magnetic field.}
+  \label{fig:demo}
+\end{figure}
+
+The ST-FMR signal of MTJs with PMA can be modeled as shown in the Fig.\ref{fig:demo}. In the MTJs, there is a small angle $\theta_{mis}$ between the free layer and the fixed layer. The magnetic field H is applied in the perpendicular direction. After apply dc bias and microwave power, the resistance of the MTJ can be written as 
+	\begin{equation}
+		R = R_{dc} + R_{ac} \sin{\omega t} + R_{20} \sin{2 \omega t} 
+	\end{equation}
+	
+Here the $R_dc$ is the time-averaged MTJ resistance and $R_ac$ is the oscillating MTJ resistance. $R_{20}$ is the higher harmonic component of the resistance. The amplitude the angular oscillation is $\theta_A$. After we define those variables, the ST-FMR signal can be expressed as 
+\begin{equation}
+	V_{ST-FMR} \propto I_{dc}R_{dc} + \frac{1}{2} <I_{ac}R_{ac}>
+\end{equation}
+
+The first term is related with contributions from photo-voltage(related to rectification) and the second term is related with photo-resistance(related to time-averaged resistance).
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:C10DCFH}\includegraphics[width=75mm]{fig/2018/C10DC-FH}}
+\subfigure{\label{fig:C10DCLW}\includegraphics[width=75mm]{fig/2018/C10DC-LW}}
+\caption{(a) The resonance field versus bias for three modes. (b) Mode 0 HWHM linewidth versus applied dc bias.}
+\end{figure}
+
+Before we end this section, we can also fit the spin-wave modes under finite dc bias. Fig.\ref{fig:C10DCFH} shows the resonance field versus bias for three modes. The main mode has both linear and quadratic dependence. The quadratic dependence is harder to analyze since it is a mixed contribution from field-like torque and ohmic heating. The linear term is believed to relate with voltage-controlled magnetic anisotropy(VCMA). The linear slope gives VCMA 244 Oe/V, close to previously measured circular devices. Fig.\ref{fig:C10DCLW} shows Mode 0 HWHM linewidth versus applied bias. At positive voltage(damping), we find the linewidth increase as increasing voltage(as expected). At negative voltage(anti-damping),however, the linewidth unexpectedly increase with larger negative voltage. This is also a strong evidence of non-linear damping in this type of devices. One possible explanation is that, when approaching the switching region, the free layer has more fluctuations which contributes to the linewidth broadening.
+
+
+
+\clearpage
+
+\section{Summary of Stadium shapes MTJs devices with 60 nm width}
+
+As we have measured circular devices with different diameters, for stadium devices, we also have measured devices with nominal 60 nm width and length from 70 nm to 210 nm. Before we move to the mode statistics, 
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{fig/stadium/210nmdata}
+   \caption{(a) Magneto-resistance curve for 210 nm * 60 nm devices (b) ST-FMR field sweep 2D spectrum at AP state with example scan at 12 GHz.}
+  \label{fig:210nmdata}
+\end{figure}
+
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{fig/stadium/60modesummary}
+   \caption{Main mode frequency with standard deviations versus device length for “60” width devices. The plotted device length is 15 nm smaller than nominal size}
+  \label{fig:60modesummary}
+\end{figure}
+
+
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{fig/stadium/60nmgapsummary}
+   \caption{Mode gap with standard deviations versus device length for “60” width devices	The mode gap is decreasing as increasing length.}
+  \label{fig:60nmgapsummary}
+\end{figure}
+
+\subsection{Micromagnetic simulations of stadium devices}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{fig/stadium/4565sim}
+   \caption{Example of simulation result for 45*65 $nm^2$ device.}
+  \label{fig:4565sim}
+\end{figure}
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:4565simsum}\includegraphics[width=75mm]{fig/stadium/4565simsummary}}
+\subfigure{\label{fig:4565gapsim}\includegraphics[width=75mm]{fig/stadium/4565simgap}}
+\caption{(a) Experimental mode frequencies compared with simulation values in different exchange stiffness (unit in pJ/m). (b) Experimental mode spacing compared with simulation values in different exchange stiffness (unit in pJ/m). }
+\end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/stadium/4565ex}
+   \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
+  \label{fig:4565ex}
+\end{figure}
+
+
+
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{ c c }
+      \addheight{\includegraphics[width=75mm]{fig/stadium/4555sim}} &
+      \addheight{\includegraphics[width=75mm]{fig/stadium/4575sim}} \\
+      \addheight{\includegraphics[width=75mm]{fig/stadium/45105sim}} &
+      \addheight{\includegraphics[width=75mm]{fig/stadium/45135sim}} \\
+\end{tabular}
+\caption{Stadium-shape 60 nm width Device Simulation Summary. For different sizes, Both the frequencies of the two modes and the mode spacing are plotted against the exchange constant}
+\label{60nmtotalsummary}
+\end{table}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=1.0\textwidth]{fig/stadium/60nmexsummary}
+   \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
+  \label{fig:4565ex}
+\end{figure}
