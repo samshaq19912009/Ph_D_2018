@@ -73,10 +73,11 @@
 \contentsline {figure}{\numberline {7.16}{\ignorespaces Demo of Perpendicular magnetized MTJs angle oscillation with out-of-plane magnetic field.\relax }}{93}{figure.caption.217}
 \contentsline {figure}{\numberline {7.17}{\ignorespaces (a) The resonance field versus bias for three modes. (b) Mode 0 HWHM linewidth versus applied dc bias.\relax }}{94}{figure.caption.220}
 \contentsline {figure}{\numberline {7.18}{\ignorespaces (a) Magneto-resistance curve for 210 nm * 60 nm devices (b) ST-FMR field sweep 2D spectrum at AP state with example scan at 12 GHz.\relax }}{95}{figure.caption.224}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Main mode frequency with standard deviations versus device length for “60” width devices. The plotted device length is 15 nm smaller than nominal size\relax }}{95}{figure.caption.225}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Mode gap with standard deviations versus device length for “60” width devices The mode gap is decreasing as increasing length.\relax }}{96}{figure.caption.226}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Example of simulation result for 45*65 $nm^2$ device.\relax }}{96}{figure.caption.228}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces (a) Experimental mode frequencies compared with simulation values in different exchange stiffness (unit in pJ/m). (b) Experimental mode spacing compared with simulation values in different exchange stiffness (unit in pJ/m). \relax }}{97}{figure.caption.229}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.\relax }}{97}{figure.caption.232}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.\relax }}{98}{figure.caption.234}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Main mode frequency with standard deviations versus device length for “60” width devices. The plotted device length is 15 nm smaller than nominal size\relax }}{96}{figure.caption.225}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Mode gap with standard deviations versus device length for nominal 60 nm width devices. The mode gap is decreasing as increasing length.\relax }}{96}{figure.caption.226}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Example of simulation spectrum for 45*65 $nm^2$ device.\relax }}{97}{figure.caption.228}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces (a) Experimental mode frequencies compared with simulation values in different exchange stiffness (unit in pJ/m). (b) Experimental mode spacing compared with simulation values in different exchange stiffness (unit in pJ/m). \relax }}{98}{figure.caption.229}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.\relax }}{98}{figure.caption.232}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.\relax }}{99}{figure.caption.234}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces \relax }}{100}{figure.caption.236}
 \addvspace {10\p@ }

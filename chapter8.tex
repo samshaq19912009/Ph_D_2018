@@ -288,8 +288,7 @@ Before we end this section, we can also fit the spin-wave modes under finite dc 
 
 \section{Summary of Stadium shapes MTJs devices with 60 nm width}
 
-As we have measured circular devices with different diameters, for stadium devices, we also have measured devices with nominal 60 nm width and length from 70 nm to 210 nm. Before we move to the mode statistics, 
-
+As we have measured circular devices with different diameters, for stadium devices, we also have measured devices with nominal 60 nm width and length from 70 nm to 210 nm. Before we move to the mode statistics, we first check the mode structures for these 60 nm devices. Fig.\ref{fig:210nmdata}(a) shows the Magneto-resistance curve for one typical 210 nm * 60 nm device. Fig.\ref{fig:210nmdata}(b) shows the ST-FMR field sweep 2D spectrum at AP state with example scan at 12 GHz. From the sample trace at 12 GHz, we find that for these larger devices, although the mode density becomes large and there are more higher order modes with smaller mode spacings, we still reproduce the general mode structures as the circular devices: one main mode at the lowest frequency and two first higher-order modes.  
 
 \begin{figure}[!ht]
   \centering
@@ -298,6 +297,7 @@ As we have measured circular devices with different diameters, for stadium devic
   \label{fig:210nmdata}
 \end{figure}
 
+Since we have reproduced the similar mode profiles as circular devices, we will use the same mode spacing as the circular devices to compare with the micromagnetic simulations: the average of the first two higher order modes minus the lowest main mode. To obtain the experimental spacings for stadium-shape devices with different length, we first performed detailed ST-FMR measurements and obtained good mode frequencies statistics. The summary of the stadium devices with 60 nm nominal width and varying length from 70 nm to 210 nm is listed in Fig.\ref{fig:60modesummary}.
 
 
 \begin{figure}[!ht]
@@ -306,24 +306,26 @@ As we have measured circular devices with different diameters, for stadium devic
    \caption{Main mode frequency with standard deviations versus device length for “60” width devices. The plotted device length is 15 nm smaller than nominal size}
   \label{fig:60modesummary}
 \end{figure}
-
-
+ 
+We plot the main mode frequency with standard deviations versus device length for nominal 60 nm width devices. The plotted device length is 15 nm smaller than nominal size. The main mode frequency drops over 15 per cent, which is due to shape anisotropy reductions for larger devices.
 
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=1.0\textwidth]{fig/stadium/60nmgapsummary}
-   \caption{Mode gap with standard deviations versus device length for “60” width devices	The mode gap is decreasing as increasing length.}
+   \caption{Mode gap with standard deviations versus device length for nominal 60 nm width devices. The mode gap is decreasing as increasing length.}
   \label{fig:60nmgapsummary}
 \end{figure}
 
+In the next step, we plot the mode gap with standard deviations versus device length for nominal 60 nm width devices. The mode gap is decreasing as increasing length. The mode gap between mode 0 and 1 gives a nice 1/length fit in the limit of large aspect ratio as it plotted in the dash line. We can conclude that the 1/length dependence points to the importance of dipole-dipole contributions to the gap values and tt should be possible to extract the exchange parameter from this 1/length dependence. We think that a more advanced fitting function is needed to cover the smaller aspect ratios.
 \subsection{Micromagnetic simulations of stadium devices}
 
+We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to perform micromagnetic simulations to determine the exchange stiffness. To account for the real shape, we also reduce 15 nm from the nominal value in the simulations. Fig.\ref{fig:4565sim} shows the Example of simulation spectrum for 45*65 $nm^2$ device (nominal dimension: 60*80 $nm^2$)
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=1.0\textwidth]{fig/stadium/4565sim}
-   \caption{Example of simulation result for 45*65 $nm^2$ device.}
+   \caption{Example of simulation spectrum for 45*65 $nm^2$ device.}
   \label{fig:4565sim}
 \end{figure}
 
@@ -364,4 +366,17 @@ As we have measured circular devices with different diameters, for stadium devic
   \includegraphics[width=1.0\textwidth]{fig/stadium/60nmexsummary}
    \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
   \label{fig:4565ex}
+\end{figure}
+
+\clearpage
+
+
+\section{Summary of Stadium shapes MTJs devices with 45 nm width}
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:4560FH}\includegraphics[width=75mm]{fig/45nm/4560}}
+\subfigure{\label{fig:4570FH}\includegraphics[width=75mm]{fig/45nm/4570}}
+\subfigure{\label{fig:4580FH}\includegraphics[width=75mm]{ 65simgap}}
+\caption{}
 \end{figure}
