@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {7.5}Summary of Stadium shapes MTJs devices with 60 nm width}{95}{section.223}
 \contentsline {subsection}{\numberline {7.5.1}Micromagnetic simulations of stadium devices}{97}{subsection.227}
 \contentsline {section}{\numberline {7.6}Summary of Stadium shapes MTJs devices with 45 nm width}{101}{section.234}
-\contentsline {chapter}{Bibliography}{102}{section*.239}
-\contentsline {chapter}{\numberline {A}Appendix Title}{107}{appendix.241}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{107}{section.242}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{108}{section.243}
+\contentsline {chapter}{Bibliography}{104}{section*.246}
+\contentsline {chapter}{\numberline {A}Appendix Title}{109}{appendix.248}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{109}{section.249}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{110}{section.250}
