@@ -320,7 +320,7 @@ We plot the main mode frequency with standard deviations versus device length fo
 In the next step, we plot the mode gap with standard deviations versus device length for nominal 60 nm width devices. The mode gap is decreasing as increasing length. The mode gap between mode 0 and 1 gives a nice 1/length fit in the limit of large aspect ratio as it plotted in the dash line. We can conclude that the 1/length dependence points to the importance of dipole-dipole contributions to the gap values and tt should be possible to extract the exchange parameter from this 1/length dependence. We think that a more advanced fitting function is needed to cover the smaller aspect ratios.
 \subsection{Micromagnetic simulations of stadium devices}
 
-We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to perform micromagnetic simulations to determine the exchange stiffness. To account for the real shape, we also reduce 15 nm from the nominal value in the simulations. Fig.\ref{fig:4565sim} shows the Example of simulation spectrum for 45*65 $nm^2$ device (nominal dimension: 60*80 $nm^2$)
+We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to perform micromagnetic simulations to determine the exchange stiffness. To account for the real shape, we also reduce 15 nm from the nominal value in the simulations. Fig.\ref{fig:4565sim} shows the Example of simulation spectrum for 45*65 $nm^2$ device (nominal dimension: 60*80 $nm^2$) with mode profile showing around the peak. For this stadium shape device, there are clear two higher order modes with node along short and long axis. Two key parameters used in Fig.\ref{fig:4565sim} are magnet anisotropy $10.05*10^5 J/m^3$ and the exchange stiffness $ A_{ex} \; 7 \; pJ/m $. The simulated mode frequencies and mode spacings are listed to be compared with the experimental data. We can see that we already have a relatively good fitting result(keep in mind that $ A_{ex} \; 7 \; pJ/m $ is the average value for circular devices).
 
 \begin{figure}[!ht]
   \centering
@@ -329,7 +329,7 @@ We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to 
   \label{fig:4565sim}
 \end{figure}
 
-
+One advantage of these stadium shape devices is that the mode structures is quite straightforward and we can reproduce the experimentally measured lowest three modes without worrying about the shapes distortions in the circular devices. Fig.\ref{fig:4565simsum} shows the experimental mode frequencies compared with simulation values in different exchange stiffness (unit in pJ/m) and Fig.\ref{fig:4565gapsim} shows the experimental mode frequencies compared with simulation values in different exchange stiffness (unit in pJ/m). As we know, the separation between mode 1-2 is susceptible to device dimension variations, so we still used the mode spacings between the average of mode 1 and mode 2 and mode 0 to determine the exchange stiffness.
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:4565simsum}\includegraphics[width=75mm]{fig/stadium/4565simsummary}}
@@ -338,28 +338,18 @@ We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to 
 \end{figure}
 
 
+Fig.\ref{fig:4565ex} shows the mode gaps plotted versus simulated exchange stiffness for 45*65 $nm^2$ devices. Compared with circular devices we talked before, we also identify a clear linear dependence between mode spacings and $A_{ex}$. Similarly, we find that all the mode gaps do not extrapolate to zero in the limit of zero $A_{ex}$. This is because of the dipole-dipole interactions, which is reducing the sensitivity of this methods for finding the exchange stiffness.
+
+\clearpage
+
 \begin{figure}[!ht]
   \centering
-  \includegraphics[width=0.8\textwidth]{fig/stadium/4565ex}
+  \includegraphics[width=0.6\textwidth]{fig/stadium/4565ex}
    \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
   \label{fig:4565ex}
 \end{figure}
 
-
-
-
-\begin{table}[ht!]
-\centering
-\begin{tabular}{ c c }
-      \addheight{\includegraphics[width=75mm]{fig/stadium/4555sim}} &
-      \addheight{\includegraphics[width=75mm]{fig/stadium/4575sim}} \\
-      \addheight{\includegraphics[width=75mm]{fig/stadium/45105sim}} &
-      \addheight{\includegraphics[width=75mm]{fig/stadium/45135sim}} \\
-\end{tabular}
-\caption{Stadium-shape 60 nm width Device Simulation Summary. For different sizes, Both the frequencies of the two modes and the mode spacing are plotted against the exchange constant}
-\label{60nmtotalsummary}
-\end{table}
-
+We can then vary the length of the devices at fixed width 45 nm and obtain the $A_{ex}$ as a function of device length as showing in Fig.\ref{fig:4565ex} with numbers listed in the table. We find that for relatively smaller devices, from 70 nm to 120 nm length, the exchange stiffness fitted is quite close: around 7 pJ/m with similar standard error. Keep mind that the standard error is obtained from the variations of the mode spacings.
 
 \begin{figure}[!ht]
   \centering
@@ -367,6 +357,8 @@ We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to 
    \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
   \label{fig:4565ex}
 \end{figure}
+
+However, for larger devices, we find that there is a strong increase of exchange stiffness for 150 nm devices. It is not clear the origin of this outlier point but we believe it is an artifact for this particular geometry. First of all by performing in-plane ST-FMR measurements, we make sure that there is no missing modes and the mode identification is correct. Secondly, we also find that resistance-area product for this 45-nm-width group does not any anomaly for larger devices. So the outlier only has two possible origins: one is that the dipole-dipole interaction for larger devices is more pronounced, which reduces the reliability of our methods of exchange stiffness fitting. The second one is that the real size of larger devices is not the value we used in the simulations. If the devices size is not nearly 15 nm smaller than the nominal value, we can not trust the values we obtained from the micromagnetic simulations.
 
 \clearpage
 
@@ -377,6 +369,6 @@ We use similar full-stack MTJ structures as shown in Fig.\ref{fig:simulated} to 
 \centering
 \subfigure{\label{fig:4560FH}\includegraphics[width=75mm]{fig/45nm/4560}}
 \subfigure{\label{fig:4570FH}\includegraphics[width=75mm]{fig/45nm/4570}}
-\subfigure{\label{fig:4580FH}\includegraphics[width=75mm]{ 65simgap}}
+\subfigure{\label{fig:4580FH}\includegraphics[width=75mm]{fig/45nm/4580}}
 \caption{}
 \end{figure}
