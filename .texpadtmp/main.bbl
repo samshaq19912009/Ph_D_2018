@@ -332,4 +332,16 @@ M.~Harder, Z.~X. Cao, Y.~S. Gui, X.~L. Fan, and C.-M. Hu.
   resonance.
 \newblock {\em Phys. Rev. B}, 84:054423, Aug 2011.
 
+\bibitem{AexJapan}
+T.~Dohi, S.~Kanai, F.~Matsukura, and H.~Ohno.
+\newblock Electric-field effect on spin-wave resonance in a nanoscale cofeb/mgo
+  magnetic tunnel junction.
+\newblock {\em Applied Physics Letters}, 111(7):072403, 2017.
+
+\bibitem{DomainCoFeB}
+M.~Yamanouchi, A.~Jander, P.~Dhagat, S.~Ikeda, F.~Matsukura, and H.~Ohno.
+\newblock Domain structure in cofeb thin films with perpendicular magnetic
+  anisotropy.
+\newblock {\em IEEE Magnetics Letters}, 2:3000304--3000304, Dec 2011.
+
 \end{thebibliography}

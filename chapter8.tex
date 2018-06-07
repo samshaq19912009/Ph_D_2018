@@ -363,42 +363,53 @@ However, for larger devices, we find that there is a strong increase of exchange
 \clearpage
 
 
-\section{Summary of Stadium shapes MTJs devices with 45 nm width}
+\section{Summary of stadium shapes MTJs devices with 45 nm width}
+
+To complete our studies of stadium shapes, we have measured devices with constant nominal width 45 nm and varying length from 60 nm to 120 nm. As usual the actual size of the devices is roughly 15 nm smaller than the nominal values. So for this 45 nm width group of devices, the aspect ratio is larger than the previous devices we have measured. The aspect ratio is greater than 1.5 and we will the how it can be reflected in the mode structures.
 
 \begin{figure}[!ht]
 \centering
+\label{fig:452D}
 \subfigure{\label{fig:4560FH}\includegraphics[width=80mm]{fig/45nm/4560}}
 \subfigure{\label{fig:4570FH}\includegraphics[width=80mm]{fig/45nm/4570}}
-\caption{}
+\caption{(a) Examples of 2D ST-FMR contour plot for nominal 45*60 $nm^2$ device. (b) Examples of 2D ST-FMR contour plot for nominal 45*70 $nm^2$ device.}
 \end{figure}
 
+
+We show the example 2D ST-FMR contour plots for these 45 nm devices in the above. The sample shown in Fig.\ref{fig:4560FH} is 45*60 $nm^2$ and Fig.\ref{fig:4570FH} shows a 45*70 $nm^2$ device. The major difference for devices with 45 nm width is that the mode spacing between mode 1 and mode 2 is quite large. Remember that for this group of samples, the actual aspect ratio is greater than 1.5 so that the energy barrier between these two higher order modes are larger. In the experiment, we usually find that we can only excite the mode 1 clearly for these higher aspect ratio devices. For example, in Fig.\ref{fig:4560FH} there is only mode 1 visible in the plot and in Fig.\ref{fig:4570FH}, the mode 2 can only be seen faintly and can be not fitted in detail.
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:45main}\includegraphics[width=80mm]{fig/45nm/45nmmain}}
 \subfigure{\label{fig:45gap}\includegraphics[width=80mm]{fig/45nm/45nmgap}}
-\caption{}
+\caption{(a) Average main (0) mode frequency (with standard deviations) plotted versus “actual” device length (b) Mode Gap 1-0 shows a 1/length fit }
 \end{figure}
 
+One advantage of these high aspect ratio device is that good separations of between higher-order modes allows us to use the mode gap between main mode and mode 1 to determine the exchange stiffness without worrying about shape distortions. For devices with each length, we measure about ten samples to obtain mode statistics. Fig.\ref{fig:45main} shows the average main (0) mode frequency (with standard deviations) plotted versus “actual” device length. We also observed a clear reduction of main mode as increasing length due to decreasing shape anisotropy. Fig.\ref{fig:45gap} shows the mode spacings between the first two modes plotted versus the device length. The mode spacing also shows a good 1/length fit which indicates the dipolar-dipolar interaction is not negligible in the system.
 
 \begin{figure}[!ht]
 \centering
 \subfigure{\label{fig:45RA}\includegraphics[width=80mm]{fig/45nm/45RA}}
 \subfigure{\label{fig:45FA}\includegraphics[width=80mm]{fig/45nm/45FA}}
-\caption{}
+\caption{(a) AP state main mode frequency plotted versus AP state Resistance. (b) Mode Gap frequency plotted versus AP state Resistance }
 \end{figure}
+
+Previously we mentioned that it is important to know the real dimension of the device in the exchange stiffness fitting. One good indication of the device geometry is the resistance of the device. Fig.\ref{fig:45RA} shows the AP state main mode frequency plotted versus AP state resistance for this group of devices. Clearly it shows correlation between main mode frequency and AP state resistance as we expected. For larger devices, the area is larger and the resistance is smaller, at the same time the main mode frequency is smaller as we discussed. Fig.\ref{fig:45FA} shows mode Gap frequency plotted versus AP state resistance. The frequency gaps also scales approximately linearly with AP state resistance for the stadium shaped devices. We also find that in the limit of zero AP resistance, the mode gap frequency also goes to zero as expected. So we can fit for the mode gap based on the resistance which is much easier to measure compared with ST-FMR measurement.
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.6\textwidth]{fig/45nm/45nmsim}
-   \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
+   \caption{mode gap plotted versus simulated exchange stiffness for different geometries with same 30 nm width}
   \label{fig:45nmsim}
 \end{figure}
 
+Based on the experimental data we obtained from Fig.\ref{fig:45main} and Fig.\ref{fig:45gap}, we can perform similar micromagnetic simulations to determine the exchange stiffness. The only difference compared with previous simulations is that we now use the mode spacing between the main mode and the first higher order mode for comparisons between experimental data and simulation outputs. Fig.\ref{fig:45nmsim} summarizes the mode gap plotted versus simulated exchange stiffness for different geometries with same width. Firstly, we find that the mode gap between mode 1-0 does not go to zero when approaching zero $A_{ex}$. This will agrees with our consumptions of non-negligible dipolar-dipolar interactions. Secondly, the slope of mode spacings versus the input exchange stiffness is steeper for nearly circular devices. This enables us to have more precise determination of the exchange stiffness. 
 
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=1.0\textwidth]{fig/45nm/45nmex}
-   \caption{Mode Gap plotted versus simulated exchange stiffness for 45*65 $nm^2$ device.}
+   \caption{Summary of exchange stiffness fitting: size dependence of width 45 nm}
   \label{fig:45nmex}
 \end{figure}
+
+Fig.\ref{fig:45nmex} summarizes the exchange stiffness fitting result for devices with same width(nominal 45 nm) and varying length. Compared with nearly circular devices, we have much less standard deviations thanks to improved sensitivity. For this group of devices, the fitted $A_{ex}$ is near 5  pJ/m. The similar reductions of exchange stiffness from bluk values has also been reported\cite{AexJapan}, which might originates different composition and thickness of CoFeB used in the free layer as well as annealing conditions\cite{DomainCoFeB}. Furthermore, the fact that we have better fitting results for this group of higher aspect ratio devices that the nearly circular devices might not be best for study of $A_{ex}$ due to shape distortions and eigenmodes mixing.
