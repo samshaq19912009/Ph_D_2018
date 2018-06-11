@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.3}Spin transfer torque}{7}{section.18}
 \contentsline {section}{\numberline {2.4}Magnetic Tunnel Junctions with Perpendicular Magnetic Anisotropy}{10}{section.22}
 \contentsline {subsection}{\numberline {2.4.1}Critical Switching Voltage}{10}{subsection.23}
-\contentsline {section}{\numberline {2.5}Magnetic Switching}{11}{section.31}
+\contentsline {section}{\numberline {2.5}Magnetic Switching}{12}{section.31}
 \contentsline {section}{\numberline {2.6}Ferromagnetic Resonance}{14}{section.38}
 \contentsline {section}{\numberline {2.7}Spin-torque Ferromagnetic Resonance}{17}{section.55}
 \contentsline {chapter}{\numberline {3}Field-Modulated Spin-torque Ferromagnetic Resonance}{18}{chapter.56}
@@ -40,6 +40,6 @@
 \contentsline {subsection}{\numberline {7.5.1}Micromagnetic simulations of stadium devices}{97}{subsection.227}
 \contentsline {section}{\numberline {7.6}Summary of stadium shapes MTJs devices with 45 nm width}{101}{section.234}
 \contentsline {chapter}{Bibliography}{105}{section*.246}
-\contentsline {chapter}{\numberline {A}Appendix Title}{110}{appendix.248}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{110}{section.249}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{111}{section.250}
+\contentsline {chapter}{\numberline {A}Appendix Title}{111}{appendix.248}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{111}{section.249}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{112}{section.250}

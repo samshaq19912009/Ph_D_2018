@@ -51,6 +51,57 @@ C.~Wang, Y.-T. Cui, J.~Z. Sun, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
   tunnel junctions.
 \newblock {\em Phys. Rev. B}, 79:224416, Jun 2009.
 
+\bibitem{MTJZhu}
+Jian-Gang~(Jimmy) Zhu and Chando Park.
+\newblock Magnetic tunnel junctions.
+\newblock {\em Materials Today}, 9(11):36 -- 45, 2006.
+
+\bibitem{MTJPMA}
+S.~Ikeda, K.~Miura, H.~Yamamoto, K.~Mizunuma, H.~D. Gan, M.~Endo, S.~Kanai,
+  J.~Hayakawa, F.~Matsukura, and H.~Ohno.
+\newblock A perpendicular-anisotropy cofeb-mgo magnetic tunnel junction.
+\newblock {\em Nature Materials}, 9:721 EP --, Jul 2010.
+
+\bibitem{GiantTMR}
+Shinji Yuasa, Taro Nagahama, Akio Fukushima, Yoshishige Suzuki, and Koji Ando.
+\newblock Giant room-temperature magnetoresistance in single-crystal fe/mgo/fe
+  magnetic tunnel junctions.
+\newblock {\em Nature Materials}, 3:868 EP --, Oct 2004.
+
+\bibitem{MTJIBM}
+W.~J. Gallagher and S.~S.~P. Parkin.
+\newblock Development of the magnetic tunnel junction mram at ibm: From first
+  junctions to a 16-mb mram demonstrator chip.
+\newblock {\em IBM Journal of Research and Development}, 50(1):5--23, Jan 2006.
+
+\bibitem{MTJIBM2}
+R.~Scheuerlein, W.~Gallagher, S.~Parkin, A.~Lee, S.~Ray, R.~Robertazzi, and
+  W.~Reohr.
+\newblock A 10 ns read and write non-volatile memory array using a magnetic
+  tunnel junction and fet switch in each cell.
+\newblock In {\em 2000 IEEE International Solid-State Circuits Conference.
+  Digest of Technical Papers (Cat. No.00CH37056)}, pages 128--129, Feb 2000.
+
+\bibitem{EswitchMTJ}
+Wei-Gang Wang, Mingen Li, Stephen Hageman, and C.~L. Chien.
+\newblock Electric-field-assisted switching in magnetic tunnel?junctions.
+\newblock {\em Nature Materials}, 11:64 EP --, Nov 2011.
+\newblock Article.
+
+\bibitem{STTMTJswitch}
+D.~C. Worledge, G.~Hu, David~W. Abraham, J.~Z. Sun, P.~L. Trouilloud, J.~Nowak,
+  S.~Brown, M.~C. Gaidis, E.~J. O’Sullivan, and R.~P. Robertazzi.
+\newblock Spin torque switching of perpendicular ta∣cofeb∣mgo-based
+  magnetic tunnel junctions.
+\newblock {\em Applied Physics Letters}, 98(2):022501, 2011.
+
+\bibitem{MRAMMTJs}
+S.~Tehrani, J.~M. Slaughter, M.~Deherrera, B.~N. Engel, N.~D. Rizzo, J.~Salter,
+  M.~Durlam, R.~W. Dave, J.~Janesky, B.~Butcher, K.~Smith, and G.~Grynkewich.
+\newblock Magnetoresistive random access memory using magnetic tunnel
+  junctions.
+\newblock {\em Proceedings of the IEEE}, 91(5):703--714, May 2003.
+
 \bibitem{SlonSwitching}
 J.C. Slonczewski.
 \newblock Current-driven excitation of magnetic multilayers.
@@ -319,6 +370,18 @@ Hitoshi Kubota, Akio Fukushima, Kay Yakushiji, Taro Nagahama, Shinji Yuasa,
 \newblock Quantitative measurement of voltage dependence of spin-transfer
   torque in mgo-based magnetic tunnel junctions.
 \newblock {\em Nature Physics}, 4:37 EP --, Nov 2007.
+
+\bibitem{NetSTT}
+Lin Xue, Chen Wang, Yong-Tao Cui, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
+\newblock Network analyzer measurements of spin transfer torques in magnetic
+  tunnel junctions.
+\newblock {\em Applied Physics Letters}, 101(2):022417, 2012.
+
+\bibitem{AbInitio}
+Christian Heiliger and M.~D. Stiles.
+\newblock Ab initio studies of the spin-transfer torque in magnetic tunnel
+  junctions.
+\newblock {\em Phys. Rev. Lett.}, 100:186805, May 2008.
 
 \bibitem{photovoltage1}
 N.~Mecking, Y.~S. Gui, and C.-M. Hu.
