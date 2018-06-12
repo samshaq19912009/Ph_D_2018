@@ -11,6 +11,10 @@ A level-1 auxiliary file: chapter8.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: appendix.aux
 Database file #1: ../thesis.bib
+Repeated entry---line 1411 of file ../thesis.bib
+ : @article{VCMA1
+ :               ,
+I'm skipping whatever remains of this entry
 Warning--empty year in MRAMDevelopment1
 Too many commas in name 1 of "Sankey, Jack C. Cui, Yong-Tao Slonczewski, John C. Buhrman, Robert A. Ralph, Daniel C." for entry Sankey2008
 while executing---line 944 of file unsrt.bst
@@ -19,45 +23,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Sankey, Jack C. Cui, Yong-Tao Slonczewski, John C. Buhrman, Robert A. Ralph, Daniel C." for entry Sankey2008
 while executing---line 944 of file unsrt.bst
 Warning--empty title in Ohno2010
-You've used 78 entries,
+You've used 91 entries,
             1791 wiz_defined-function locations,
-            933 strings with 19358 characters,
-and the built_in function-call counts, 20752 in all, are:
-= -- 1541
-> -- 1445
-< -- 1
-+ -- 510
-- -- 432
-* -- 1910
-:= -- 3564
-add.period$ -- 234
-call.type$ -- 78
-change.case$ -- 77
+            1006 strings with 22860 characters,
+and the built_in function-call counts, 24863 in all, are:
+= -- 1807
+> -- 1810
+< -- 2
++ -- 636
+- -- 545
+* -- 2324
+:= -- 4290
+add.period$ -- 273
+call.type$ -- 91
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 697
-empty$ -- 1773
-format.name$ -- 432
-if$ -- 4358
+cite$ -- 93
+duplicate$ -- 822
+empty$ -- 2087
+format.name$ -- 545
+if$ -- 5200
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 76
-newline$ -- 393
-num.names$ -- 78
-pop$ -- 95
+int.to.str$ -- 91
+missing$ -- 89
+newline$ -- 458
+num.names$ -- 91
+pop$ -- 113
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 265
+skip$ -- 311
 stack$ -- 0
-substring$ -- 1455
-swap$ -- 88
-text.length$ -- 1
+substring$ -- 1711
+swap$ -- 107
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 151
-width$ -- 80
-write$ -- 857
-(There were 3 error messages)
+while$ -- 179
+width$ -- 93
+write$ -- 1000
+(There were 4 error messages)

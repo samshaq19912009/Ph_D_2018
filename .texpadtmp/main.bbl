@@ -178,11 +178,107 @@ S.~Ikeda, K.~Miura, H.~Yamamoto, K.~Mizunuma, H.~D. Gan, M.~Endo, S.~Kanai,
 \newblock A perpendicular-anisotropy cofeb-mgo magnetic tunnel junction.
 \newblock {\em Nature Materials}, 9:721 EP, Jul 2010.
 
+\bibitem{VCMAtheory}
+T.~Maruyama, Y.~Shiota, T.~Nozaki, K.~Ohta, N.~Toda, M.~Mizuguchi, A.~A.
+  Tulapurkar, T.~Shinjo, M.~Shiraishi, S.~Mizukami, Y.~Ando, and Y.~Suzuki.
+\newblock Large voltage-induced magnetic anisotropy change in a few atomic
+  layers of iron.
+\newblock {\em Nature Nanotechnology}, 4:158 EP --, Jan 2009.
+
 \bibitem{EswitchMTJ}
 Wei-Gang Wang, Mingen Li, Stephen Hageman, and C.~L. Chien.
 \newblock Electric-field-assisted switching in magnetic tunneljunctions.
 \newblock {\em Nature Materials}, 11:64 EP --, Nov 2011.
 \newblock Article.
+
+\bibitem{VCMA1}
+MaruyamaT., ShiotaY., NozakiT., OhtaK., TodaN., MizuguchiM., TulapurkarA A.,
+  ShinjoT., ShiraishiM., MizukamiS., AndoY., and SuzukiY.
+\newblock Large voltage-induced magnetic anisotropy change in a few atomic
+  layers of iron.
+\newblock {\em Nat Nano}, 4(3):158--161, Mar 2009.
+
+\bibitem{VCMA2}
+S.~Kanai, Y.~Nakatani, M.~Yamanouchi, S.~Ikeda, F.~Matsukura, and H.~Ohno.
+\newblock In-plane magnetic field dependence of electric field-induced
+  magnetization switching.
+\newblock {\em Applied Physics Letters}, 103(7):072408, 2013.
+
+\bibitem{VCMA3}
+S.~Kanai, Y.~Nakatani, M.~Yamanouchi, S.~Ikeda, H.~Sato, F.~Matsukura, and
+  H.~Ohno.
+\newblock Magnetization switching in a cofeb/mgo magnetic tunnel junction by
+  combining spin-transfer torque and electric field-effect.
+\newblock {\em Applied Physics Letters}, 104(21):212406, 2014.
+
+\bibitem{STTMTJswitch}
+D.~C. Worledge, G.~Hu, David~W. Abraham, J.~Z. Sun, P.~L. Trouilloud, J.~Nowak,
+  S.~Brown, M.~C. Gaidis, E.~J. O’Sullivan, and R.~P. Robertazzi.
+\newblock Spin torque switching of perpendicular ta∣cofeb∣mgo-based
+  magnetic tunnel junctions.
+\newblock {\em Applied Physics Letters}, 98(2):022501, 2011.
+
+\bibitem{fastswitch}
+T.~Kishi, H.~Yoda, T.~Kai, T.~Nagase, E.~Kitagawa, M.~Yoshikawa, K.~Nishiyama,
+  T.~Daibou, M.~Nagamine, M.~Amano, S.~Takahashi, M.~Nakayama, N.~Shimomura,
+  H.~Aikawa, S.~Ikegawa, S.~Yuasa, K.~Yakushiji, H.~Kubota, A.~Fukushima,
+  M.~Oogane, T.~Miyazaki, and K.~Ando.
+\newblock Lower-current and fast switching of a perpendicular tmr for high
+  speed and high density spin-transfer-torque mram.
+\newblock In {\em 2008 IEEE International Electron Devices Meeting}, pages
+  1--4, Dec 2008.
+
+\bibitem{doubleMTJ1}
+H.~Sato, M.~Yamanouchi, S.~Ikeda, S.~Fukami, F.~Matsukura, and H.~Ohno.
+\newblock Perpendicular-anisotropy cofeb-mgo magnetic tunnel junctions with a
+  mgo/cofeb/ta/cofeb/mgo recording structure.
+\newblock {\em Applied Physics Letters}, 101(2):022414, 2012.
+
+\bibitem{doubleMTJ2}
+Seung-Eun Lee, Yasutaka Takemura, and Jea-Gun Park.
+\newblock Effect of double mgo tunneling barrier on thermal stability and tmr
+  ratio for perpendicular mtj spin-valve with tungsten layers.
+\newblock {\em Applied Physics Letters}, 109(18):182405, 2016.
+
+\bibitem{doubleMTJ3}
+H.~Sato, M.~Yamanouchi, S.~Ikeda, S.~Fukami, F.~Matsukura, and H.~Ohno.
+\newblock Mgo/cofeb/ta/cofeb/mgo recording structure in magnetic tunnel
+  junctions with perpendicular easy axis.
+\newblock {\em IEEE Transactions on Magnetics}, 49(7):4437--4440, July 2013.
+
+\bibitem{SOTMTJ}
+Ioan~Mihai Miron, Kevin Garello, Gilles Gaudin, Pierre-Jean Zermatten,
+  Marius~V. Costache, St{\'e}phane Auffret, S{\'e}bastien Bandiera, Bernard
+  Rodmacq, Alain Schuhl, and Pietro Gambardella.
+\newblock Perpendicular switching of a single ferromagnetic layer induced by
+  in-plane current injection.
+\newblock {\em Nature}, 476:189 EP --, Jul 2011.
+
+\bibitem{3MTJTA}
+Luqiao Liu, Chi-Feng Pai, Y.~Li, H.~W. Tseng, D.~C. Ralph, and R.~A. Buhrman.
+\newblock Spin-torque switching with the giant spin hall effect of tantalum.
+\newblock {\em Science}, 336(6081):555--558, 2012.
+
+\bibitem{3MTJW}
+Chi-Feng Pai, Luqiao Liu, Y.~Li, H.~W. Tseng, D.~C. Ralph, and R.~A. Buhrman.
+\newblock Spin transfer torque devices utilizing the giant spin hall effect of
+  tungsten.
+\newblock {\em Applied Physics Letters}, 101(12):122404, 2012.
+
+\bibitem{3MTJIr}
+Michihiko Yamanouchi, Lin Chen, Junyeon Kim, Masamitsu Hayashi, Hideo Sato,
+  Shunsuke Fukami, Shoji Ikeda, Fumihiro Matsukura, and Hideo Ohno.
+\newblock Three terminal magnetic tunnel junction utilizing the spin hall
+  effect of iridium-doped copper.
+\newblock {\em Applied Physics Letters}, 102(21):212408, 2013.
+
+\bibitem{3MTJPMA}
+Murat Cubukcu, Olivier Boulle, Marc Drouard, Kevin Garello, Can Onur~Avci, Ioan
+  Mihai~Miron, Juergen Langer, Berthold Ocker, Pietro Gambardella, and Gilles
+  Gaudin.
+\newblock Spin-orbit torque magnetization switching of a three-terminal
+  perpendicular magnetic tunnel junction.
+\newblock {\em Applied Physics Letters}, 104(4):042406, 2014.
 
 \bibitem{SlonSwitching}
 J.C. Slonczewski.
@@ -218,13 +314,6 @@ A.~A. Tulapurkar, Y.~Suzuki, A.~Fukushima, H.~Kubota, H.~Maehara, K.~Tsunekawa,
   D.~D. Djayaprawira, N.~Watanabe, and S.~Yuasa.
 \newblock Spin-torque diode effect in magnetic tunnel junctions.
 \newblock {\em Nature}, 438(7066):339--342, Nov 2005.
-
-\bibitem{VCMA1}
-MaruyamaT., ShiotaY., NozakiT., OhtaK., TodaN., MizuguchiM., TulapurkarA A.,
-  ShinjoT., ShiraishiM., MizukamiS., AndoY., and SuzukiY.
-\newblock Large voltage-induced magnetic anisotropy change in a few atomic
-  layers of iron.
-\newblock {\em Nat Nano}, 4(3):158--161, Mar 2009.
 
 \bibitem{Jian}
 Jian Zhu, J.~A. Katine, Graham~E. Rowlands, Yu-Jin Chen, Zheng Duan, Juan~G.
