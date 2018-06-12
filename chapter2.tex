@@ -99,19 +99,103 @@ The first case we discussed is of less interest. For the second case we have the
 
 \end{figure}
 
-\section{Magnetic Tunnel Junctions with Perpendicular Magnetic Anisotropy}
 
-MTJ review \cite{MTJZhu}  MTJ  with PMA\cite{MTJPMA} MTJ with Giant TMR \cite{GiantTMR}
+\section{Magnetic Switching}
 
-MTJ in IBM \cite{MTJIBM} \cite{MTJIBM2}
+At zero or small field, both direction along the easy axis correspond to local energy minimums so it is possible to switch the magnetization between these two directions with spin transfer torque. For example, for a device with both free and fixed layers keeping at the easy axis direction and parallel to each other, if we flow a positive current defined as current flow from free to fixed layer, according to previous analysis, the spin transfer torque acts on the free layer is pointing away from the fixed layer and destabilizes this configuration so that the magnetic moment of the free layer goes into a precession around the easy axis. If we keep increasing the current, the amplitude of the free layer precession increases until it reaches the energy barrier which is around 90 degree. After the free layer changes direction, now the spin transfer torque will act as damping torque again and stabilize the magnetization. Similarly, if the magnetic tunnel junction starts in the anti-parallel configuration, a strong enough negative current can switch the free layer back to the parallel configuration. If we monitor the resistance of the device, it will exhibit a hysteresis loop as we sweep the current, as shown in the example
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{fig/DC.PNG}
+\label{fig:DC}
+\caption{Differential resistance with respect to dc current. Arrows indicate magnetic state to be either parallel and anti-parallel.}
+\end{figure}
+
+
+Fig.\ref{fig:DC}
+
+
+
+The critical switching current $I_c$ is defined as the current required to achieve switching at zero temperature(no thermal excitations)  . Above $I_c$, the spin torque is stronger than the damping torque and drives the free layer moment to switch direction.
+
+Fig.\ref{fig:Switching}
+illustrate the switching process. The switching proceeds via a precessional motion of the magnetization with increasing amplitude\cite{subswitch}. The switching time is defined as the following :
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1.0\textwidth]{fig/switching.PNG}
+\label{fig:Switching}
+\caption{An example of a simulated spin transfer switching event.(a)Switching trajectory. Dotted lines show initial state of free layer. Solid line shows the switching (b) Normalized resistance value as a function of time}
+\end{figure}
+
+\begin{equation}
+t_s \propto \frac{1}{I-I_c}
+\end{equation}
+
+Now if the applied current is smaller than the critical current, the spin torque is not strong enough to drive the free layer moment to directly overcome the energy barrier to achieve switching but only to excite magnetic precession at small amplitudes. At finite temperatures, switching can still occur due to thermal excitations. This thermal-assisted magnetization reversal can be described by the Neel-Brown relaxation time:
+\begin{equation}
+P(t) = 1 - exp(-t/\tau)
+\end{equation}
+where t is the observation time, and $\tau$ is the relaxation time which is given by
+\begin{equation}
+\tau = \frac{1}{f_0}\exp{E_b/k_B T}
+\end{equation}
+Here $f_0$ is the attempt frequency, $E_b$ is the energy barrier and T is the temperature. Thermal assisted switching can be modeled by a fluctuating field with a Gaussian stochastic process. The relaxation time $\tau$ can be modified as the following:
+
+\begin{equation}
+\tau = \frac{1}{f_0}\exp [\frac{E_b}{k_B T}(1 - \frac{I}{I_c})]
+\end{equation}
+
+
+\section{Magnetic Tunnel Junctions}
+
+In this chapter we will discuss Magnetic Tunnel Junctions(MTJs), which is the fundamental building block for future Magnetic Random Access Memory(MRAM)\cite{MTJZhu} . MRAM has been widely studied over the past few decades due to its non-volatility and unlimited read and write endurance\cite{MRAMdevelop}. In order to compete with current existing and other promising semiconductor memories, it is expected that the MRAM should have low read and write power consumptions along with higher thermal stability and also good scaling to fit into modern CMOS design. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{fig/MTJ/fieldMTJ.png}
+\label{fig:fieldMTJ}
+\caption{Schematic illustration of field-driven switching MRAM}
+\end{figure}
+
+The conventional field-induced MRAM, the free layer is switched by applying a magnetic field\cite{MRAMDevelopment1}. The write operation is achieved by carrying the current flowing through the wires, which then generated a magnetic field around the wires. The major problem is the current required for field inducted switching increases as the size of the devices decrease. As a result, the field-induced MRAM has a scaling limit about 90 nm.
+
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{fig/MTJ/STTMTJ.png}
+\label{fig:STTMTJ}
+\caption{ Schematic illustration of STT-MRAM switching}
+\end{figure}
+
+The Spin-transfer-torque MRAM(STT-MRAM), which is based on the spin transfer torque produced by spin polarized current, is the current solution for reducing the switching current and scaling problems. The applied current first get polarized at a thicker and more robust ferromagnetic layer(fixed layer) and then enter the free layer. Depending on the relative direction between the fixed and free layer, the current can be either damping and anti-damping. If the current is large enough, the free layer can then be switched. It has been demonstrated that the spin-torque induced switching can be seen in both aluminum oxide and magnesium oxide based MTJs\cite{STTSwitchingMTJ1}\cite{STTSwitchingMTJ2} and other work has been done to incorporate MTJs into CMOS chips\cite{MTJIBM} \cite{MTJIBM2}\cite{MRAMMTJs}.
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{fig/MTJ/MTJStack}
+\label{fig:MTJStack}
+\caption{ Schematic illustration of CoFeB-based MTJs with perpendicular anisotropy}
+\end{figure}
+
+
+
+The first generation of MTJs consist of in-plane magnetized free layer. One of the major disadvantage of in-plane MTJs is that when the nano pillars are patterned, vortex magnetization is formed at the edges\cite{vortex1}\cite{vortex2}. To overcome this problem, the aspect ratio of the ideal devices must be larger than 2\cite{vortex3}, which limits the density of MRAM chips. In addition, the magnetoresistance  MR  curve of the in-plane MTJ is generally not centered due to interlayer couplings\cite{inplaneswitching}, which reduces the tolerance of writing current.
+
+
+Magnetic Tunnel Junctions with perpendicular easy axis, compared with in-plane MTJs, are of great interests due to higher thermally stability and low critical switching current\cite{PMA1}\cite{PMA3}\cite{PMA2}. Besides, the material combination of CoFeB–MgO has been shown to have giant tunnel magnetoresistance even at room temperature\cite{GiantTMR}\cite{GiantTMR2}\cite{GiantTMR3}. In 2010, it has been demonstrated that perpendicular MTJs consisting of Ta/CoFeB/MgO/CoFeB/Ta show a high tunnel magnetoresistance ratio, high thermal stability and low switching current\cite{MTJPMA}, which has become a mainstream of MTJ stack structures since then as shown in the
+	Fig.\ref{fig:MTJStack}.
+
+
 
 electric field induced Switching MTJ\cite{EswitchMTJ}
 
 
-Spin torque switching of perpendicular Ta∣CoFeB∣MgO-based magnetic tunnel\cite{STTMTJswitch}
  
 
-Magnetoresistive random access memory using magnetic tunnel junctions\cite{MRAMMTJs}
+\newpage
+
 
 
 \subsection{Critical Switching Voltage}
@@ -155,45 +239,8 @@ One can easily find from Eq.\ref{eq:criticalV}, it is clear that the critical sw
 
 
 
-\section{Magnetic Switching}
-
-At zero or small field, both direction along the easy axis correspond to local energy minimums so it is possible to switch the magnetization between these two directions with spin transfer torque. For example, for a device with both free and fixed layers keeping at the easy axis direction and parallel to each other, if we flow a positive current defined as current flow from free to fixed layer, according to previous analysis, the spin transfer torque acts on the free layer is pointing away from the fixed layer and destabilizes this configuration so that the magnetic moment of the free layer goes into a precession around the easy axis. If we keep increasing the current, the amplitude of the free layer precession increases until it reaches the energy barrier which is around 90 degree. After the free layer changes direction, now the spin transfer torque will act as damping torque again and stabilize the magnetization. Similarly, if the magnetic tunnel junction starts in the anti-parallel configuration, a strong enough negative current can switch the free layer back to the parallel configuration. If we monitor the resistance of the device, it will exhibit a hysteresis loop as we sweep the current, as shown in the example
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\textwidth]{fig/DC.PNG}
-\label{DC}
-\caption{Differential resistance with respect to dc current. Arrows indicate magnetic state to be either parallel and anti-parallel.}
-
-\end{figure}
-
-The critical switching current $I_c$ is defined as the current required to achieve switching at zero temperature(no thermal excitations)  . Above $I_c$, the spin torque is stronger than the damping torque and drives the free layer moment to switch direction.[Fig] illustrate the switching process. The switching proceeds via a precessional motion of the magnetization with increasing amplitude\cite{subswitch}. The switching time is defined as the following :
 
 
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=1.0\textwidth]{fig/switching.PNG}
-\label{Switching}
-\caption{An example of a simulated spin transfer switching event.(a)Switching trajectory. Dotted lines show initial state of free layer. Solid line shows the switching (b) Normalized resistance value as a function of time}
-\end{figure}
-
-\begin{equation}
-t_s \propto \frac{1}{I-I_c}
-\end{equation}
-
-Now if the applied current is smaller than the critical current, the spin torque is not strong enough to drive the free layer moment to directly overcome the energy barrier to achieve switching but only to excite magnetic precession at small amplitudes. At finite temperatures, switching can still occur due to thermal excitations. This thermal-assisted magnetization reversal can be described by the Neel-Brown relaxation time:
-\begin{equation}
-P(t) = 1 - exp(-t/\tau)
-\end{equation}
-where t is the observation time, and $\tau$ is the relaxation time which is given by
-\begin{equation}
-\tau = \frac{1}{f_0}\exp{E_b/k_B T}
-\end{equation}
-Here $f_0$ is the attempt frequency, $E_b$ is the energy barrier and T is the temperature. Thermal assisted switching can be modeled by a fluctuating field with a Gaussian stochastic process. The relaxation time $\tau$ can be modified as the following:
-
-\begin{equation}
-\tau = \frac{1}{f_0}\exp [\frac{E_b}{k_B T}(1 - \frac{I}{I_c})]
-\end{equation}
 
 
 \section{Ferromagnetic Resonance}
@@ -276,7 +323,11 @@ The resonance condition from Eq.\ref{eq:resonance} can now be modified as
     \label{eq:resonanceKu}
     \omega_0 = \gamma \big\{ \big[Hz+(N_y + {N_y}^e - N_z)M_z] \times \big[Hz+(N_x + {N_x}^e - N_z)M_z]          \big\}^\frac{1}{2}
 \end{equation}
-I
+
+
+
+
+
 \section{Spin-torque Ferromagnetic Resonance}
 
 As we mentioned above, when the spin transfer torque is small, the magnetization will not reverse however experience a persistent precession. By applying AC current, excited magnetic precession can be detected by measuring a mixing DC voltage from the product of the resistance oscillation and the ac current. This Spin-transfer Ferromagnetic Resonance (ST-FMR) \cite{Sankey2006}\cite{Tulapurkar2005} is similar to the traditional ferromagnetic resonance, but can be performed in much smaller devices. The ST-FMR technique can be used to characterize important material properties such as voltage-controlled-anisotropy\cite{VCMA1}\cite{Jian}\cite{Wang2012}, magnetic damping\cite{PRLdamping}, field-like torque\cite{Sankey2008} along with the spectrum of magnetic excitations of the MTJ\cite{excitation1}\cite{excitation2}, which is not important for understanding basis physic phenomena like spin-tunnel process but also essential for characterizing and optimizing the MTJs for future applications. In Chapter 3, I will describe an improved technique to measure Spin-torque Ferromagnetic Resonance with field modulations.
