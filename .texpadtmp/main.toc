@@ -10,36 +10,36 @@
 \contentsline {section}{\numberline {2.3}Spin transfer torque}{7}{section.18}
 \contentsline {section}{\numberline {2.4}Magnetic Switching}{9}{section.22}
 \contentsline {section}{\numberline {2.5}Magnetic Tunnel Junctions}{12}{section.29}
-\contentsline {subsection}{\numberline {2.5.1}Critical Switching Voltage}{16}{subsection.33}
-\contentsline {section}{\numberline {2.6}Ferromagnetic Resonance}{17}{section.41}
-\contentsline {section}{\numberline {2.7}Spin-torque Ferromagnetic Resonance}{20}{section.58}
-\contentsline {chapter}{\numberline {3}Field-Modulated Spin-torque Ferromagnetic Resonance}{21}{chapter.59}
-\contentsline {section}{\numberline {3.1}Spin-torque Ferromagnetic Resonance}{21}{section.60}
-\contentsline {section}{\numberline {3.2}Experimental Technique}{23}{section.65}
-\contentsline {section}{\numberline {3.3}Gilbert Damping Evaluation}{26}{section.73}
-\contentsline {section}{\numberline {3.4}Continous wave Micromagnetic Simulations}{31}{section.82}
-\contentsline {section}{\numberline {3.5}Micromagnetic Simulations}{38}{section.95}
-\contentsline {section}{\numberline {3.6}Circular STT-MRAM Devices with Broken Symmetry}{42}{section.103}
-\contentsline {section}{\numberline {3.7}Possible Origin of WER Correlation with ST-FMR}{49}{section.120}
-\contentsline {chapter}{\numberline {4}Time-domain measurement of spin-torque switching in MTJs}{51}{chapter.122}
-\contentsline {section}{\numberline {4.1}Experimental Setup}{52}{section.123}
-\contentsline {section}{\numberline {4.2}Results and Discussion}{54}{section.128}
-\contentsline {chapter}{\numberline {5}Best Things about MTJs}{59}{chapter.139}
-\contentsline {section}{\numberline {5.1}Critical Voltage Measurement}{59}{section.140}
-\contentsline {section}{\numberline {5.2}Field Modulated Mag-noise Measurement}{59}{section.141}
-\contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{65}{section.154}
-\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{69}{chapter.165}
-\contentsline {section}{\numberline {6.1}Experimental Setup}{70}{section.166}
-\contentsline {section}{\numberline {6.2}Results and Discussion}{75}{section.171}
-\contentsline {chapter}{\numberline {7}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{78}{chapter.174}
-\contentsline {section}{\numberline {7.1}Measurement of ST-FMR on nominal circular devices}{79}{section.175}
-\contentsline {section}{\numberline {7.2}Summary of Circular Devices: Experimental Data}{82}{section.181}
-\contentsline {section}{\numberline {7.3}Micromagnetic Simulations of the Mode Spacing}{85}{section.189}
-\contentsline {section}{\numberline {7.4}Study of signal amplitude of ST-FMR signal}{91}{section.201}
-\contentsline {section}{\numberline {7.5}Summary of Stadium shapes MTJs devices with 60 nm width}{98}{section.226}
-\contentsline {subsection}{\numberline {7.5.1}Micromagnetic simulations of stadium devices}{100}{subsection.230}
-\contentsline {section}{\numberline {7.6}Summary of stadium shapes MTJs devices with 45 nm width}{104}{section.237}
-\contentsline {chapter}{Bibliography}{108}{section*.249}
-\contentsline {chapter}{\numberline {A}Appendix Title}{116}{appendix.251}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{116}{section.252}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{117}{section.253}
+\contentsline {subsection}{\numberline {2.5.1}Critical Switching Voltage}{17}{subsection.33}
+\contentsline {section}{\numberline {2.6}Ferromagnetic Resonance}{18}{section.41}
+\contentsline {section}{\numberline {2.7}Spin-torque Ferromagnetic Resonance}{21}{section.58}
+\contentsline {chapter}{\numberline {3}Field-Modulated Spin-torque Ferromagnetic Resonance}{22}{chapter.59}
+\contentsline {section}{\numberline {3.1}Spin-torque Ferromagnetic Resonance}{22}{section.60}
+\contentsline {section}{\numberline {3.2}Experimental Technique}{24}{section.65}
+\contentsline {section}{\numberline {3.3}Gilbert Damping Evaluation}{27}{section.73}
+\contentsline {section}{\numberline {3.4}Continous wave Micromagnetic Simulations}{32}{section.82}
+\contentsline {section}{\numberline {3.5}Micromagnetic Simulations}{39}{section.95}
+\contentsline {section}{\numberline {3.6}Circular STT-MRAM Devices with Broken Symmetry}{43}{section.103}
+\contentsline {section}{\numberline {3.7}Possible Origin of WER Correlation with ST-FMR}{50}{section.120}
+\contentsline {chapter}{\numberline {4}Time-domain measurement of spin-torque switching in MTJs}{52}{chapter.122}
+\contentsline {section}{\numberline {4.1}Experimental Setup}{53}{section.123}
+\contentsline {section}{\numberline {4.2}Results and Discussion}{55}{section.128}
+\contentsline {chapter}{\numberline {5}Best Things about MTJs}{60}{chapter.139}
+\contentsline {section}{\numberline {5.1}Critical Voltage Measurement}{60}{section.140}
+\contentsline {section}{\numberline {5.2}Field Modulated Mag-noise Measurement}{60}{section.141}
+\contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{66}{section.154}
+\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{70}{chapter.165}
+\contentsline {section}{\numberline {6.1}Experimental Setup}{71}{section.166}
+\contentsline {section}{\numberline {6.2}Results and Discussion}{76}{section.171}
+\contentsline {chapter}{\numberline {7}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{79}{chapter.174}
+\contentsline {section}{\numberline {7.1}Measurement of ST-FMR on nominal circular devices}{80}{section.175}
+\contentsline {section}{\numberline {7.2}Summary of Circular Devices: Experimental Data}{83}{section.181}
+\contentsline {section}{\numberline {7.3}Micromagnetic Simulations of the Mode Spacing}{86}{section.189}
+\contentsline {section}{\numberline {7.4}Study of signal amplitude of ST-FMR signal}{92}{section.201}
+\contentsline {section}{\numberline {7.5}Summary of Stadium shapes MTJs devices with 60 nm width}{99}{section.226}
+\contentsline {subsection}{\numberline {7.5.1}Micromagnetic simulations of stadium devices}{101}{subsection.230}
+\contentsline {section}{\numberline {7.6}Summary of stadium shapes MTJs devices with 45 nm width}{105}{section.237}
+\contentsline {chapter}{Bibliography}{109}{section*.249}
+\contentsline {chapter}{\numberline {A}Appendix Title}{118}{appendix.251}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{118}{section.252}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{119}{section.253}

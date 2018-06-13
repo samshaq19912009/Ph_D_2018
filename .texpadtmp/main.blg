@@ -23,45 +23,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Sankey, Jack C. Cui, Yong-Tao Slonczewski, John C. Buhrman, Robert A. Ralph, Daniel C." for entry Sankey2008
 while executing---line 944 of file unsrt.bst
 Warning--empty title in Ohno2010
-You've used 91 entries,
+You've used 94 entries,
             1791 wiz_defined-function locations,
-            1006 strings with 22860 characters,
-and the built_in function-call counts, 24863 in all, are:
-= -- 1807
-> -- 1810
-< -- 2
-+ -- 636
-- -- 545
-* -- 2324
-:= -- 4290
-add.period$ -- 273
-call.type$ -- 91
-change.case$ -- 90
+            1023 strings with 23913 characters,
+and the built_in function-call counts, 26231 in all, are:
+= -- 1893
+> -- 1942
+< -- 3
++ -- 681
+- -- 587
+* -- 2457
+:= -- 4519
+add.period$ -- 282
+call.type$ -- 94
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 822
-empty$ -- 2087
-format.name$ -- 545
-if$ -- 5200
+cite$ -- 96
+duplicate$ -- 867
+empty$ -- 2180
+format.name$ -- 587
+if$ -- 5488
 int.to.chr$ -- 0
-int.to.str$ -- 91
-missing$ -- 89
-newline$ -- 458
-num.names$ -- 91
-pop$ -- 113
+int.to.str$ -- 94
+missing$ -- 92
+newline$ -- 473
+num.names$ -- 94
+pop$ -- 121
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 311
+skip$ -- 342
 stack$ -- 0
-substring$ -- 1711
-swap$ -- 107
-text.length$ -- 2
+substring$ -- 1799
+swap$ -- 126
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 179
-width$ -- 93
-write$ -- 1000
+while$ -- 186
+width$ -- 96
+write$ -- 1033
 (There were 4 error messages)

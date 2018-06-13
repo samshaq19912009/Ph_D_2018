@@ -178,6 +178,32 @@ S.~Ikeda, K.~Miura, H.~Yamamoto, K.~Mizunuma, H.~D. Gan, M.~Endo, S.~Kanai,
 \newblock A perpendicular-anisotropy cofeb-mgo magnetic tunnel junction.
 \newblock {\em Nature Materials}, 9:721 EP, Jul 2010.
 
+\bibitem{STTslow}
+H.~Tomita, S.~Miwa, T.~Nozaki, S.~Yamashita, T.~Nagase, K.~Nishiyama,
+  E.~Kitagawa, M.~Yoshikawa, T.~Daibou, M.~Nagamine, T.~Kishi, S.~Ikegawa,
+  N.~Shimomura, H.~Yoda, and Y.~Suzuki.
+\newblock Unified understanding of both thermally assisted and precessional
+  spin-transfer switching in perpendicularly magnetized giant magnetoresistive
+  nanopillars.
+\newblock {\em Applied Physics Letters}, 102(4):042409, 2013.
+
+\bibitem{STTMTJswitch}
+D.~C. Worledge, G.~Hu, David~W. Abraham, J.~Z. Sun, P.~L. Trouilloud, J.~Nowak,
+  S.~Brown, M.~C. Gaidis, E.~J. O’Sullivan, and R.~P. Robertazzi.
+\newblock Spin torque switching of perpendicular ta∣cofeb∣mgo-based
+  magnetic tunnel junctions.
+\newblock {\em Applied Physics Letters}, 98(2):022501, 2011.
+
+\bibitem{fastswitch}
+T.~Kishi, H.~Yoda, T.~Kai, T.~Nagase, E.~Kitagawa, M.~Yoshikawa, K.~Nishiyama,
+  T.~Daibou, M.~Nagamine, M.~Amano, S.~Takahashi, M.~Nakayama, N.~Shimomura,
+  H.~Aikawa, S.~Ikegawa, S.~Yuasa, K.~Yakushiji, H.~Kubota, A.~Fukushima,
+  M.~Oogane, T.~Miyazaki, and K.~Ando.
+\newblock Lower-current and fast switching of a perpendicular tmr for high
+  speed and high density spin-transfer-torque mram.
+\newblock In {\em 2008 IEEE International Electron Devices Meeting}, pages
+  1--4, Dec 2008.
+
 \bibitem{VCMAtheory}
 T.~Maruyama, Y.~Shiota, T.~Nozaki, K.~Ohta, N.~Toda, M.~Mizuguchi, A.~A.
   Tulapurkar, T.~Shinjo, M.~Shiraishi, S.~Mizukami, Y.~Ando, and Y.~Suzuki.
@@ -211,23 +237,6 @@ S.~Kanai, Y.~Nakatani, M.~Yamanouchi, S.~Ikeda, H.~Sato, F.~Matsukura, and
   combining spin-transfer torque and electric field-effect.
 \newblock {\em Applied Physics Letters}, 104(21):212406, 2014.
 
-\bibitem{STTMTJswitch}
-D.~C. Worledge, G.~Hu, David~W. Abraham, J.~Z. Sun, P.~L. Trouilloud, J.~Nowak,
-  S.~Brown, M.~C. Gaidis, E.~J. O’Sullivan, and R.~P. Robertazzi.
-\newblock Spin torque switching of perpendicular ta∣cofeb∣mgo-based
-  magnetic tunnel junctions.
-\newblock {\em Applied Physics Letters}, 98(2):022501, 2011.
-
-\bibitem{fastswitch}
-T.~Kishi, H.~Yoda, T.~Kai, T.~Nagase, E.~Kitagawa, M.~Yoshikawa, K.~Nishiyama,
-  T.~Daibou, M.~Nagamine, M.~Amano, S.~Takahashi, M.~Nakayama, N.~Shimomura,
-  H.~Aikawa, S.~Ikegawa, S.~Yuasa, K.~Yakushiji, H.~Kubota, A.~Fukushima,
-  M.~Oogane, T.~Miyazaki, and K.~Ando.
-\newblock Lower-current and fast switching of a perpendicular tmr for high
-  speed and high density spin-transfer-torque mram.
-\newblock In {\em 2008 IEEE International Electron Devices Meeting}, pages
-  1--4, Dec 2008.
-
 \bibitem{doubleMTJ1}
 H.~Sato, M.~Yamanouchi, S.~Ikeda, S.~Fukami, F.~Matsukura, and H.~Ohno.
 \newblock Perpendicular-anisotropy cofeb-mgo magnetic tunnel junctions with a
@@ -246,6 +255,15 @@ H.~Sato, M.~Yamanouchi, S.~Ikeda, S.~Fukami, F.~Matsukura, and H.~Ohno.
   junctions with perpendicular easy axis.
 \newblock {\em IEEE Transactions on Magnetics}, 49(7):4437--4440, July 2013.
 
+\bibitem{doubleMTJ4}
+G.~Hu, J.~H. Lee, J.~J. Nowak, J.~Z. Sun, J.~Harms, A.~Annunziata, S.~Brown,
+  W.~Chen, Y.~H. Kim, G.~Lauer, L.~Liu, N.~Marchack, S.~Murthy, E.~J.
+  O'Sullivan, J.~H. Park, M.~Reuter, R.~P. Robertazzi, P.~L. Trouilloud,
+  Y.~Zhu, and D.~C. Worledge.
+\newblock Stt-mram with double magnetic tunnel junctions.
+\newblock In {\em 2015 IEEE International Electron Devices Meeting (IEDM)},
+  pages 26.3.1--26.3.4, Dec 2015.
+
 \bibitem{SOTMTJ}
 Ioan~Mihai Miron, Kevin Garello, Gilles Gaudin, Pierre-Jean Zermatten,
   Marius~V. Costache, St{\'e}phane Auffret, S{\'e}bastien Bandiera, Bernard
@@ -253,6 +271,20 @@ Ioan~Mihai Miron, Kevin Garello, Gilles Gaudin, Pierre-Jean Zermatten,
 \newblock Perpendicular switching of a single ferromagnetic layer induced by
   in-plane current injection.
 \newblock {\em Nature}, 476:189 EP --, Jul 2011.
+
+\bibitem{SOTMTJ2}
+Can Onur~Avci, Kevin Garello, Ioan Mihai~Miron, Gilles Gaudin, Stéphane
+  Auffret, Olivier Boulle, and Pietro Gambardella.
+\newblock Magnetization switching of an mgo/co/pt layer by in-plane current
+  injection.
+\newblock {\em Applied Physics Letters}, 100(21):212404, 2012.
+
+\bibitem{3MTJIr}
+Michihiko Yamanouchi, Lin Chen, Junyeon Kim, Masamitsu Hayashi, Hideo Sato,
+  Shunsuke Fukami, Shoji Ikeda, Fumihiro Matsukura, and Hideo Ohno.
+\newblock Three terminal magnetic tunnel junction utilizing the spin hall
+  effect of iridium-doped copper.
+\newblock {\em Applied Physics Letters}, 102(21):212408, 2013.
 
 \bibitem{3MTJTA}
 Luqiao Liu, Chi-Feng Pai, Y.~Li, H.~W. Tseng, D.~C. Ralph, and R.~A. Buhrman.
@@ -264,13 +296,6 @@ Chi-Feng Pai, Luqiao Liu, Y.~Li, H.~W. Tseng, D.~C. Ralph, and R.~A. Buhrman.
 \newblock Spin transfer torque devices utilizing the giant spin hall effect of
   tungsten.
 \newblock {\em Applied Physics Letters}, 101(12):122404, 2012.
-
-\bibitem{3MTJIr}
-Michihiko Yamanouchi, Lin Chen, Junyeon Kim, Masamitsu Hayashi, Hideo Sato,
-  Shunsuke Fukami, Shoji Ikeda, Fumihiro Matsukura, and Hideo Ohno.
-\newblock Three terminal magnetic tunnel junction utilizing the spin hall
-  effect of iridium-doped copper.
-\newblock {\em Applied Physics Letters}, 102(21):212408, 2013.
 
 \bibitem{3MTJPMA}
 Murat Cubukcu, Olivier Boulle, Marc Drouard, Kevin Garello, Can Onur~Avci, Ioan
