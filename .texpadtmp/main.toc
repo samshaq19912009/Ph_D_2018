@@ -21,25 +21,23 @@
 \contentsline {section}{\numberline {3.5}Micromagnetic Simulations}{39}{section.95}
 \contentsline {section}{\numberline {3.6}Circular STT-MRAM Devices with Broken Symmetry}{43}{section.103}
 \contentsline {section}{\numberline {3.7}Possible Origin of WER Correlation with ST-FMR}{50}{section.120}
-\contentsline {chapter}{\numberline {4}Time-domain measurement of spin-torque switching in MTJs}{52}{chapter.122}
-\contentsline {section}{\numberline {4.1}Experimental Setup}{53}{section.123}
-\contentsline {section}{\numberline {4.2}Results and Discussion}{55}{section.128}
-\contentsline {chapter}{\numberline {5}Best Things about MTJs}{60}{chapter.139}
-\contentsline {section}{\numberline {5.1}Critical Voltage Measurement}{60}{section.140}
-\contentsline {section}{\numberline {5.2}Field Modulated Mag-noise Measurement}{60}{section.141}
-\contentsline {section}{\numberline {5.3}In-plane ST-FMR measurement and Mode identification}{66}{section.154}
-\contentsline {chapter}{\numberline {6}Write Error Rate measurement}{70}{chapter.165}
-\contentsline {section}{\numberline {6.1}Experimental Setup}{71}{section.166}
-\contentsline {section}{\numberline {6.2}Results and Discussion}{76}{section.171}
-\contentsline {chapter}{\numberline {7}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{79}{chapter.174}
-\contentsline {section}{\numberline {7.1}Measurement of ST-FMR on nominal circular devices}{80}{section.175}
-\contentsline {section}{\numberline {7.2}Summary of Circular Devices: Experimental Data}{83}{section.181}
-\contentsline {section}{\numberline {7.3}Micromagnetic Simulations of the Mode Spacing}{86}{section.189}
-\contentsline {section}{\numberline {7.4}Study of signal amplitude of ST-FMR signal}{92}{section.201}
-\contentsline {section}{\numberline {7.5}Summary of Stadium shapes MTJs devices with 60 nm width}{99}{section.226}
-\contentsline {subsection}{\numberline {7.5.1}Micromagnetic simulations of stadium devices}{101}{subsection.230}
-\contentsline {section}{\numberline {7.6}Summary of stadium shapes MTJs devices with 45 nm width}{105}{section.237}
-\contentsline {chapter}{Bibliography}{109}{section*.249}
-\contentsline {chapter}{\numberline {A}Appendix Title}{118}{appendix.251}
-\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{118}{section.252}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{119}{section.253}
+\contentsline {section}{\numberline {3.8}Field Modulated Mag-noise Measurement}{51}{section.122}
+\contentsline {section}{\numberline {3.9}In-plane ST-FMR measurement and Mode identification}{57}{section.135}
+\contentsline {chapter}{\numberline {4}Time-domain measurement of spin-torque switching in MTJs}{61}{chapter.146}
+\contentsline {section}{\numberline {4.1}Experimental Setup}{62}{section.147}
+\contentsline {section}{\numberline {4.2}Results and Discussion}{64}{section.152}
+\contentsline {chapter}{\numberline {5}Write Error Rate measurement}{69}{chapter.163}
+\contentsline {section}{\numberline {5.1}Experimental Setup}{70}{section.164}
+\contentsline {section}{\numberline {5.2}Results and Discussion}{75}{section.169}
+\contentsline {chapter}{\numberline {6}Determination of Exchange Stiffness of STT-MRAM devices with broken symmetry}{78}{chapter.172}
+\contentsline {section}{\numberline {6.1}Measurement of ST-FMR on nominal circular devices}{79}{section.173}
+\contentsline {section}{\numberline {6.2}Summary of Circular Devices: Experimental Data}{82}{section.179}
+\contentsline {section}{\numberline {6.3}Micromagnetic Simulations of the Mode Spacing}{85}{section.187}
+\contentsline {section}{\numberline {6.4}Study of signal amplitude of ST-FMR signal}{91}{section.199}
+\contentsline {section}{\numberline {6.5}Summary of Stadium shapes MTJs devices with 60 nm width}{98}{section.224}
+\contentsline {subsection}{\numberline {6.5.1}Micromagnetic simulations of stadium devices}{100}{subsection.228}
+\contentsline {section}{\numberline {6.6}Summary of stadium shapes MTJs devices with 45 nm width}{104}{section.235}
+\contentsline {chapter}{Bibliography}{108}{section*.247}
+\contentsline {chapter}{\numberline {A}Appendix Title}{117}{appendix.249}
+\contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{117}{section.250}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{118}{section.251}

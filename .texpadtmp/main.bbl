@@ -457,12 +457,6 @@ R.~D. McMichael and M.~D. Stiles.
 \newblock Magnetic normal modes of nanoelements.
 \newblock {\em Journal of Applied Physics}, 97(10), 2005.
 
-\bibitem{Cui}
-Y.-T. Cui, G.~Finocchio, C.~Wang, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
-\newblock Single-shot time-domain studies of spin-torque-driven switching in
-  magnetic tunnel junctions.
-\newblock {\em Phys. Rev. Lett.}, 104:097201, Mar 2010.
-
 \bibitem{MagnoisePRL}
 S.~Petit, C.~Baraduc, C.~Thirion, U.~Ebels, Y.~Liu, M.~Li, P.~Wang, and
   B.~Dieny.
@@ -475,6 +469,12 @@ Valeri Synogatch, Neil Smith, and J.~R. Childress.
 \newblock Ferromagnetic resonance in tunnel junctions: Mag-noise and complex
   impedance analysis.
 \newblock {\em Journal of Applied Physics}, 93(10):8570--8572, 2003.
+
+\bibitem{Cui}
+Y.-T. Cui, G.~Finocchio, C.~Wang, J.~A. Katine, R.~A. Buhrman, and D.~C. Ralph.
+\newblock Single-shot time-domain studies of spin-torque-driven switching in
+  magnetic tunnel junctions.
+\newblock {\em Phys. Rev. Lett.}, 104:097201, Mar 2010.
 
 \bibitem{Sub}
 J.~Z. Sun, R.~P. Robertazzi, J.~Nowak, P.~L. Trouilloud, G.~Hu, D.~W. Abraham,
