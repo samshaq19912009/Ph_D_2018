@@ -246,14 +246,14 @@ Uniform  & 0.05 & 0.0016$\pm$0.0064  \\
  Random Ku with large Ex  & 0.051 & -0.0027$\pm$0.0088  \\
  \hline
 \end{tabular}
-\caption{Table to test captions and labels}
+\caption{Summary of continuous micromagnetic simulations result. }
 \label{table:summary_LW}
 \end{table}
 
 We can summarize the simulation results from Table\ref{table:summary_LW}. It is clear that only combining low exchange stiffness with random fluctuations of magnetic anisotropy would lead to linewidth broadening at zero resonance frequency.
 
 \newpage
-\section{Micromagnetic Simulations}
+\section{Micromagnetic Simulations of higher order modes}
 In order to fully understand the magnetic dynamics being excited in the Magnetic Tunnel Junctions, we perform micromagnetic simulations using OOMMF package\cite{OOMMF}. To fully account for all magnetic interactions in the MTJ, we use a three dimensional model with three main functional layers: free layer, SAF top and SAF bottom layer. In the simulation, spin wave dynamics is excited by a combined pulse of ST and Oersted field, both resulting from a sinc-shaped spatially uniform current pulse with the amplitude $J_{C}\frac{\sin(2\pi f_{c} t^{'})}{2\pi f_{c}t^{'}} $ with the amplitude the cut-off frequency around 20 GHz, and the time variable $t_{0}$ 500 ps. The need to combine the excitation from Spin torque and Oersted field is to include the uniform and non-uniform spin wave modes in the MTJs\cite{Modes}.
 The spatial profile of the Oersted field is assumed to be that of a long wire with elliptical cross section. The direction of the ST vector acting on the free layer is determined by the magnetization orientation of the SAF top layer.Spectrum of spin wave eigenmodes is obtained via the Fast-Fourier-transform (FFT) of the time dependent in-plane component of the MTJ net magnetic moment. 
 
@@ -550,3 +550,100 @@ So far we can conclude that all the spin-wave modes we saw in the out-of-plane S
 \end{table}
 
 The table \ref{table:APtoP} summarizes the mode fitting results. Within certain deviations, it can be seen from the above results that we have good agreements between out-of-plane and in-plane measurements. Moreover, since in-plane hard-axis measurements are able to excite all the spin-wave modes, we can now be confident about our out-of-plane measurement without missing the free layer modes.
+\clearpage
+
+
+
+
+\section{Angular Dependence ST-FMR Measurement}
+
+As we have mentioned earlier, ST-FMR measurement at the easy axis is important due to its simplicity in the physics model. In reality, however, the ST-FMR signal at the exact easy axis is usually small. Moreover, firstly, to achieve higher thermal stability, high perpendicular magnetic anisotropy is preferred in the current designs of the MTJs. Secondly, higher resistances of the MTJs is desired for the impedance mismatching. These two factors are negative for improving the ST-FMR signals. So if we can introduce a small angle misalignment to improve the signal without distorting the easy axis nature, that would be of great value for this ST-FMR technique.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:AMR}\includegraphics[width=75mm]{fig/angular/MR}}
+\subfigure{\label{fig:AAPspec}\includegraphics[width=75mm]{fig/angular/APspec}}
+\caption{(a) Resistance versus Magnetic Field for different magnetic field angles with respect to the sample normal. (b) Example ST-FMR spectrum at 9 GHz  for AP state.}
+\end{figure}
+
+The MTJs devices employed in this angular-dependence has relatively simply stack structures to yield less complex ST-FMR spectrum. Fig.\ref{fig:AMR} shows the resistance versus Magnetic Field for different magnetic field angles with respect to the sample normal. The Anti Parallel(AP) state has resistance around 12910 Ohms with the Parallel(P) state resistance around 5289 Ohms. The TMR ratio is about 140 percent. Fig.\ref{fig:AAPspec} shows the example ST-FMR spectrum at 9 GHz  for AP state. The peak around zero magnetic magnetic field is the free layer main mode. Above -5 kG, the SAF layer starts to flop and the resistance of the MTJ starts to decrease. From our previous experience, ST-FMR data above this region is harder to interpret. 
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:AAPFH}\includegraphics[width=75mm]{fig/angular/APFH}}
+\subfigure{\label{fig:AAPFHinplane}\includegraphics[width=75mm]{fig/angular/APinplane}}
+\caption{(a) ST-FMR 2D contour plot at AP state with field applied perpendicular to the MTJ. (b) ST-FMR 2D contour plot at AP state with field applied parallel to the MTJ.}
+\end{figure}
+
+Fig.\ref{fig:AAPFH} shows the ST-FMR 2D contour plot at AP state with field applied perpendicular to the MTJ. We can mainly identify three free layer modes with the lowest main mode has the largest amplitude. The main mode zero field is around 9.58 GHz. Fig.\ref{fig:AAPFHinplane} shows the ST-FMR 2D contour plot at AP state with field applied parallel to the MTJ. When applying in-plane magnetic field, only the main mode has been clearly excited and its amplitude increases with increasing in-plane field. The main mode position is around 9.6 GHz, which is close to the out-of-plane data.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:AAPFIT}\includegraphics[width=75mm]{fig/angular/APFIT}}
+\subfigure{\label{fig:AAPLW}\includegraphics[width=75mm]{fig/angular/APLW}}
+\caption{(a) Resonance field versus resonance frequency at AP state. (b) HWHM Linewidth versus resonance frequency (lower scale) and magnetic field (upper scale).}
+\end{figure}
+
+Fig.\ref{fig:AAPFIT} shows the resonance field versus resonance frequency at AP state. For this easy axis geometry, we have a clear linear relation as expected from the Kittel equation. From the fitting we can get the effective anisotropy around 2.8 kOe. Fog/\ref{fig:AAPLW} shows HWHM Linewidth versus resonance frequency (lower scale) and magnetic field (upper scale). From 10 GHz to 25 GHz, we have a clear linear dependence of linewidth versus driven frequency, which is consistent with the theoretical predictions of the Gilbert damping. Above -5 kOe, as we see from Fig.\ref{fig:AMR}, the SAF layers become unstable and the linewidth is fluctuating. We can limit our fitting region from 10 GHz to 25 GHz and fit the data with a line. The slope gives damping constant 0.0031 with the intercept at zero frequency around 31 Oe.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:AAnle}\includegraphics[width=75mm]{fig/angular/angle}}
+\subfigure{\label{fig:AAPAngle}\includegraphics[width=75mm]{fig/angular/APangle}}
+\caption{(a) Sketches of different angles notations. (b) Example ST-FMR spectrum at 20 GHz for three angles.}
+\end{figure}
+
+So far the magnetic field has been applied exactly perpendicular to the wafer. In the next step, we slightly tilt the wafer so that we can apply the magnetic field off the normal. Fig.\ref{fig:AAnle} shows the sketches of different angles we have applied. By applying these small angles, we are introducing small misalignments of the magnetizations to improve the ST-FMR signal. Fig.\ref{fig:AAPAngle} shows the example ST-FMR spectrum at 20 GHz for three angles. By tilting the wafer with small angles, we can at least have 2 times better signal with smaller noise.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:APFHAngle}\includegraphics[width=75mm]{fig/angular/APFHAngular}}
+\subfigure{\label{fig:APLWAngle}\includegraphics[width=75mm]{fig/angular/APLWAngular}}
+\caption{(a) Resonance field plotted versus resonance frequency at AP state for different angles. (b) HWHM Linewidth plotted versus resonance frequency at AP state for different angles.}
+\end{figure}
+
+However, would the small tilting affect the mode frequencies and, more importantly, the linewidth of the free layer mode. Fig.\ref{fig:APFHAngle} shows the resonance field plotted versus resonance frequency at AP state for different angles. We can see that the three groups of data are almost identical. The only region that shows deviations is above -5 kG, where the SAF layers start to become unstable. Fig.\ref{fig:APLWAngle} shows the HWHM Linewidth plotted versus resonance frequency at AP state for different angles. In the linear region, we can see that the linewidth does not depend on the small angles we applied.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:pmr}\includegraphics[width=75mm]{fig/angular/PMR}}
+\subfigure{\label{fig:pfh}\includegraphics[width=75mm]{fig/angular/PFH}}
+\caption{(a) Resistance versus Magnetic Field for P state. (b) ST-FMR 2D contour plot at P state with field applied perpendicular to the MTJ.}
+\end{figure}
+
+Now we can move the P state measurement. One of the advantage of measuring at the P state is that the SAF layers are more stable and we do no have to worry about the SAF flopping. However, the P state usually has much less signal than the AP state. Fig.\ref{fig:pmr} shows the resistance versus Magnetic Field for P state up to 9 kG. We can see that the resistance decreases with increasing field, which means the free layer is not fully saturated parallel to the SAF layers. Fig.\ref{fig:pfh} shows the ST-FMR 2D contour plot at P state with field applied perpendicular to the MTJ. We can also mainly identify three free layer modes. Compared with AP state, the P state main mode has smaller amplitude with other spin wave modes. 
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:pfit}\includegraphics[width=75mm]{fig/angular/PFIT}}
+\subfigure{\label{fig:plw}\includegraphics[width=75mm]{fig/angular/PLW}}
+\caption{(a) Resonance field plotted versus resonance frequency at P state. (b) HWHM Linewidth plotted versus resonance frequency (lower scale) and magnetic field (upper scale).}
+\end{figure}
+
+Fig.\ref{fig:pfit} shows the resonance field plotted versus resonance frequency at P state. Besides from the linear relations at lower magnetic field, we can see a small deviation from linearity at higher field  due to the SAF instability. The effective Anisotropy fitted is around 2.7 kOe, which is very close to the AP state fitting. Fig.\ref{fig:plw} gives the HWHM Linewidth plotted versus resonance frequency (lower scale) and magnetic field (upper scale). From 10 GHz to 28 GHz, the linewidth is linearly dependent on the driven frequency. The fitting gives slope 0.0028 and intercept 32.95 Oe. Above 28 GHz, there is a kink of the linewidth data, which is due to the SAF instability.
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:psignal}\includegraphics[width=75mm]{fig/angular/Psignal}}
+\caption{ST-FMR signal (symmetric and anti-symmetric components) plotted versus resonance frequency}
+\end{figure}
+
+To learn more about the kink around 28 GHz, we plot the ST-FMR signal (symmetric and anti-symmetric components) plotted versus resonance frequency as showing in Fig.\ref{fig:psignal}. This data is measured at the perpendicular angle and the other two angles have similar dependence. The anti-symmetric component of ST-FMR dominates (typically associated with field-like torque or VCMA). The signal amplitude increases from 10 GHz to 18 GHz and decrease from 18 GHz to 28 GHz. The origin of the initial increase of the signal is not clear and it looks like the interfacial spins are not saturated and collinear. The second kink at 28 GHz is likely to be due to the SAF layer instability at higher magnetic field
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:pspecangle}\includegraphics[width=75mm]{fig/angular/pangle}}
+\subfigure{\label{fig:pfhangle}\includegraphics[width=75mm]{fig/angular/pfitangle}}
+\caption{(a) Example ST-FMR spectrum at 20 GHz for three angles at P state. (b) Resonance field plotted versus resonance frequency at P state for different angles.}
+\end{figure}
+
+Since the P state has smaller ST-FMR signals, it is more important to introduce small misalignment for P state. Fig.\ref{fig:pspecangle} shows the example ST-FMR spectrum at 20 GHz for three angles at P state. Again by introducing the tilting, we can improve the signal by at least 2 times. Another thing worth notice is the asymmetry between plus and minus 10 degree. Fig.\ref{fig:pfhangle} shows resonance field plotted versus resonance frequency at P state for different angles. We can find that for P state, the resonance field also does not depend on the angles. Fig.\ref{fig:plwangle} shows HWHM Linewidth plotted versus resonance frequency at P state for different angles. The linewidth also does not depend on the small misalignment angle. We also find similar behavior of Linewidth vs field for all three angles with a  kink near 28 GHz.
+
+\begin{figure}[!ht]
+\centering
+\subfigure{\label{fig:plwangle}\includegraphics[width=75mm]{fig/angular/plwangle}}
+\caption{HWHM Linewidth plotted versus resonance frequency at P state for different angles}
+\end{figure}
+
+We have measured devices with other sizes and have reached the same conclusion that introducing small angle misalignment is not affecting the linewidth fitting and can greatly improve the signal-to-noise ratio of the ST-FMR measurement.
