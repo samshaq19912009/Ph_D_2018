@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2.1}Spintronics}{3}{section.10}
 \contentsline {section}{\numberline {2.2}Tunnel Magnetoresistance}{4}{section.12}
 \contentsline {section}{\numberline {2.3}Spin transfer torque}{7}{section.18}
-\contentsline {section}{\numberline {2.4}Magnetic Switching}{9}{section.22}
+\contentsline {section}{\numberline {2.4}Magnetic Switching}{10}{section.22}
 \contentsline {section}{\numberline {2.5}Magnetic Tunnel Junctions}{12}{section.29}
 \contentsline {subsection}{\numberline {2.5.1}Critical Switching Voltage}{16}{subsection.32}
 \contentsline {section}{\numberline {2.6}Ferromagnetic Resonance}{17}{section.40}
@@ -40,4 +40,4 @@
 \contentsline {chapter}{Bibliography}{107}{section*.246}
 \contentsline {chapter}{\numberline {A}Appendix Title}{116}{appendix.248}
 \contentsline {section}{\numberline {A.1}Detailed System Design of Perpendicular station}{116}{section.249}
-\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{117}{section.250}
+\contentsline {section}{\numberline {A.2}Statitscs of mode position of circular devices}{122}{section.280}
