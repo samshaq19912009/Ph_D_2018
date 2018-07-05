@@ -70,6 +70,13 @@ Here is the list of equipments needed for making ST-FMR measurements up to 40 GH
 
 When connecting the microwave cables, there are two small things worth notice. Firstly, all the connectors should be cleaned regularly. Secondly, the microwave cables should be supported to release all the possible tensions.
 
+\begin{figure*}[t]
+\centering
+\subfigure{\label{fig:operation5}\includegraphics[width=75mm]{fig/appendix/5.png}}
+\subfigure{\label{fig:operation6}\includegraphics[width=75mm]{fig/appendix/6.png}}
+\caption{(a) Coil for out-of-plane modulation (b) Wire for in-plane modulation}
+\end{figure*}
+
 The last pieces of equipments needed is the field modulation setup. Here is the list:
 
 \begin{enumerate}
@@ -79,16 +86,6 @@ The last pieces of equipments needed is the field modulation setup. Here is the 
 \end{enumerate}
   
  When making the field-modulation coil, it is better to use any low resistance copper wire for magnetic field modulation coil. For out-of-plane field modulations, we use an external coil above the sample as shown in Fig.\ref{fig:operation5}. In-plane field modulation can be achieved by simply placing straight wire above the sample as shown in Fig.\ref{fig:operation6}. In our current design, we embed the coil into the plastic base right under the sample. It is important to ensure that the wire is not in contact with the sample or any other parts of the microwave setup. 
-\begin{figure*}[t]
-\centering
-\subfigure{\label{fig:operation5}\includegraphics[width=75mm]{fig/appendix/5.png}}
-\subfigure{\label{fig:operation6}\includegraphics[width=75mm]{fig/appendix/6.png}}
-\caption{(a) Coil for out-of-plane modulation (b) Wire for in-plane modulation}
-\end{figure*}
-
-In the experiment, two parameters need to be determined for the field modulation: the amplitude of modulation field and the frequency of the modulation ac field. Typically Increasing the modulation field increases the signal amplitude, but not infinitely as shown in Fig.\ref{fig:operation7}. If you are over-modulating, the signal becomes distorted and the linewidth broadens as shown in Fig.\ref{fig:operation8}. In our current setup, the input ac current is about 3.6 A to achieve the modulation field around a few oersted field, which is enough to have decent signal-to-noise ratio without distorting the spectrum.
-
-
 \begin{figure*}[h]
 \centering
 \subfigure{\label{fig:operation7}\includegraphics[width=80mm]{fig/appendix/7.png}}
@@ -96,101 +93,16 @@ In the experiment, two parameters need to be determined for the field modulation
 \caption{(a) Peak-to-peak amplitude versus rms modulation field over real peak-to-peak linewidth. (b) peak-to-peak linewidth over real peak-to-peak linewidth versus rms modulation field over real peak-to-peak linewidth.}
 \end{figure*}
 
+In the experiment, two parameters need to be determined for the field modulation: the amplitude of modulation field and the frequency of the modulation ac field. Typically Increasing the modulation field increases the signal amplitude, but not infinitely as shown in Fig.\ref{fig:operation7}. If you are over-modulating, the signal becomes distorted and the linewidth broadens as shown in Fig.\ref{fig:operation8}. In our current setup, the input ac current is about 3.6 A to achieve the modulation field around a few oersted field, which is enough to have decent signal-to-noise ratio without distorting the spectrum.
+
+
+
+
 
 \clearpage
 
 
 
-
-%\section{Statitscs of mode position of circular devices}
-
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-Mode 0 & 10.98 & 11.92 & 11.57 & 11.98 & 10.94 & 11.71 & 10.94 & 11.84 & 11.38 & 11.8 & 12.09 \\ \hline
-Mode 1 & 12.85 & 14.6 & 13.98 & 14.64 & 13.21 & 14.28 & 13.05 & 13.6 & 14.29 & 14.66 & 14.01 \\ \hline
-Mode 2 & 13.75 & 15 & 15.4 & 15.33 & 13.2 & 15.48 & 13.66 & 14.57 & 14.86 & 15.24 & 14.18 \\ \hline
-Gap 0-1 & 1.87 & 2.68 & 2.41 & 2.66 & 2.27 & 2.57 & 2.11 & 1.76 & 2.91 & 2.86 & 1.92 \\ \hline
-Gap 0-2 & 2.77 & 3.08 & 3.83 & 3.35 & 2.26 & 3.77 & 2.72 & 2.73 & 3.48 & 3.44 & 2.09 \\ \hline
-Gap (1+2)/2 - 0 & 2.32 & 2.88 & 3.12 & 3.005 & 2.265 & 3.17 & 2.415 & 2.245 & 3.195 & 3.15 & 2.005 \\ \hline
-\end{tabular}
-\caption{C06 70nm summary}
-\label{C06summary}
-\end{table}
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-Mode 0 & 9.83 & 10.5 & 11.05 & 10.54 & 11.89 & 11.39 & 11.2 & 10.39 & 10.61 & 10.39 & 11.07 \\ \hline
-Mode 1 & 11.76 & 12.68 & 13.24 & 12.61 & 13.78 & 13.6 & 13.19 & 12.85 & 13.47 & 12.6 & 13.02 \\ \hline
-Mode 2 & 12.71 & 13.04 & 13.86 & 13.04 & 14.88 & 14.29 & 13.5 & 14.06 & 13.79 & 12.99 & 13.99 \\ \hline
-Gap 0-1 & 1.93 & 2.18 & 2.19 & 2.07 & 1.89 & 2.21 & 1.99 & 2.46 & 2.86 & 2.21 & 1.95 \\ \hline
-Gap 0-2 & 2.88 & 2.54 & 2.81 & 2.5 & 2.99 & 2.9 & 2.3 & 3.67 & 3.18 & 2.6 & 2.92 \\ \hline
-Gap (1+2)/2 - 0 & 2.405 & 2.36 & 2.5 & 2.285 & 2.44 & 2.555 & 2.145 & 3.065 & 3.02 & 2.405 & 2.435 \\ \hline
-\end{tabular}
-\caption{C07 80nm Summary}
-\label{C07summary}
-\end{table}
-
-
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-Mode 0 & 9.94 & 10.19 & 9.28 & 10.54 & 9.14 & 9.14 & 9.6 & 9.77 & 9.13 & 10.51 \\ \hline
-Mode 1 & 11.65 & 12.41 & 10.93 & 12.29 & 11.2 & 11.2 & 12.07 & 11.8 & 10.69 & 11.96 \\ \hline
-Mode 2 & 12.15 & 12.66 & 12.07 & 12.29 & 12.05 & 12.05 & 12.36 & 12.9 & 11.26 & 12.65 \\ \hline
-Gap 0-1 & 1.71 & 2.22 & 1.65 & 1.75 & 2.06 & 2.06 & 2.47 & 2.03 & 1.56 & 1.45 \\ \hline
-Gap 0-2 & 2.21 & 2.47 & 2.79 & 1.75 & 2.91 & 2.91 & 2.76 & 3.13 & 2.13 & 2.14 \\ \hline
-Gap 0-(1,2) & 1.96 & 2.345 & 2.22 & 1.75 & 2.485 & 2.485 & 2.615 & 2.58 & 1.845 & 1.795 \\ \hline
-\end{tabular}
-\caption{C08 90nm summary}
-\label{C08summary}
-\end{table}
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-Mode 0 & 7.88 & 9.62 & 9.09 & 8.97 & 9.07 & 8.84 & 9.24 & 8.35 & 8.75 & 8.77 & 7.96 \\ \hline
-Mode 1 & 9.55 & 11.4 & 10.43 & 10.36 & 10.4 & 10.25 & 10.47 & 10.23 & 10.35 & 10.57 & 9.89 \\ \hline
-Mode 2 & 9.96 & 11.59 & 10.52 & 11.2 & 10.7 & 10.52 & 11.8 & 10.59 & 11.31 & 10.61 & 10.49 \\ \hline
-Gap 0-1 & 1.67 & 1.78 & 1.34 & 1.39 & 1.33 & 1.41 & 1.23 & 1.88 & 1.6 & 1.8 & 1.93 \\ \hline
-Gap 0-2 & 2.08 & 1.97 & 1.43 & 2.23 & 1.63 & 1.68 & 2.56 & 2.24 & 2.56 & 1.84 & 2.53 \\ \hline
-Gap 0-(1,2) & 1.875 & 1.875 & 1.385 & 1.81 & 1.48 & 1.545 & 1.895 & 2.06 & 2.08 & 1.82 & 2.23 \\ \hline
-\end{tabular}
-\caption{C09 120 nm}
-\label{C09summary}
-\end{table}
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-Mode 0 & 8.02 & 7.61 & 7.81 & 8.13 & 7.86 & 7.94 & 7.85 & 7.46 & 7.18 & 8.33 & 8.73 & 7.98 & 7.65 \\ \hline
-Mode 1 & 9.71 & 8.8 & 9.36 & 9.13 & 9.27 & 9.37 & 9.16 & 8.79 & 8.13 & 9.3 & 9.73 & 9.14 & 8.77 \\ \hline
-Mode 2 & 9.9 & 8.96 & 9.83 & 9.81 & 9.52 & 9.37 & 9.44 & 9.42 & 8.71 & 9.91 & 10.22 & 9.6 & 9.21 \\ \hline
-Gap 0-1 & 1.69 & 1.19 & 1.55 & 1 & 1.41 & 1.43 & 1.31 & 1.33 & 0.95 & 0.97 & 1 & 1.16 & 1.12 \\ \hline
-Gap 0-2 & 1.88 & 1.35 & 2.02 & 1.68 & 1.66 & 1.43 & 1.59 & 1.96 & 1.53 & 1.58 & 1.49 & 1.62 & 1.56 \\ \hline
-Gap 0-(1,2) & 1.785 & 1.27 & 1.785 & 1.34 & 1.535 & 1.43 & 1.45 & 1.645 & 1.24 & 1.275 & 1.245 & 1.39 & 1.34 \\ \hline
-\end{tabular}
-\caption{C10 150 nm summary}
-\label{C10summary}
-\end{table}
 
 %%% Local Variables: ***
 %%% mode: latex ***
