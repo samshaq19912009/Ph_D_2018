@@ -5,6 +5,11 @@ Wikipedia contributors.
 \newblock Ferromagnetism --- {W}ikipedia{,} the free encyclopedia, 2018.
 \newblock [Online; accessed 03-March-2018].
 
+\bibitem{UHLENBECK1926}
+G.~E. UHLENBECK and S.~GOUDSMIT.
+\newblock Spinning electrons and the structure of spectra.
+\newblock {\em Nature}, 117:264 EP --, Feb 1926.
+
 \bibitem{JohnsonandSilsbee}
 Mark Johnson and R.~H. Silsbee.
 \newblock Interfacial charge-spin coupling: Injection and detection of spin
@@ -596,5 +601,10 @@ M.~Yamanouchi, A.~Jander, P.~Dhagat, S.~Ikeda, F.~Matsukura, and H.~Ohno.
 \newblock Domain structure in cofeb thin films with perpendicular magnetic
   anisotropy.
 \newblock {\em IEEE Magnetics Letters}, 2:3000304--3000304, Dec 2011.
+
+\bibitem{Transistor}
+Transistor tutorial summary.
+\newblock \url{https://www.electronics-tutorials.ws/transistor/tran_8.html}.
+\newblock Accessed: 2018-07-31.
 
 \end{thebibliography}
